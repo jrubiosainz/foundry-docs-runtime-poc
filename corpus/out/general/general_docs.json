@@ -1,0 +1,242 @@
+[
+  {
+    "doc_id": "GEN-HEALTH-GC",
+    "line": "health",
+    "title": "General Conditions for Health Insurance",
+    "doc_type": "GC",
+    "filename": "GEN-HEALTH-GC.pdf",
+    "relpath": "general/health/GEN-HEALTH-GC.pdf",
+    "pages": 11,
+    "bytes": 149439
+  },
+  {
+    "doc_id": "GEN-HEALTH-COV",
+    "line": "health",
+    "title": "Coverage table and limits",
+    "doc_type": "COV",
+    "filename": "GEN-HEALTH-COV.pdf",
+    "relpath": "general/health/GEN-HEALTH-COV.pdf",
+    "pages": 4,
+    "bytes": 131227
+  },
+  {
+    "doc_id": "GEN-HEALTH-COP",
+    "line": "health",
+    "title": "Copays, deductibles and waiting periods",
+    "doc_type": "COP",
+    "filename": "GEN-HEALTH-COP.pdf",
+    "relpath": "general/health/GEN-HEALTH-COP.pdf",
+    "pages": 3,
+    "bytes": 121733
+  },
+  {
+    "doc_id": "GEN-HEALTH-PROC",
+    "line": "health",
+    "title": "Claims procedure, authorizations and frequently asked questions",
+    "doc_type": "PROC",
+    "filename": "GEN-HEALTH-PROC.pdf",
+    "relpath": "general/health/GEN-HEALTH-PROC.pdf",
+    "pages": 4,
+    "bytes": 113983
+  },
+  {
+    "doc_id": "GEN-DENTAL-GC",
+    "line": "dental",
+    "title": "General Conditions for Dental Insurance",
+    "doc_type": "GC",
+    "filename": "GEN-DENTAL-GC.pdf",
+    "relpath": "general/dental/GEN-DENTAL-GC.pdf",
+    "pages": 11,
+    "bytes": 149862
+  },
+  {
+    "doc_id": "GEN-DENTAL-COV",
+    "line": "dental",
+    "title": "Coverage table and limits",
+    "doc_type": "COV",
+    "filename": "GEN-DENTAL-COV.pdf",
+    "relpath": "general/dental/GEN-DENTAL-COV.pdf",
+    "pages": 4,
+    "bytes": 130823
+  },
+  {
+    "doc_id": "GEN-DENTAL-COP",
+    "line": "dental",
+    "title": "Copays, deductibles and waiting periods",
+    "doc_type": "COP",
+    "filename": "GEN-DENTAL-COP.pdf",
+    "relpath": "general/dental/GEN-DENTAL-COP.pdf",
+    "pages": 3,
+    "bytes": 123906
+  },
+  {
+    "doc_id": "GEN-DENTAL-PROC",
+    "line": "dental",
+    "title": "Claims procedure, authorizations and frequently asked questions",
+    "doc_type": "PROC",
+    "filename": "GEN-DENTAL-PROC.pdf",
+    "relpath": "general/dental/GEN-DENTAL-PROC.pdf",
+    "pages": 4,
+    "bytes": 111042
+  },
+  {
+    "doc_id": "GEN-HOME-GC",
+    "line": "home",
+    "title": "General Conditions for Home Insurance",
+    "doc_type": "GC",
+    "filename": "GEN-HOME-GC.pdf",
+    "relpath": "general/home/GEN-HOME-GC.pdf",
+    "pages": 11,
+    "bytes": 149609
+  },
+  {
+    "doc_id": "GEN-HOME-COV",
+    "line": "home",
+    "title": "Coverage table and limits",
+    "doc_type": "COV",
+    "filename": "GEN-HOME-COV.pdf",
+    "relpath": "general/home/GEN-HOME-COV.pdf",
+    "pages": 4,
+    "bytes": 127562
+  },
+  {
+    "doc_id": "GEN-HOME-COP",
+    "line": "home",
+    "title": "Copays, deductibles and waiting periods",
+    "doc_type": "COP",
+    "filename": "GEN-HOME-COP.pdf",
+    "relpath": "general/home/GEN-HOME-COP.pdf",
+    "pages": 3,
+    "bytes": 111988
+  },
+  {
+    "doc_id": "GEN-HOME-PROC",
+    "line": "home",
+    "title": "Claims procedure, authorizations and frequently asked questions",
+    "doc_type": "PROC",
+    "filename": "GEN-HOME-PROC.pdf",
+    "relpath": "general/home/GEN-HOME-PROC.pdf",
+    "pages": 4,
+    "bytes": 111422
+  },
+  {
+    "doc_id": "GEN-AUTO-GC",
+    "line": "auto",
+    "title": "General Conditions for Auto Insurance",
+    "doc_type": "GC",
+    "filename": "GEN-AUTO-GC.pdf",
+    "relpath": "general/auto/GEN-AUTO-GC.pdf",
+    "pages": 11,
+    "bytes": 152107
+  },
+  {
+    "doc_id": "GEN-AUTO-COV",
+    "line": "auto",
+    "title": "Coverage table and limits",
+    "doc_type": "COV",
+    "filename": "GEN-AUTO-COV.pdf",
+    "relpath": "general/auto/GEN-AUTO-COV.pdf",
+    "pages": 4,
+    "bytes": 127677
+  },
+  {
+    "doc_id": "GEN-AUTO-COP",
+    "line": "auto",
+    "title": "Copays, deductibles and waiting periods",
+    "doc_type": "COP",
+    "filename": "GEN-AUTO-COP.pdf",
+    "relpath": "general/auto/GEN-AUTO-COP.pdf",
+    "pages": 3,
+    "bytes": 114161
+  },
+  {
+    "doc_id": "GEN-AUTO-PROC",
+    "line": "auto",
+    "title": "Claims procedure, authorizations and frequently asked questions",
+    "doc_type": "PROC",
+    "filename": "GEN-AUTO-PROC.pdf",
+    "relpath": "general/auto/GEN-AUTO-PROC.pdf",
+    "pages": 4,
+    "bytes": 111161
+  },
+  {
+    "doc_id": "GEN-LIFE-GC",
+    "line": "life",
+    "title": "General Conditions for Life Insurance",
+    "doc_type": "GC",
+    "filename": "GEN-LIFE-GC.pdf",
+    "relpath": "general/life/GEN-LIFE-GC.pdf",
+    "pages": 11,
+    "bytes": 148385
+  },
+  {
+    "doc_id": "GEN-LIFE-COV",
+    "line": "life",
+    "title": "Coverage table and limits",
+    "doc_type": "COV",
+    "filename": "GEN-LIFE-COV.pdf",
+    "relpath": "general/life/GEN-LIFE-COV.pdf",
+    "pages": 3,
+    "bytes": 117677
+  },
+  {
+    "doc_id": "GEN-LIFE-COP",
+    "line": "life",
+    "title": "Copays, deductibles and waiting periods",
+    "doc_type": "COP",
+    "filename": "GEN-LIFE-COP.pdf",
+    "relpath": "general/life/GEN-LIFE-COP.pdf",
+    "pages": 3,
+    "bytes": 106719
+  },
+  {
+    "doc_id": "GEN-LIFE-PROC",
+    "line": "life",
+    "title": "Claims procedure, authorizations and frequently asked questions",
+    "doc_type": "PROC",
+    "filename": "GEN-LIFE-PROC.pdf",
+    "relpath": "general/life/GEN-LIFE-PROC.pdf",
+    "pages": 4,
+    "bytes": 110271
+  },
+  {
+    "doc_id": "GEN-FUNERAL-GC",
+    "line": "funeral",
+    "title": "General Conditions for Funeral Insurance",
+    "doc_type": "GC",
+    "filename": "GEN-FUNERAL-GC.pdf",
+    "relpath": "general/funeral/GEN-FUNERAL-GC.pdf",
+    "pages": 11,
+    "bytes": 147858
+  },
+  {
+    "doc_id": "GEN-FUNERAL-COV",
+    "line": "funeral",
+    "title": "Coverage table and limits",
+    "doc_type": "COV",
+    "filename": "GEN-FUNERAL-COV.pdf",
+    "relpath": "general/funeral/GEN-FUNERAL-COV.pdf",
+    "pages": 3,
+    "bytes": 118257
+  },
+  {
+    "doc_id": "GEN-FUNERAL-COP",
+    "line": "funeral",
+    "title": "Copays, deductibles and waiting periods",
+    "doc_type": "COP",
+    "filename": "GEN-FUNERAL-COP.pdf",
+    "relpath": "general/funeral/GEN-FUNERAL-COP.pdf",
+    "pages": 3,
+    "bytes": 106035
+  },
+  {
+    "doc_id": "GEN-FUNERAL-PROC",
+    "line": "funeral",
+    "title": "Claims procedure, authorizations and frequently asked questions",
+    "doc_type": "PROC",
+    "filename": "GEN-FUNERAL-PROC.pdf",
+    "relpath": "general/funeral/GEN-FUNERAL-PROC.pdf",
+    "pages": 4,
+    "bytes": 110762
+  }
+]

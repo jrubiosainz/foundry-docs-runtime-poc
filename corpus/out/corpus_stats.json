@@ -1,0 +1,139 @@
+{
+  "n_general_docs": 24,
+  "n_customers": 26,
+  "n_customer_docs": 350,
+  "per_customer": {
+    "CLI-0001": {
+      "docs": 11,
+      "pages": 22,
+      "bytes": 1412321
+    },
+    "CLI-0002": {
+      "docs": 15,
+      "pages": 24,
+      "bytes": 1777356
+    },
+    "CLI-0003": {
+      "docs": 7,
+      "pages": 16,
+      "bytes": 899463
+    },
+    "CLI-0004": {
+      "docs": 9,
+      "pages": 20,
+      "bytes": 1289689
+    },
+    "CLI-0005": {
+      "docs": 10,
+      "pages": 16,
+      "bytes": 1114353
+    },
+    "CLI-0006": {
+      "docs": 11,
+      "pages": 23,
+      "bytes": 1453111
+    },
+    "CLI-0007": {
+      "docs": 13,
+      "pages": 20,
+      "bytes": 1487187
+    },
+    "CLI-0008": {
+      "docs": 9,
+      "pages": 15,
+      "bytes": 1123910
+    },
+    "CLI-0009": {
+      "docs": 14,
+      "pages": 20,
+      "bytes": 1535566
+    },
+    "CLI-0010": {
+      "docs": 8,
+      "pages": 17,
+      "bytes": 1243311
+    },
+    "CLI-0011": {
+      "docs": 15,
+      "pages": 22,
+      "bytes": 1612136
+    },
+    "CLI-0012": {
+      "docs": 7,
+      "pages": 15,
+      "bytes": 923568
+    },
+    "CLI-0013": {
+      "docs": 11,
+      "pages": 17,
+      "bytes": 1262072
+    },
+    "CLI-0014": {
+      "docs": 12,
+      "pages": 17,
+      "bytes": 1359180
+    },
+    "CLI-0015": {
+      "docs": 10,
+      "pages": 17,
+      "bytes": 1223198
+    },
+    "CLI-0016": {
+      "docs": 13,
+      "pages": 27,
+      "bytes": 1700728
+    },
+    "CLI-0017": {
+      "docs": 9,
+      "pages": 17,
+      "bytes": 1182956
+    },
+    "CLI-0018": {
+      "docs": 14,
+      "pages": 24,
+      "bytes": 1744409
+    },
+    "CLI-0019": {
+      "docs": 8,
+      "pages": 19,
+      "bytes": 1143597
+    },
+    "CLI-0020": {
+      "docs": 11,
+      "pages": 21,
+      "bytes": 1369370
+    },
+    "CLI-0021": {
+      "docs": 12,
+      "pages": 24,
+      "bytes": 1562984
+    },
+    "CLI-0022": {
+      "docs": 10,
+      "pages": 17,
+      "bytes": 1116256
+    },
+    "CLI-0023": {
+      "docs": 13,
+      "pages": 22,
+      "bytes": 1621303
+    },
+    "CLI-0024": {
+      "docs": 9,
+      "pages": 15,
+      "bytes": 1097673
+    },
+    "CLI-0025": {
+      "docs": 14,
+      "pages": 25,
+      "bytes": 1727869
+    },
+    "CLI-0099": {
+      "docs": 75,
+      "pages": 252,
+      "bytes": 10247198
+    }
+  },
+  "total_bytes": 47234430,
+  "total_pages": 874
+}

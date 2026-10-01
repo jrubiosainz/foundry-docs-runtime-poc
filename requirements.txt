@@ -1,0 +1,9 @@
+# Root environment (.venv, Python 3.12): deployment, demo console, scripts, and corpus generator.
+# Environment versions used to measure and rehearse the demo.
+-r agents/docs-runtime-agent/requirements.txt
+python-dotenv>=1.0
+fastapi==0.141.1
+uvicorn==0.52.4
+sse-starlette==3.4.8
+pydantic==2.13.4
+requests==2.34.2

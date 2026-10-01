@@ -1,0 +1,20 @@
+{
+  "doc_id": "GEN-DENTAL-COP",
+  "line": "dental",
+  "title": "Copays, deductibles and waiting periods",
+  "doc_type": "COP",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Demo Insurance Copays, deductibles and waiting periods\nEconomic guide for Dental\nApplicable copays, deductibles and waiting periods by plan.\nService/treatment Dental Basic Dental Plus Dental Family\ncleaning €0 €0 €0\nfilling €29 €19 €15\nimplant €690 €590 €540\nmolar root canal €145 €110 €95\northodontic study €80 €55 €40\nsingle-root root canal €95 €70 €60\nzirconia crown €310 €260 €230\nSynthetic document for a prototype · fictitious data · p. 1 of 3"
+    },
+    {
+      "page": 2,
+      "text": "Demo Insurance Copays, deductibles and waiting periods\nWaiting periods\nCoverage Months\northodontics 6\nimplants 3\nprosthesis 3\nWaiting periods do not apply to covered accidents unless expressly agreed.\nSynthetic document for a prototype · fictitious data · p. 2 of 3"
+    },
+    {
+      "page": 3,
+      "text": "Demo Insurance Copays, deductibles and waiting periods\nApplication notes\nAmounts are interpreted together with each policy schedule. If there is a conflict, the more specific condition\nprevails.\nSynthetic document for a prototype · fictitious data · p. 3 of 3"
+    }
+  ]
+}

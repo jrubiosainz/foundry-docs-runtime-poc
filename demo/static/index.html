@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Runtime customer documentation · Prototype</title>
+<!--
+THESIS: Each customer session is a flight-progress strip: it prints when the session opens, fills its timing boxes while the agent retrieves and prepares documentation, and stays in the bay next to its rivals so Option 1 and Option 2 can be compared column by column. It rejects the sidebar chatbot.
+OWN-WORLD: Sage-gray aluminum bay with paper strips: buff for hosted, pale blue for File Search; blue-black printer ink; red pen only for failures and leaks. System sans for the interface, system monospace only for data printed on the strip.
+STORY: The team sees the backend authenticate the customer, watches retrieval and preparation timings land on the strip, asks a question and reads first-token time, measured tokens and cache, then checks isolation evidence.
+FIRST VIEWPORT: Left, bay (strip printer + strips). Center, workstation (expanded active strip, transcript, “Good morning” as the primary action). Right, case file (documents + server-side preparation waterfall).
+FORM: Control-strip board, 5 of 7; bay + workstation staging; seed 3466925c.
+-->
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <strong>Runtime customer documentation</strong>
+    <span>Prototype · synthetic Demo Insurance data</span>
+  </div>
+  <nav class="views" role="tablist" aria-label="Views">
+    <button role="tab" id="tab-sessions" aria-controls="view-sessions" aria-selected="true" data-view="sessions">Sessions</button>
+    <button role="tab" id="tab-isolation" aria-controls="view-isolation" aria-selected="false" data-view="isolation" tabindex="-1">Isolation</button>
+    <button role="tab" id="tab-measurements" aria-controls="view-measurements" aria-selected="false" data-view="measurements" tabindex="-1">Measurements</button>
+  </nav>
+  <div class="env" title="Prototype Foundry project">Microsoft Foundry · hosted agent + prompt agent</div>
+</header>
+
+<main id="view-sessions" class="board" role="tabpanel" aria-labelledby="tab-sessions">
+  <aside class="bay" aria-label="Session bay">
+    <form class="printer" id="new-session" autocomplete="off">
+      <h2>New session</h2>
+      <label class="field">
+        <span>Customer authenticated by the backend</span>
+        <select id="customer" required aria-describedby="customer-hint"></select>
+      </label>
+      <p class="hint" id="customer-hint"></p>
+      <fieldset class="engines">
+        <legend>Engine</legend>
+        <label class="engine engine--hosted">
+          <input type="radio" name="engine" value="hosted" checked>
+          <span class="swatch" aria-hidden="true"></span>
+          <span><b>Option 1 · Hosted agent (MAF)</b><small>Prepares documentation in its sandbox · CAG or index</small></span>
+        </label>
+        <label class="engine engine--filesearch">
+          <input type="radio" name="engine" value="filesearch">
+          <span class="swatch" aria-hidden="true"></span>
+          <span><b>Option 2 · Prompt agent + File Search</b><small>Temporary vector store per session</small></span>
+        </label>
+      </fieldset>
+      <label class="field" id="route-field">
+        <span>Customer documents route</span>
+        <select id="route">
+          <option value="">Automatic (based on estimated tokens)</option>
+          <option value="cag">Force CAG · full context with cache</option>
+          <option value="index">Force index · AI Search filtered by session</option>
+        </select>
+      </label>
+      <button type="submit" class="btn btn--primary" id="open-btn">Open session</button>
+      <p class="form-error" id="open-error" role="alert" hidden></p>
+    </form>
+
+    <section class="rack" aria-labelledby="rack-title">
+      <h2 id="rack-title">Session bay <span class="count" id="count"></span></h2>
+      <p class="legend">Greeting and Last: seconds to the first response token, measured in this console.</p>
+      <ol class="strips" id="strips"></ol>
+      <p class="empty" id="rack-empty">No sessions yet. Choose a customer and engine, then press “Open session”: its strip will print here. Open the same customer with both engines to compare them box by box.</p>
+    </section>
+  </aside>
+
+  <section class="work" id="work" aria-label="Workstation">
+    <div class="work-empty" id="work-empty">
+      <h1>What you will see in each session</h1>
+      <ol class="flow">
+        <li><b>Setup.</b> The backend authenticates the customer and opens the session with that identity. The agent never takes it from chat.</li>
+        <li><b>“Good morning”.</b> The agent retrieves the customer documents at that moment (DMS and bank channel) and prepares them, with no periodic reindexing.</li>
+        <li><b>Questions.</b> Each answer combines that documentation with general product documents and shows first-token time, tokens and cache, tools, and cited documents.</li>
+      </ol>
+    </div>
+    <header class="working-strip" id="working-strip" hidden></header>
+    <div class="transcript" id="transcript" aria-live="polite" hidden></div>
+    <form class="composer" id="composer" hidden>
+      <div class="suggestions" id="suggestions" aria-label="Test questions"></div>
+      <div class="compose-row">
+        <label class="sr-only" for="msg">Customer message</label>
+        <textarea id="msg" rows="2" placeholder="Write as if you were the customer…"></textarea>
+        <button type="submit" class="btn btn--primary" id="send-btn">Send</button>
+      </div>
+    </form>
+  </section>
+
+  <aside class="dossier" id="dossier" aria-label="Case file">
+    <p class="empty">The case file and server-side preparation appear when you select a session.</p>
+  </aside>
+</main>
+
+<main id="view-isolation" class="sheet" role="tabpanel" aria-labelledby="tab-isolation" hidden>
+  <div class="sheet-inner" id="isolation"></div>
+</main>
+
+<main id="view-measurements" class="sheet" role="tabpanel" aria-labelledby="tab-measurements" hidden>
+  <div class="sheet-inner" id="benchmark"></div>
+</main>
+
+<script src="/static/app.js" type="module"></script>
+</body>
+</html>

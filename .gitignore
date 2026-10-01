@@ -1,0 +1,10 @@
+.env
+.azure/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+infra/main.json
+
+# Synthetic corpus: corpus/out (PDF + JSON) is fully versioned so it can be deployed without regeneration.
+corpus/_build/

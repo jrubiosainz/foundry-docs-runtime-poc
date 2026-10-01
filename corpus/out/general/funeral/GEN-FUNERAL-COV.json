@@ -1,0 +1,20 @@
+{
+  "doc_id": "GEN-FUNERAL-COV",
+  "line": "funeral",
+  "title": "Coverage table and limits",
+  "doc_type": "COV",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Demo Insurance Coverage table and limits\nCoverage table for Funeral\nMaximum amounts per insurance year and contracted plan.\nItem Limit Notes\nfuneral service 4500 Applies unless excluded\ndomestic transfer 1000 Applies unless excluded\nadministrative handling 450 Applies unless excluded\nSynthetic document for a prototype · fictitious data · p. 1 of 3"
+    },
+    {
+      "page": 2,
+      "text": "Demo Insurance Coverage table and limits\nFuneral Family\nSummary of operating limits and plan sublimits.\nCoverage Limit Note\nAssistance Included according to network or provider\nDocumentation Required invoices, reports or supporting documents\nReimbursement 30 days after complete documentation\nSynthetic document for a prototype · fictitious data · p. 2 of 3"
+    },
+    {
+      "page": 3,
+      "text": "Demo Insurance Coverage table and limits\nFuneral Plus\nSummary of operating limits and plan sublimits.\nCoverage Limit Note\nAssistance Included according to network or provider\nDocumentation Required invoices, reports or supporting documents\nReimbursement 30 days after complete documentation\nSynthetic document for a prototype · fictitious data · p. 3 of 3"
+    }
+  ]
+}

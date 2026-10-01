@@ -1,0 +1,20 @@
+{
+  "doc_id": "GEN-LIFE-COV",
+  "line": "life",
+  "title": "Coverage table and limits",
+  "doc_type": "COV",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Demo Insurance Coverage table and limits\nCoverage table for Life\nMaximum amounts per insurance year and contracted plan.\nItem Limit Notes\nminimum capital 30000 Applies unless excluded\nmaximum capital 300000 Applies unless excluded\nserious illness advance 50 Applies unless excluded\nSynthetic document for a prototype · fictitious data · p. 1 of 3"
+    },
+    {
+      "page": 2,
+      "text": "Demo Insurance Coverage table and limits\nLife Term\nSummary of operating limits and plan sublimits.\nCoverage Limit Note\nAssistance Included according to network or provider\nDocumentation Required invoices, reports or supporting documents\nReimbursement 30 days after complete documentation\nSynthetic document for a prototype · fictitious data · p. 2 of 3"
+    },
+    {
+      "page": 3,
+      "text": "Demo Insurance Coverage table and limits\nLife Mortgage\nSummary of operating limits and plan sublimits.\nCoverage Limit Note\nAssistance Included according to network or provider\nDocumentation Required invoices, reports or supporting documents\nReimbursement 30 days after complete documentation\nSynthetic document for a prototype · fictitious data · p. 3 of 3"
+    }
+  ]
+}

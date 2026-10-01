@@ -1,0 +1,78 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+#
+# Describe the hosted agent for Option 1. infra/main.bicep creates the infrastructure from scripts/deploy.sh,
+# which also fills the azd environment (AZURE_AI_PROJECT_ENDPOINT, AZURE_AI_PROJECT_ID...) and runs `azd deploy`.
+# Do not use `azd up` or `azd provision` with this repository.
+
+requiredVersions:
+    extensions:
+        azure.ai.agents: '>=1.0.0-beta.4'
+name: foundry-docs-runtime-poc
+services:
+    docs-runtime-agent:
+        project: agents/docs-runtime-agent
+        host: azure.ai.agent
+        language: python
+        uses:
+            - ai-project
+        codeConfiguration:
+            dependencyResolution: remote_build
+            entryPoint: main.py
+            runtime: python_3_13
+        container:
+            resources:
+                cpu: "1"
+                memory: 2Gi
+        description: Customer support that retrieves customer documents at runtime (DMS + bank channel) and combines them with general product documentation.
+        environmentVariables:
+            - name: AZURE_AI_MODEL_DEPLOYMENT_NAME
+              value: ${AZURE_AI_MODEL_DEPLOYMENT_NAME}
+            - name: REASONING_EFFORT
+              value: low
+            - name: AZURE_OPENAI_ENDPOINT
+              value: ${AZURE_OPENAI_ENDPOINT}
+            - name: EMBEDDING_DEPLOYMENT_NAME
+              value: ${EMBEDDING_DEPLOYMENT_NAME}
+            - name: STORAGE_ACCOUNT_URL
+              value: ${STORAGE_ACCOUNT_URL}
+            - name: SEARCH_ENDPOINT
+              value: ${SEARCH_ENDPOINT}
+            - name: GENERAL_INDEX_NAME
+              value: idx-docs-general
+            - name: CUSTOMER_INDEX_NAME
+              value: idx-docs-customer
+            - name: DMS_CONTAINER
+              value: docs-dms
+            - name: BANK_CONTAINER
+              value: docs-bank
+            - name: BANK_LATENCY_MS
+              value: "350"
+            - name: CAG_FORMAT
+              value: prepared
+            - name: CAG_MAX_TOKENS
+              value: "100000"
+            - name: CAG_MAX_MB
+              value: "40"
+            - name: PROMPT_CACHE_MODE
+              value: implicit
+            # Customer documents (health data) must not be sent in telemetry.
+            - name: OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT
+              value: "false"
+            - name: ENABLE_SENSITIVE_DATA
+              value: "false"
+        kind: hosted
+        metadata:
+            tags:
+                - Agent Framework
+                - AI Agent Hosting
+                - Responses Protocol
+                - Prompt caching
+        name: docs-runtime-agent
+        protocols:
+            - protocol: responses
+              version: 2.0.0
+    ai-project:
+        host: azure.ai.project
+        deployments: []
+infra:
+    provider: microsoft.foundry

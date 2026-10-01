@@ -1,0 +1,127 @@
+{
+ "endpoint": "https://<account>.services.ai.azure.com/api/projects/<project>/openai/v1/",
+ "questions": [
+  "What coverage and deductible do I have in my home insurance?",
+  "Summarize which policies and documents appear in my documentation.",
+  "Do I have any pending or returned receipts?"
+ ],
+ "file_status": {
+  "completed": 26
+ },
+ "attributes": {
+  "attempts": {
+   "files.create(attributes)": "accepted",
+   "file_batches.create(attributes)": "accepted",
+   "file_batches.create(files=[...])": "BadRequestError: Error code: 400 - {'error': {'message': \"Unknown parameter: 'files'.\", 'type': 'invalid_request_error', 'param': 'files', 'code': 'unknown_parameter'}}",
+   "files.update(attributes)": "NotFoundError: Error code: 404 - {'error': {'code': '404', 'message': 'Resource not found'}}"
+  },
+  "read": {
+   "null": 26
+  }
+ },
+ "direct_search": {
+  "error": "BadRequestError: Error code: 400 - {'error': {'code': 'API operation not supported for token authentication', 'message': 'ApiId openai-language-model-instance-api OperationId search_vector_store not supported for CheckAccess.'}}"
+ },
+ "responses_api": {
+  "no_filter": [
+   {
+    "question": "What coverage and deductible do I have in my home insurance?",
+    "calls": 1,
+    "retrieved_by_customer": {
+     "CLI-0001": 4,
+     "CLI-0002": 4
+    }
+   },
+   {
+    "question": "Summarize which policies and documents appear in my documentation.",
+    "calls": 1,
+    "retrieved_by_customer": {
+     "CLI-0001": 8
+    }
+   },
+   {
+    "question": "Do I have any pending or returned receipts?",
+    "calls": 1,
+    "retrieved_by_customer": {
+     "CLI-0001": 6,
+     "CLI-0002": 2
+    }
+   }
+  ],
+  "filter_CLI-0001": [
+   {
+    "question": "What coverage and deductible do I have in my home insurance?",
+    "calls": 1,
+    "retrieved_by_customer": {
+     "CLI-0001": 3,
+     "CLI-0002": 5
+    }
+   },
+   {
+    "question": "Summarize which policies and documents appear in my documentation.",
+    "calls": 1,
+    "retrieved_by_customer": {
+     "CLI-0001": 7,
+     "CLI-0002": 1
+    }
+   },
+   {
+    "question": "Do I have any pending or returned receipts?",
+    "calls": 1,
+    "retrieved_by_customer": {
+     "CLI-0001": 7,
+     "CLI-0002": 1
+    }
+   }
+  ],
+  "filter_nonexistent_value": [
+   {
+    "question": "What coverage and deductible do I have in my home insurance?",
+    "calls": 1,
+    "retrieved_by_customer": {
+     "CLI-0001": 3,
+     "CLI-0002": 5
+    }
+   },
+   {
+    "question": "Summarize which policies and documents appear in my documentation.",
+    "calls": 1,
+    "retrieved_by_customer": {
+     "CLI-0001": 8
+    }
+   },
+   {
+    "question": "Do I have any pending or returned receipts?",
+    "calls": 1,
+    "retrieved_by_customer": {
+     "CLI-0001": 8
+    }
+   }
+  ]
+ },
+ "agent_filter_template": [
+  {
+   "question": "What coverage and deductible do I have in my home insurance?",
+   "calls": 1,
+   "retrieved_by_customer": {
+    "CLI-0001": 7,
+    "CLI-0002": 1
+   }
+  },
+  {
+   "question": "Summarize which policies and documents appear in my documentation.",
+   "calls": 1,
+   "retrieved_by_customer": {
+    "CLI-0001": 8
+   }
+  },
+  {
+   "question": "Do I have any pending or returned receipts?",
+   "calls": 1,
+   "retrieved_by_customer": {
+    "CLI-0001": 8
+   }
+  }
+ ],
+ "filter_saved_in_agent": "{'key': 'customer_id', 'type': 'eq', 'value': '{{customer_id}}'}"
+}

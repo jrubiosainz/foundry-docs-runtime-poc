@@ -1,0 +1,680 @@
+[
+  {
+    "customer_id": "CLI-0001",
+    "doc_id": "CLI-0001-06-PRE",
+    "fact_label": "tooth_36",
+    "value": "36: molar root canal"
+  },
+  {
+    "customer_id": "CLI-0001",
+    "doc_id": "CLI-0001-06-PRE",
+    "fact_label": "tooth_46",
+    "value": "46: zirconia crown"
+  },
+  {
+    "customer_id": "CLI-0001",
+    "doc_id": "CLI-0001-07-AUT",
+    "fact_label": "authorization_code",
+    "value": "AUT-46VQP"
+  },
+  {
+    "customer_id": "CLI-0001",
+    "doc_id": "CLI-0001-07-AUT",
+    "fact_label": "stamp_date",
+    "value": "16/09/2026"
+  },
+  {
+    "customer_id": "CLI-0001",
+    "doc_id": "CLI-0001-08-CER",
+    "fact_label": "card_number",
+    "value": "CARD-64421056"
+  },
+  {
+    "customer_id": "CLI-0001",
+    "doc_id": "CLI-0001-08-CER",
+    "fact_label": "card_validity",
+    "value": "Valid until 05/2028"
+  },
+  {
+    "customer_id": "CLI-0002",
+    "doc_id": "CLI-0002-05-CLM",
+    "fact_label": "home_photo_note",
+    "value": "Active leak under the kitchen sink"
+  },
+  {
+    "customer_id": "CLI-0002",
+    "doc_id": "CLI-0002-05-CLM",
+    "fact_label": "home_photo_time",
+    "value": "Photo taken 07:42"
+  },
+  {
+    "customer_id": "CLI-0002",
+    "doc_id": "CLI-0002-06-ADJ",
+    "fact_label": "adjuster_plumbing",
+    "value": "Plumbing|€420|accepted"
+  },
+  {
+    "customer_id": "CLI-0002",
+    "doc_id": "CLI-0002-06-ADJ",
+    "fact_label": "adjuster_painting",
+    "value": "Painting|€280|accepted"
+  },
+  {
+    "customer_id": "CLI-0002",
+    "doc_id": "CLI-0002-06-ADJ",
+    "fact_label": "adjuster_total",
+    "value": "TOTAL|€700|net"
+  },
+  {
+    "customer_id": "CLI-0003",
+    "doc_id": "CLI-0003-07-CER",
+    "fact_label": "card_number",
+    "value": "CARD-61133300"
+  },
+  {
+    "customer_id": "CLI-0003",
+    "doc_id": "CLI-0003-07-CER",
+    "fact_label": "card_validity",
+    "value": "Valid until 03/2028"
+  },
+  {
+    "customer_id": "CLI-0004",
+    "doc_id": "CLI-0004-07-CLM",
+    "fact_label": "photo_note",
+    "value": "Cracked living-room glass"
+  },
+  {
+    "customer_id": "CLI-0004",
+    "doc_id": "CLI-0004-07-CLM",
+    "fact_label": "photo_time",
+    "value": "Photo taken 11:04"
+  },
+  {
+    "customer_id": "CLI-0004",
+    "doc_id": "CLI-0004-08-ADJ",
+    "fact_label": "adjuster_item_1",
+    "value": "Repair|€210|accepted"
+  },
+  {
+    "customer_id": "CLI-0004",
+    "doc_id": "CLI-0004-08-ADJ",
+    "fact_label": "adjuster_total",
+    "value": "TOTAL|€402|net"
+  },
+  {
+    "customer_id": "CLI-0004",
+    "doc_id": "CLI-0004-09-CER",
+    "fact_label": "card_number",
+    "value": "CARD-35535199"
+  },
+  {
+    "customer_id": "CLI-0004",
+    "doc_id": "CLI-0004-09-CER",
+    "fact_label": "card_validity",
+    "value": "Valid until 06/2028"
+  },
+  {
+    "customer_id": "CLI-0005",
+    "doc_id": "CLI-0005-05-CER",
+    "fact_label": "card_number",
+    "value": "CARD-22277717"
+  },
+  {
+    "customer_id": "CLI-0005",
+    "doc_id": "CLI-0005-05-CER",
+    "fact_label": "card_validity",
+    "value": "Valid until 05/2028"
+  },
+  {
+    "customer_id": "CLI-0006",
+    "doc_id": "CLI-0006-07-PRE",
+    "fact_label": "tooth_26",
+    "value": "26: single-root root canal"
+  },
+  {
+    "customer_id": "CLI-0006",
+    "doc_id": "CLI-0006-07-PRE",
+    "fact_label": "tooth_34",
+    "value": "44: filling"
+  },
+  {
+    "customer_id": "CLI-0006",
+    "doc_id": "CLI-0006-08-AUT",
+    "fact_label": "authorization_code",
+    "value": "AUT-I8BHA"
+  },
+  {
+    "customer_id": "CLI-0006",
+    "doc_id": "CLI-0006-08-AUT",
+    "fact_label": "stamp_date",
+    "value": "13/09/2026"
+  },
+  {
+    "customer_id": "CLI-0006",
+    "doc_id": "CLI-0006-09-CER",
+    "fact_label": "card_number",
+    "value": "CARD-37734968"
+  },
+  {
+    "customer_id": "CLI-0006",
+    "doc_id": "CLI-0006-09-CER",
+    "fact_label": "card_validity",
+    "value": "Valid until 12/2028"
+  },
+  {
+    "customer_id": "CLI-0007",
+    "doc_id": "CLI-0007-04-CLM",
+    "fact_label": "photo_note",
+    "value": "Cracked living-room glass"
+  },
+  {
+    "customer_id": "CLI-0007",
+    "doc_id": "CLI-0007-04-CLM",
+    "fact_label": "photo_time",
+    "value": "Photo taken 20:14"
+  },
+  {
+    "customer_id": "CLI-0007",
+    "doc_id": "CLI-0007-05-ADJ",
+    "fact_label": "adjuster_item_1",
+    "value": "Repair|€202|accepted"
+  },
+  {
+    "customer_id": "CLI-0007",
+    "doc_id": "CLI-0007-05-ADJ",
+    "fact_label": "adjuster_total",
+    "value": "TOTAL|€458|net"
+  },
+  {
+    "customer_id": "CLI-0008",
+    "doc_id": "CLI-0008-04-CLM",
+    "fact_label": "photo_note",
+    "value": "Right-side impact"
+  },
+  {
+    "customer_id": "CLI-0008",
+    "doc_id": "CLI-0008-04-CLM",
+    "fact_label": "photo_time",
+    "value": "Photo taken 18:07"
+  },
+  {
+    "customer_id": "CLI-0008",
+    "doc_id": "CLI-0008-05-ADJ",
+    "fact_label": "adjuster_item_1",
+    "value": "Repair|€319|accepted"
+  },
+  {
+    "customer_id": "CLI-0008",
+    "doc_id": "CLI-0008-05-ADJ",
+    "fact_label": "adjuster_total",
+    "value": "TOTAL|€506|net"
+  },
+  {
+    "customer_id": "CLI-0009",
+    "doc_id": "CLI-0009-06-CER",
+    "fact_label": "card_number",
+    "value": "CARD-23272000"
+  },
+  {
+    "customer_id": "CLI-0009",
+    "doc_id": "CLI-0009-06-CER",
+    "fact_label": "card_validity",
+    "value": "Valid until 12/2028"
+  },
+  {
+    "customer_id": "CLI-0010",
+    "doc_id": "CLI-0010-05-PRE",
+    "fact_label": "tooth_36",
+    "value": "26: single-root root canal"
+  },
+  {
+    "customer_id": "CLI-0010",
+    "doc_id": "CLI-0010-05-PRE",
+    "fact_label": "tooth_24",
+    "value": "24: filling"
+  },
+  {
+    "customer_id": "CLI-0010",
+    "doc_id": "CLI-0010-06-AUT",
+    "fact_label": "authorization_code",
+    "value": "AUT-5JVFS"
+  },
+  {
+    "customer_id": "CLI-0010",
+    "doc_id": "CLI-0010-06-AUT",
+    "fact_label": "stamp_date",
+    "value": "28/09/2026"
+  },
+  {
+    "customer_id": "CLI-0010",
+    "doc_id": "CLI-0010-07-CLM",
+    "fact_label": "photo_note",
+    "value": "Cracked living-room glass"
+  },
+  {
+    "customer_id": "CLI-0010",
+    "doc_id": "CLI-0010-07-CLM",
+    "fact_label": "photo_time",
+    "value": "Photo taken 18:26"
+  },
+  {
+    "customer_id": "CLI-0010",
+    "doc_id": "CLI-0010-08-ADJ",
+    "fact_label": "adjuster_item_1",
+    "value": "Repair|€215|accepted"
+  },
+  {
+    "customer_id": "CLI-0010",
+    "doc_id": "CLI-0010-08-ADJ",
+    "fact_label": "adjuster_total",
+    "value": "TOTAL|€317|net"
+  },
+  {
+    "customer_id": "CLI-0011",
+    "doc_id": "CLI-0011-05-CER",
+    "fact_label": "card_number",
+    "value": "CARD-59278389"
+  },
+  {
+    "customer_id": "CLI-0011",
+    "doc_id": "CLI-0011-05-CER",
+    "fact_label": "card_validity",
+    "value": "Valid until 08/2028"
+  },
+  {
+    "customer_id": "CLI-0012",
+    "doc_id": "CLI-0012-07-PRE",
+    "fact_label": "tooth_16",
+    "value": "36: single-root root canal"
+  },
+  {
+    "customer_id": "CLI-0012",
+    "doc_id": "CLI-0012-07-PRE",
+    "fact_label": "tooth_24",
+    "value": "34: filling"
+  },
+  {
+    "customer_id": "CLI-0013",
+    "doc_id": "CLI-0013-06-CER",
+    "fact_label": "card_number",
+    "value": "CARD-37158194"
+  },
+  {
+    "customer_id": "CLI-0013",
+    "doc_id": "CLI-0013-06-CER",
+    "fact_label": "card_validity",
+    "value": "Valid until 07/2028"
+  },
+  {
+    "customer_id": "CLI-0014",
+    "doc_id": "CLI-0014-04-CLM",
+    "fact_label": "photo_note",
+    "value": "Damp patch beside window"
+  },
+  {
+    "customer_id": "CLI-0014",
+    "doc_id": "CLI-0014-04-CLM",
+    "fact_label": "photo_time",
+    "value": "Photo taken 11:43"
+  },
+  {
+    "customer_id": "CLI-0014",
+    "doc_id": "CLI-0014-05-ADJ",
+    "fact_label": "adjuster_item_1",
+    "value": "Repair|€224|accepted"
+  },
+  {
+    "customer_id": "CLI-0014",
+    "doc_id": "CLI-0014-05-ADJ",
+    "fact_label": "adjuster_total",
+    "value": "TOTAL|€397|net"
+  },
+  {
+    "customer_id": "CLI-0015",
+    "doc_id": "CLI-0015-04-CLM",
+    "fact_label": "photo_note",
+    "value": "Cracked living-room glass"
+  },
+  {
+    "customer_id": "CLI-0015",
+    "doc_id": "CLI-0015-04-CLM",
+    "fact_label": "photo_time",
+    "value": "Photo taken 18:14"
+  },
+  {
+    "customer_id": "CLI-0015",
+    "doc_id": "CLI-0015-05-ADJ",
+    "fact_label": "adjuster_item_1",
+    "value": "Repair|€313|accepted"
+  },
+  {
+    "customer_id": "CLI-0015",
+    "doc_id": "CLI-0015-05-ADJ",
+    "fact_label": "adjuster_total",
+    "value": "TOTAL|€428|net"
+  },
+  {
+    "customer_id": "CLI-0016",
+    "doc_id": "CLI-0016-07-CLM",
+    "fact_label": "photo_note",
+    "value": "Cracked living-room glass"
+  },
+  {
+    "customer_id": "CLI-0016",
+    "doc_id": "CLI-0016-07-CLM",
+    "fact_label": "photo_time",
+    "value": "Photo taken 07:32"
+  },
+  {
+    "customer_id": "CLI-0016",
+    "doc_id": "CLI-0016-08-ADJ",
+    "fact_label": "adjuster_item_1",
+    "value": "Repair|€137|accepted"
+  },
+  {
+    "customer_id": "CLI-0016",
+    "doc_id": "CLI-0016-08-ADJ",
+    "fact_label": "adjuster_total",
+    "value": "TOTAL|€359|net"
+  },
+  {
+    "customer_id": "CLI-0016",
+    "doc_id": "CLI-0016-09-CER",
+    "fact_label": "card_number",
+    "value": "CARD-51185851"
+  },
+  {
+    "customer_id": "CLI-0016",
+    "doc_id": "CLI-0016-09-CER",
+    "fact_label": "card_validity",
+    "value": "Valid until 03/2028"
+  },
+  {
+    "customer_id": "CLI-0017",
+    "doc_id": "CLI-0017-05-PRE",
+    "fact_label": "tooth_26",
+    "value": "46: single-root root canal"
+  },
+  {
+    "customer_id": "CLI-0017",
+    "doc_id": "CLI-0017-05-PRE",
+    "fact_label": "tooth_44",
+    "value": "24: filling"
+  },
+  {
+    "customer_id": "CLI-0017",
+    "doc_id": "CLI-0017-06-AUT",
+    "fact_label": "authorization_code",
+    "value": "AUT-KH09L"
+  },
+  {
+    "customer_id": "CLI-0017",
+    "doc_id": "CLI-0017-06-AUT",
+    "fact_label": "stamp_date",
+    "value": "14/09/2026"
+  },
+  {
+    "customer_id": "CLI-0017",
+    "doc_id": "CLI-0017-07-CER",
+    "fact_label": "card_number",
+    "value": "CARD-26140289"
+  },
+  {
+    "customer_id": "CLI-0017",
+    "doc_id": "CLI-0017-07-CER",
+    "fact_label": "card_validity",
+    "value": "Valid until 05/2028"
+  },
+  {
+    "customer_id": "CLI-0018",
+    "doc_id": "CLI-0018-06-CLM",
+    "fact_label": "photo_note",
+    "value": "Right-side impact"
+  },
+  {
+    "customer_id": "CLI-0018",
+    "doc_id": "CLI-0018-06-CLM",
+    "fact_label": "photo_time",
+    "value": "Photo taken 09:55"
+  },
+  {
+    "customer_id": "CLI-0018",
+    "doc_id": "CLI-0018-07-ADJ",
+    "fact_label": "adjuster_item_1",
+    "value": "Repair|€192|accepted"
+  },
+  {
+    "customer_id": "CLI-0018",
+    "doc_id": "CLI-0018-07-ADJ",
+    "fact_label": "adjuster_total",
+    "value": "TOTAL|€322|net"
+  },
+  {
+    "customer_id": "CLI-0018",
+    "doc_id": "CLI-0018-08-CER",
+    "fact_label": "card_number",
+    "value": "CARD-61217400"
+  },
+  {
+    "customer_id": "CLI-0018",
+    "doc_id": "CLI-0018-08-CER",
+    "fact_label": "card_validity",
+    "value": "Valid until 06/2028"
+  },
+  {
+    "customer_id": "CLI-0019",
+    "doc_id": "CLI-0019-07-CLM",
+    "fact_label": "photo_note",
+    "value": "Damp patch beside window"
+  },
+  {
+    "customer_id": "CLI-0019",
+    "doc_id": "CLI-0019-07-CLM",
+    "fact_label": "photo_time",
+    "value": "Photo taken 15:54"
+  },
+  {
+    "customer_id": "CLI-0019",
+    "doc_id": "CLI-0019-08-ADJ",
+    "fact_label": "adjuster_item_1",
+    "value": "Repair|€449|accepted"
+  },
+  {
+    "customer_id": "CLI-0019",
+    "doc_id": "CLI-0019-08-ADJ",
+    "fact_label": "adjuster_total",
+    "value": "TOTAL|€763|net"
+  },
+  {
+    "customer_id": "CLI-0020",
+    "doc_id": "CLI-0020-05-CLM",
+    "fact_label": "photo_note",
+    "value": "Damp patch beside window"
+  },
+  {
+    "customer_id": "CLI-0020",
+    "doc_id": "CLI-0020-05-CLM",
+    "fact_label": "photo_time",
+    "value": "Photo taken 13:18"
+  },
+  {
+    "customer_id": "CLI-0020",
+    "doc_id": "CLI-0020-06-ADJ",
+    "fact_label": "adjuster_item_1",
+    "value": "Repair|€138|accepted"
+  },
+  {
+    "customer_id": "CLI-0020",
+    "doc_id": "CLI-0020-06-ADJ",
+    "fact_label": "adjuster_total",
+    "value": "TOTAL|€267|net"
+  },
+  {
+    "customer_id": "CLI-0021",
+    "doc_id": "CLI-0021-06-CLM",
+    "fact_label": "photo_note",
+    "value": "Damp patch beside window"
+  },
+  {
+    "customer_id": "CLI-0021",
+    "doc_id": "CLI-0021-06-CLM",
+    "fact_label": "photo_time",
+    "value": "Photo taken 15:23"
+  },
+  {
+    "customer_id": "CLI-0021",
+    "doc_id": "CLI-0021-07-ADJ",
+    "fact_label": "adjuster_item_1",
+    "value": "Repair|€348|accepted"
+  },
+  {
+    "customer_id": "CLI-0021",
+    "doc_id": "CLI-0021-07-ADJ",
+    "fact_label": "adjuster_total",
+    "value": "TOTAL|€523|net"
+  },
+  {
+    "customer_id": "CLI-0021",
+    "doc_id": "CLI-0021-08-CER",
+    "fact_label": "card_number",
+    "value": "CARD-67395689"
+  },
+  {
+    "customer_id": "CLI-0021",
+    "doc_id": "CLI-0021-08-CER",
+    "fact_label": "card_validity",
+    "value": "Valid until 03/2028"
+  },
+  {
+    "customer_id": "CLI-0022",
+    "doc_id": "CLI-0022-05-CER",
+    "fact_label": "card_number",
+    "value": "CARD-55949274"
+  },
+  {
+    "customer_id": "CLI-0022",
+    "doc_id": "CLI-0022-05-CER",
+    "fact_label": "card_validity",
+    "value": "Valid until 02/2028"
+  },
+  {
+    "customer_id": "CLI-0023",
+    "doc_id": "CLI-0023-06-PRE",
+    "fact_label": "tooth_26",
+    "value": "16: single-root root canal"
+  },
+  {
+    "customer_id": "CLI-0023",
+    "doc_id": "CLI-0023-06-PRE",
+    "fact_label": "tooth_34",
+    "value": "44: filling"
+  },
+  {
+    "customer_id": "CLI-0023",
+    "doc_id": "CLI-0023-07-AUT",
+    "fact_label": "authorization_code",
+    "value": "AUT-EF615"
+  },
+  {
+    "customer_id": "CLI-0023",
+    "doc_id": "CLI-0023-07-AUT",
+    "fact_label": "stamp_date",
+    "value": "15/09/2026"
+  },
+  {
+    "customer_id": "CLI-0023",
+    "doc_id": "CLI-0023-08-CER",
+    "fact_label": "card_number",
+    "value": "CARD-49940310"
+  },
+  {
+    "customer_id": "CLI-0023",
+    "doc_id": "CLI-0023-08-CER",
+    "fact_label": "card_validity",
+    "value": "Valid until 05/2028"
+  },
+  {
+    "customer_id": "CLI-0024",
+    "doc_id": "CLI-0024-04-CLM",
+    "fact_label": "photo_note",
+    "value": "Damp patch beside window"
+  },
+  {
+    "customer_id": "CLI-0024",
+    "doc_id": "CLI-0024-04-CLM",
+    "fact_label": "photo_time",
+    "value": "Photo taken 09:38"
+  },
+  {
+    "customer_id": "CLI-0024",
+    "doc_id": "CLI-0024-05-ADJ",
+    "fact_label": "adjuster_item_1",
+    "value": "Repair|€225|accepted"
+  },
+  {
+    "customer_id": "CLI-0024",
+    "doc_id": "CLI-0024-05-ADJ",
+    "fact_label": "adjuster_total",
+    "value": "TOTAL|€405|net"
+  },
+  {
+    "customer_id": "CLI-0025",
+    "doc_id": "CLI-0025-07-PRE",
+    "fact_label": "tooth_26",
+    "value": "36: single-root root canal"
+  },
+  {
+    "customer_id": "CLI-0025",
+    "doc_id": "CLI-0025-07-PRE",
+    "fact_label": "tooth_24",
+    "value": "34: filling"
+  },
+  {
+    "customer_id": "CLI-0025",
+    "doc_id": "CLI-0025-08-AUT",
+    "fact_label": "authorization_code",
+    "value": "AUT-B261B"
+  },
+  {
+    "customer_id": "CLI-0025",
+    "doc_id": "CLI-0025-08-AUT",
+    "fact_label": "stamp_date",
+    "value": "22/09/2026"
+  },
+  {
+    "customer_id": "CLI-0025",
+    "doc_id": "CLI-0025-09-CER",
+    "fact_label": "card_number",
+    "value": "CARD-57475475"
+  },
+  {
+    "customer_id": "CLI-0025",
+    "doc_id": "CLI-0025-09-CER",
+    "fact_label": "card_validity",
+    "value": "Valid until 09/2028"
+  },
+  {
+    "customer_id": "CLI-0099",
+    "doc_id": "CLI-0099-14-CLM",
+    "fact_label": "fleet_note",
+    "value": "Vehicle 3812-KLM immobilized"
+  },
+  {
+    "customer_id": "CLI-0099",
+    "doc_id": "CLI-0099-14-CLM",
+    "fact_label": "fleet_time",
+    "value": "Reported 18:25"
+  },
+  {
+    "customer_id": "CLI-0099",
+    "doc_id": "CLI-0099-34-ADJ",
+    "fact_label": "fleet_total",
+    "value": "TOTAL|€1,280|net"
+  },
+  {
+    "customer_id": "CLI-0099",
+    "doc_id": "CLI-0099-54-CER",
+    "fact_label": "group_card",
+    "value": "CARD-99004512"
+  }
+]

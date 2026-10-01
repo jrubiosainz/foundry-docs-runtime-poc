@@ -1,0 +1,24 @@
+{
+  "doc_id": "GEN-HOME-COV",
+  "line": "home",
+  "title": "Coverage table and limits",
+  "doc_type": "COV",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Demo Insurance Coverage table and limits\nCoverage table for Home\nMaximum amounts per insurance year and contracted plan.\nCoverage Limit Notes\nbuilding 120000 Per claim/year according to coverage\ncontents 35000 Per claim/year according to coverage\njewelry in safe 3000 Per claim/year according to coverage\nurgent assistance 600 Per claim/year according to coverage\nSynthetic document for a prototype · fictitious data · p. 1 of 4"
+    },
+    {
+      "page": 2,
+      "text": "Demo Insurance Coverage table and limits\nHome Basic\nSummary of operating limits and plan sublimits.\nCoverage Limit Note\nAssistance Included according to network or provider\nDocumentation Required invoices, reports or supporting documents\nReimbursement 30 days after complete documentation\nSynthetic document for a prototype · fictitious data · p. 2 of 4"
+    },
+    {
+      "page": 3,
+      "text": "Demo Insurance Coverage table and limits\nHome Comfort\nSummary of operating limits and plan sublimits.\nCoverage Limit Note\nAssistance Included according to network or provider\nDocumentation Required invoices, reports or supporting documents\nReimbursement 30 days after complete documentation\nSynthetic document for a prototype · fictitious data · p. 3 of 4"
+    },
+    {
+      "page": 4,
+      "text": "Demo Insurance Coverage table and limits\nHome Total\nSummary of operating limits and plan sublimits.\nCoverage Limit Note\nAssistance Included according to network or provider\nDocumentation Required invoices, reports or supporting documents\nReimbursement 30 days after complete documentation\nSynthetic document for a prototype · fictitious data · p. 4 of 4"
+    }
+  ]
+}

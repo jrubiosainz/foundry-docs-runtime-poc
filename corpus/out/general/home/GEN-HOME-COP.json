@@ -1,0 +1,20 @@
+{
+  "doc_id": "GEN-HOME-COP",
+  "line": "home",
+  "title": "Copays, deductibles and waiting periods",
+  "doc_type": "COP",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Demo Insurance Copays, deductibles and waiting periods\nEconomic guide for Home\nApplicable copays, deductibles and waiting periods by plan.\nCoverage Home Basic Home Comfort Home Total\nglass breakage €90 €60 €0\nliability €0 €0 €0\nwater damage €180 €150 €0\nSynthetic document for a prototype · fictitious data · p. 1 of 3"
+    },
+    {
+      "page": 2,
+      "text": "Demo Insurance Copays, deductibles and waiting periods\nWaiting periods\nCoverage Months\nWaiting periods do not apply to covered accidents unless expressly agreed.\nSynthetic document for a prototype · fictitious data · p. 2 of 3"
+    },
+    {
+      "page": 3,
+      "text": "Demo Insurance Copays, deductibles and waiting periods\nApplication notes\nAmounts are interpreted together with each policy schedule. If there is a conflict, the more specific condition\nprevails.\nSynthetic document for a prototype · fictitious data · p. 3 of 3"
+    }
+  ]
+}

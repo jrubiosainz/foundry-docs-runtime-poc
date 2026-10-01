@@ -1,0 +1,5624 @@
+[
+  {
+    "customer_id": "CLI-0001",
+    "kind": "individual",
+    "first_name": "Lucía",
+    "last_name": "Martín Serrano",
+    "full_name": "Lucía Martín Serrano",
+    "national_id": "01407179-B",
+    "birth_date": "1979-07-16",
+    "email": "lucia.martín@example.com",
+    "phone": "600 000 001",
+    "address": "Calle Diagonal, 8, Madrid",
+    "products": [
+      {
+        "line": "dental",
+        "plan": "Dental Plus",
+        "policy": "DEN-2024-000101",
+        "effective_date": "2026-03-01",
+        "annual_premium": 313
+      },
+      {
+        "line": "health",
+        "plan": "Health Complete",
+        "policy": "HLT-2024-000102",
+        "effective_date": "2026-04-01",
+        "annual_premium": 798
+      }
+    ],
+    "canary": "CASE-CLI0001-7N7D5F",
+    "docs": [
+      {
+        "doc_id": "CLI-0001-01-POL",
+        "filename": "CLI-0001-01-POL.pdf",
+        "title": "Policy schedule - CLI-0001",
+        "doc_type": "POL",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0001/CLI-0001-01-POL.pdf",
+        "pages": 4,
+        "bytes": 145037
+      },
+      {
+        "doc_id": "CLI-0001-02-POL",
+        "filename": "CLI-0001-02-POL.pdf",
+        "title": "Policy schedule - CLI-0001",
+        "doc_type": "POL",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0001/CLI-0001-02-POL.pdf",
+        "pages": 4,
+        "bytes": 144885
+      },
+      {
+        "doc_id": "CLI-0001-03-REC",
+        "filename": "CLI-0001-03-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0001",
+        "doc_type": "REC",
+        "line": "dental",
+        "source": "bank",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0001/CLI-0001-03-REC.pdf",
+        "pages": 1,
+        "bytes": 88785
+      },
+      {
+        "doc_id": "CLI-0001-04-SEPA",
+        "filename": "CLI-0001-04-SEPA.pdf",
+        "title": "SEPA mandate - CLI-0001",
+        "doc_type": "SEPA",
+        "line": "dental",
+        "source": "bank",
+        "date": "2026-02-15",
+        "image_facts": [],
+        "relpath": "customer/CLI-0001/CLI-0001-04-SEPA.pdf",
+        "pages": 1,
+        "bytes": 90240
+      },
+      {
+        "doc_id": "CLI-0001-05-HQ",
+        "filename": "CLI-0001-05-HQ.pdf",
+        "title": "Health questionnaire - CLI-0001",
+        "doc_type": "HQ",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-02-24",
+        "image_facts": [],
+        "relpath": "customer/CLI-0001/CLI-0001-05-HQ.pdf",
+        "pages": 3,
+        "bytes": 136344
+      },
+      {
+        "doc_id": "CLI-0001-06-PRE",
+        "filename": "CLI-0001-06-PRE.pdf",
+        "title": "Dental estimate - CLI-0001",
+        "doc_type": "PRE",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-03-05",
+        "image_facts": [
+          "tooth_36",
+          "tooth_46"
+        ],
+        "relpath": "customer/CLI-0001/CLI-0001-06-PRE.pdf",
+        "pages": 2,
+        "bytes": 197599
+      },
+      {
+        "doc_id": "CLI-0001-07-AUT",
+        "filename": "CLI-0001-07-AUT.pdf",
+        "title": "Authorization - CLI-0001",
+        "doc_type": "AUT",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-03-14",
+        "image_facts": [
+          "authorization_code",
+          "stamp_date"
+        ],
+        "relpath": "customer/CLI-0001/CLI-0001-07-AUT.pdf",
+        "pages": 2,
+        "bytes": 177651
+      },
+      {
+        "doc_id": "CLI-0001-08-CER",
+        "filename": "CLI-0001-08-CER.pdf",
+        "title": "Certificate or card - CLI-0001",
+        "doc_type": "CER",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-03-23",
+        "image_facts": [
+          "card_number",
+          "card_validity"
+        ],
+        "relpath": "customer/CLI-0001/CLI-0001-08-CER.pdf",
+        "pages": 2,
+        "bytes": 162990
+      },
+      {
+        "doc_id": "CLI-0001-09-STM",
+        "filename": "CLI-0001-09-STM.pdf",
+        "title": "Statement of charges - CLI-0001",
+        "doc_type": "STM",
+        "line": "dental",
+        "source": "bank",
+        "date": "2026-04-01",
+        "image_facts": [],
+        "relpath": "customer/CLI-0001/CLI-0001-09-STM.pdf",
+        "pages": 1,
+        "bytes": 91448
+      },
+      {
+        "doc_id": "CLI-0001-10-REN",
+        "filename": "CLI-0001-10-REN.pdf",
+        "title": "Renewal letter - CLI-0001",
+        "doc_type": "REN",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-04-10",
+        "image_facts": [],
+        "relpath": "customer/CLI-0001/CLI-0001-10-REN.pdf",
+        "pages": 1,
+        "bytes": 89831
+      },
+      {
+        "doc_id": "CLI-0001-11-COM",
+        "filename": "CLI-0001-11-COM.pdf",
+        "title": "Communication - CLI-0001",
+        "doc_type": "COM",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-04-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0001/CLI-0001-11-COM.pdf",
+        "pages": 1,
+        "bytes": 87511
+      }
+    ],
+    "lines": [
+      "dental",
+      "health"
+    ]
+  },
+  {
+    "customer_id": "CLI-0002",
+    "kind": "individual",
+    "first_name": "Javier",
+    "last_name": "García Núñez",
+    "full_name": "Javier García Núñez",
+    "national_id": "02336162-T",
+    "birth_date": "1987-06-01",
+    "email": "javier.garcía@example.com",
+    "phone": "600 000 002",
+    "address": "Calle Diagonal, 144, Bilbao",
+    "products": [
+      {
+        "line": "home",
+        "plan": "Home Comfort",
+        "policy": "HOM-2024-000201",
+        "effective_date": "2026-04-01",
+        "annual_premium": 340
+      },
+      {
+        "line": "auto",
+        "plan": "Auto Comprehensive with Deductible",
+        "policy": "AUT-2024-000202",
+        "effective_date": "2026-05-01",
+        "annual_premium": 639
+      }
+    ],
+    "canary": "CASE-CLI0002-7V0JQG",
+    "docs": [
+      {
+        "doc_id": "CLI-0002-01-POL",
+        "filename": "CLI-0002-01-POL.pdf",
+        "title": "Policy schedule - CLI-0002",
+        "doc_type": "POL",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0002/CLI-0002-01-POL.pdf",
+        "pages": 4,
+        "bytes": 147562
+      },
+      {
+        "doc_id": "CLI-0002-02-POL",
+        "filename": "CLI-0002-02-POL.pdf",
+        "title": "Policy schedule - CLI-0002",
+        "doc_type": "POL",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0002/CLI-0002-02-POL.pdf",
+        "pages": 2,
+        "bytes": 134062
+      },
+      {
+        "doc_id": "CLI-0002-03-REC",
+        "filename": "CLI-0002-03-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0002",
+        "doc_type": "REC",
+        "line": "home",
+        "source": "bank",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0002/CLI-0002-03-REC.pdf",
+        "pages": 1,
+        "bytes": 91284
+      },
+      {
+        "doc_id": "CLI-0002-04-SEPA",
+        "filename": "CLI-0002-04-SEPA.pdf",
+        "title": "SEPA mandate - CLI-0002",
+        "doc_type": "SEPA",
+        "line": "home",
+        "source": "bank",
+        "date": "2026-02-15",
+        "image_facts": [],
+        "relpath": "customer/CLI-0002/CLI-0002-04-SEPA.pdf",
+        "pages": 1,
+        "bytes": 91965
+      },
+      {
+        "doc_id": "CLI-0002-05-CLM",
+        "filename": "CLI-0002-05-CLM.pdf",
+        "title": "Claim report - CLI-0002",
+        "doc_type": "CLM",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-02-24",
+        "image_facts": [
+          "home_photo_note",
+          "home_photo_time"
+        ],
+        "relpath": "customer/CLI-0002/CLI-0002-05-CLM.pdf",
+        "pages": 2,
+        "bytes": 183737
+      },
+      {
+        "doc_id": "CLI-0002-06-ADJ",
+        "filename": "CLI-0002-06-ADJ.pdf",
+        "title": "Loss adjuster report - CLI-0002",
+        "doc_type": "ADJ",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-03-05",
+        "image_facts": [
+          "adjuster_plumbing",
+          "adjuster_painting",
+          "adjuster_total"
+        ],
+        "relpath": "customer/CLI-0002/CLI-0002-06-ADJ.pdf",
+        "pages": 3,
+        "bytes": 226552
+      },
+      {
+        "doc_id": "CLI-0002-07-STM",
+        "filename": "CLI-0002-07-STM.pdf",
+        "title": "Statement of charges - CLI-0002",
+        "doc_type": "STM",
+        "line": "home",
+        "source": "bank",
+        "date": "2026-03-14",
+        "image_facts": [],
+        "relpath": "customer/CLI-0002/CLI-0002-07-STM.pdf",
+        "pages": 1,
+        "bytes": 93095
+      },
+      {
+        "doc_id": "CLI-0002-08-REN",
+        "filename": "CLI-0002-08-REN.pdf",
+        "title": "Renewal letter - CLI-0002",
+        "doc_type": "REN",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-03-23",
+        "image_facts": [],
+        "relpath": "customer/CLI-0002/CLI-0002-08-REN.pdf",
+        "pages": 1,
+        "bytes": 91634
+      },
+      {
+        "doc_id": "CLI-0002-09-COM",
+        "filename": "CLI-0002-09-COM.pdf",
+        "title": "Communication - CLI-0002",
+        "doc_type": "COM",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-04-01",
+        "image_facts": [],
+        "relpath": "customer/CLI-0002/CLI-0002-09-COM.pdf",
+        "pages": 1,
+        "bytes": 89287
+      },
+      {
+        "doc_id": "CLI-0002-10-SUP",
+        "filename": "CLI-0002-10-SUP.pdf",
+        "title": "Policy supplement - CLI-0002",
+        "doc_type": "SUP",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-04-10",
+        "image_facts": [],
+        "relpath": "customer/CLI-0002/CLI-0002-10-SUP.pdf",
+        "pages": 2,
+        "bytes": 131946
+      },
+      {
+        "doc_id": "CLI-0002-11-REC",
+        "filename": "CLI-0002-11-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0002",
+        "doc_type": "REC",
+        "line": "home",
+        "source": "bank",
+        "date": "2026-04-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0002/CLI-0002-11-REC.pdf",
+        "pages": 1,
+        "bytes": 91024
+      },
+      {
+        "doc_id": "CLI-0002-12-MED",
+        "filename": "CLI-0002-12-MED.pdf",
+        "title": "Medical report - CLI-0002",
+        "doc_type": "MED",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-04-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0002/CLI-0002-12-MED.pdf",
+        "pages": 1,
+        "bytes": 92189
+      },
+      {
+        "doc_id": "CLI-0002-13-COM",
+        "filename": "CLI-0002-13-COM.pdf",
+        "title": "Communication - CLI-0002",
+        "doc_type": "COM",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-05-07",
+        "image_facts": [],
+        "relpath": "customer/CLI-0002/CLI-0002-13-COM.pdf",
+        "pages": 1,
+        "bytes": 89712
+      },
+      {
+        "doc_id": "CLI-0002-14-REC",
+        "filename": "CLI-0002-14-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0002",
+        "doc_type": "REC",
+        "line": "auto",
+        "source": "bank",
+        "date": "2026-05-16",
+        "image_facts": [],
+        "relpath": "customer/CLI-0002/CLI-0002-14-REC.pdf",
+        "pages": 1,
+        "bytes": 91795
+      },
+      {
+        "doc_id": "CLI-0002-15-STM",
+        "filename": "CLI-0002-15-STM.pdf",
+        "title": "Statement of charges - CLI-0002",
+        "doc_type": "STM",
+        "line": "home",
+        "source": "bank",
+        "date": "2026-05-25",
+        "image_facts": [],
+        "relpath": "customer/CLI-0002/CLI-0002-15-STM.pdf",
+        "pages": 2,
+        "bytes": 131512
+      }
+    ],
+    "lines": [
+      "auto",
+      "home"
+    ]
+  },
+  {
+    "customer_id": "CLI-0003",
+    "kind": "individual",
+    "first_name": "Marta",
+    "last_name": "Ruiz Pardo",
+    "full_name": "Marta Ruiz Pardo",
+    "national_id": "03459971-R",
+    "birth_date": "1981-03-25",
+    "email": "marta.ruiz@example.com",
+    "phone": "600 000 003",
+    "address": "Calle Valencia, 163, A Coruña",
+    "products": [
+      {
+        "line": "life",
+        "plan": "Life Term",
+        "policy": "LIF-2024-000301",
+        "effective_date": "2026-05-01",
+        "annual_premium": 352
+      },
+      {
+        "line": "funeral",
+        "plan": "Funeral Plus",
+        "policy": "FUN-2024-000302",
+        "effective_date": "2026-06-01",
+        "annual_premium": 329
+      },
+      {
+        "line": "health",
+        "plan": "Health Essential",
+        "policy": "HLT-2024-000303",
+        "effective_date": "2026-07-01",
+        "annual_premium": 865
+      }
+    ],
+    "canary": "CASE-CLI0003-629E0M",
+    "docs": [
+      {
+        "doc_id": "CLI-0003-01-POL",
+        "filename": "CLI-0003-01-POL.pdf",
+        "title": "Policy schedule - CLI-0003",
+        "doc_type": "POL",
+        "line": "life",
+        "source": "dms",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0003/CLI-0003-01-POL.pdf",
+        "pages": 3,
+        "bytes": 138838
+      },
+      {
+        "doc_id": "CLI-0003-02-POL",
+        "filename": "CLI-0003-02-POL.pdf",
+        "title": "Policy schedule - CLI-0003",
+        "doc_type": "POL",
+        "line": "funeral",
+        "source": "dms",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0003/CLI-0003-02-POL.pdf",
+        "pages": 4,
+        "bytes": 146060
+      },
+      {
+        "doc_id": "CLI-0003-03-POL",
+        "filename": "CLI-0003-03-POL.pdf",
+        "title": "Policy schedule - CLI-0003",
+        "doc_type": "POL",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0003/CLI-0003-03-POL.pdf",
+        "pages": 3,
+        "bytes": 137985
+      },
+      {
+        "doc_id": "CLI-0003-04-REC",
+        "filename": "CLI-0003-04-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0003",
+        "doc_type": "REC",
+        "line": "life",
+        "source": "bank",
+        "date": "2026-02-15",
+        "image_facts": [],
+        "relpath": "customer/CLI-0003/CLI-0003-04-REC.pdf",
+        "pages": 1,
+        "bytes": 89433
+      },
+      {
+        "doc_id": "CLI-0003-05-SEPA",
+        "filename": "CLI-0003-05-SEPA.pdf",
+        "title": "SEPA mandate - CLI-0003",
+        "doc_type": "SEPA",
+        "line": "life",
+        "source": "bank",
+        "date": "2026-02-24",
+        "image_facts": [],
+        "relpath": "customer/CLI-0003/CLI-0003-05-SEPA.pdf",
+        "pages": 1,
+        "bytes": 90772
+      },
+      {
+        "doc_id": "CLI-0003-06-HQ",
+        "filename": "CLI-0003-06-HQ.pdf",
+        "title": "Health questionnaire - CLI-0003",
+        "doc_type": "HQ",
+        "line": "life",
+        "source": "dms",
+        "date": "2026-03-05",
+        "image_facts": [],
+        "relpath": "customer/CLI-0003/CLI-0003-06-HQ.pdf",
+        "pages": 2,
+        "bytes": 129870
+      },
+      {
+        "doc_id": "CLI-0003-07-CER",
+        "filename": "CLI-0003-07-CER.pdf",
+        "title": "Certificate or card - CLI-0003",
+        "doc_type": "CER",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-03-14",
+        "image_facts": [
+          "card_number",
+          "card_validity"
+        ],
+        "relpath": "customer/CLI-0003/CLI-0003-07-CER.pdf",
+        "pages": 2,
+        "bytes": 166505
+      }
+    ],
+    "lines": [
+      "funeral",
+      "health",
+      "life"
+    ]
+  },
+  {
+    "customer_id": "CLI-0004",
+    "kind": "individual",
+    "first_name": "Carlos",
+    "last_name": "López Vega",
+    "full_name": "Carlos López Vega",
+    "national_id": "04667776-V",
+    "birth_date": "1992-05-11",
+    "email": "carlos.lópez@example.com",
+    "phone": "600 000 004",
+    "address": "Calle Alcalá, 146, Zaragoza",
+    "products": [
+      {
+        "line": "funeral",
+        "plan": "Funeral Family",
+        "policy": "FUN-2024-000401",
+        "effective_date": "2026-06-01",
+        "annual_premium": 392
+      },
+      {
+        "line": "health",
+        "plan": "Health Essential",
+        "policy": "HLT-2024-000402",
+        "effective_date": "2026-07-01",
+        "annual_premium": 752
+      },
+      {
+        "line": "auto",
+        "plan": "Auto Third Party",
+        "policy": "AUT-2024-000403",
+        "effective_date": "2026-08-01",
+        "annual_premium": 764
+      }
+    ],
+    "canary": "CASE-CLI0004-7SNA4D",
+    "docs": [
+      {
+        "doc_id": "CLI-0004-01-POL",
+        "filename": "CLI-0004-01-POL.pdf",
+        "title": "Policy schedule - CLI-0004",
+        "doc_type": "POL",
+        "line": "funeral",
+        "source": "dms",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0004/CLI-0004-01-POL.pdf",
+        "pages": 3,
+        "bytes": 138678
+      },
+      {
+        "doc_id": "CLI-0004-02-POL",
+        "filename": "CLI-0004-02-POL.pdf",
+        "title": "Policy schedule - CLI-0004",
+        "doc_type": "POL",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0004/CLI-0004-02-POL.pdf",
+        "pages": 2,
+        "bytes": 130845
+      },
+      {
+        "doc_id": "CLI-0004-03-POL",
+        "filename": "CLI-0004-03-POL.pdf",
+        "title": "Policy schedule - CLI-0004",
+        "doc_type": "POL",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0004/CLI-0004-03-POL.pdf",
+        "pages": 4,
+        "bytes": 144595
+      },
+      {
+        "doc_id": "CLI-0004-04-REC",
+        "filename": "CLI-0004-04-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0004",
+        "doc_type": "REC",
+        "line": "funeral",
+        "source": "bank",
+        "date": "2026-02-15",
+        "image_facts": [],
+        "relpath": "customer/CLI-0004/CLI-0004-04-REC.pdf",
+        "pages": 1,
+        "bytes": 90138
+      },
+      {
+        "doc_id": "CLI-0004-05-SEPA",
+        "filename": "CLI-0004-05-SEPA.pdf",
+        "title": "SEPA mandate - CLI-0004",
+        "doc_type": "SEPA",
+        "line": "funeral",
+        "source": "bank",
+        "date": "2026-02-24",
+        "image_facts": [],
+        "relpath": "customer/CLI-0004/CLI-0004-05-SEPA.pdf",
+        "pages": 1,
+        "bytes": 91313
+      },
+      {
+        "doc_id": "CLI-0004-06-HQ",
+        "filename": "CLI-0004-06-HQ.pdf",
+        "title": "Health questionnaire - CLI-0004",
+        "doc_type": "HQ",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-03-05",
+        "image_facts": [],
+        "relpath": "customer/CLI-0004/CLI-0004-06-HQ.pdf",
+        "pages": 2,
+        "bytes": 129521
+      },
+      {
+        "doc_id": "CLI-0004-07-CLM",
+        "filename": "CLI-0004-07-CLM.pdf",
+        "title": "Claim report - CLI-0004",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-03-14",
+        "image_facts": [
+          "photo_note",
+          "photo_time"
+        ],
+        "relpath": "customer/CLI-0004/CLI-0004-07-CLM.pdf",
+        "pages": 2,
+        "bytes": 182472
+      },
+      {
+        "doc_id": "CLI-0004-08-ADJ",
+        "filename": "CLI-0004-08-ADJ.pdf",
+        "title": "Loss adjuster report - CLI-0004",
+        "doc_type": "ADJ",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-03-23",
+        "image_facts": [
+          "adjuster_item_1",
+          "adjuster_total"
+        ],
+        "relpath": "customer/CLI-0004/CLI-0004-08-ADJ.pdf",
+        "pages": 3,
+        "bytes": 215620
+      },
+      {
+        "doc_id": "CLI-0004-09-CER",
+        "filename": "CLI-0004-09-CER.pdf",
+        "title": "Certificate or card - CLI-0004",
+        "doc_type": "CER",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-04-01",
+        "image_facts": [
+          "card_number",
+          "card_validity"
+        ],
+        "relpath": "customer/CLI-0004/CLI-0004-09-CER.pdf",
+        "pages": 2,
+        "bytes": 166507
+      }
+    ],
+    "lines": [
+      "auto",
+      "funeral",
+      "health"
+    ]
+  },
+  {
+    "customer_id": "CLI-0005",
+    "kind": "individual",
+    "first_name": "Ana",
+    "last_name": "Sánchez Molina",
+    "full_name": "Ana Sánchez Molina",
+    "national_id": "05932824-R",
+    "birth_date": "1997-12-23",
+    "email": "ana.sánchez@example.com",
+    "phone": "600 000 005",
+    "address": "Calle Serrano, 137, Madrid",
+    "products": [
+      {
+        "line": "health",
+        "plan": "Health Premium",
+        "policy": "HLT-2024-000501",
+        "effective_date": "2026-07-01",
+        "annual_premium": 874
+      }
+    ],
+    "canary": "CASE-CLI0005-HRSC33",
+    "docs": [
+      {
+        "doc_id": "CLI-0005-01-POL",
+        "filename": "CLI-0005-01-POL.pdf",
+        "title": "Policy schedule - CLI-0005",
+        "doc_type": "POL",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0005/CLI-0005-01-POL.pdf",
+        "pages": 4,
+        "bytes": 146846
+      },
+      {
+        "doc_id": "CLI-0005-02-REC",
+        "filename": "CLI-0005-02-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0005",
+        "doc_type": "REC",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0005/CLI-0005-02-REC.pdf",
+        "pages": 1,
+        "bytes": 89987
+      },
+      {
+        "doc_id": "CLI-0005-03-SEPA",
+        "filename": "CLI-0005-03-SEPA.pdf",
+        "title": "SEPA mandate - CLI-0005",
+        "doc_type": "SEPA",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0005/CLI-0005-03-SEPA.pdf",
+        "pages": 1,
+        "bytes": 90968
+      },
+      {
+        "doc_id": "CLI-0005-04-HQ",
+        "filename": "CLI-0005-04-HQ.pdf",
+        "title": "Health questionnaire - CLI-0005",
+        "doc_type": "HQ",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-02-15",
+        "image_facts": [],
+        "relpath": "customer/CLI-0005/CLI-0005-04-HQ.pdf",
+        "pages": 2,
+        "bytes": 130025
+      },
+      {
+        "doc_id": "CLI-0005-05-CER",
+        "filename": "CLI-0005-05-CER.pdf",
+        "title": "Certificate or card - CLI-0005",
+        "doc_type": "CER",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-02-24",
+        "image_facts": [
+          "card_number",
+          "card_validity"
+        ],
+        "relpath": "customer/CLI-0005/CLI-0005-05-CER.pdf",
+        "pages": 2,
+        "bytes": 166856
+      },
+      {
+        "doc_id": "CLI-0005-06-STM",
+        "filename": "CLI-0005-06-STM.pdf",
+        "title": "Statement of charges - CLI-0005",
+        "doc_type": "STM",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-03-05",
+        "image_facts": [],
+        "relpath": "customer/CLI-0005/CLI-0005-06-STM.pdf",
+        "pages": 1,
+        "bytes": 92211
+      },
+      {
+        "doc_id": "CLI-0005-07-REN",
+        "filename": "CLI-0005-07-REN.pdf",
+        "title": "Renewal letter - CLI-0005",
+        "doc_type": "REN",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-03-14",
+        "image_facts": [],
+        "relpath": "customer/CLI-0005/CLI-0005-07-REN.pdf",
+        "pages": 1,
+        "bytes": 90615
+      },
+      {
+        "doc_id": "CLI-0005-08-COM",
+        "filename": "CLI-0005-08-COM.pdf",
+        "title": "Communication - CLI-0005",
+        "doc_type": "COM",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-03-23",
+        "image_facts": [],
+        "relpath": "customer/CLI-0005/CLI-0005-08-COM.pdf",
+        "pages": 1,
+        "bytes": 88537
+      },
+      {
+        "doc_id": "CLI-0005-09-SUP",
+        "filename": "CLI-0005-09-SUP.pdf",
+        "title": "Policy supplement - CLI-0005",
+        "doc_type": "SUP",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-04-01",
+        "image_facts": [],
+        "relpath": "customer/CLI-0005/CLI-0005-09-SUP.pdf",
+        "pages": 2,
+        "bytes": 128681
+      },
+      {
+        "doc_id": "CLI-0005-10-REC",
+        "filename": "CLI-0005-10-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0005",
+        "doc_type": "REC",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-04-10",
+        "image_facts": [],
+        "relpath": "customer/CLI-0005/CLI-0005-10-REC.pdf",
+        "pages": 1,
+        "bytes": 89627
+      }
+    ],
+    "lines": [
+      "health"
+    ]
+  },
+  {
+    "customer_id": "CLI-0006",
+    "kind": "individual",
+    "first_name": "Daniel",
+    "last_name": "Torres Campos",
+    "full_name": "Daniel Torres Campos",
+    "national_id": "06143133-B",
+    "birth_date": "1971-02-21",
+    "email": "daniel.torres@example.com",
+    "phone": "600 000 006",
+    "address": "Calle Goya, 90, Barcelona",
+    "products": [
+      {
+        "line": "funeral",
+        "plan": "Funeral Plus",
+        "policy": "FUN-2024-000601",
+        "effective_date": "2026-08-01",
+        "annual_premium": 367
+      },
+      {
+        "line": "life",
+        "plan": "Life Term",
+        "policy": "LIF-2024-000602",
+        "effective_date": "2026-09-01",
+        "annual_premium": 363
+      },
+      {
+        "line": "dental",
+        "plan": "Dental Plus",
+        "policy": "DEN-2024-000603",
+        "effective_date": "2026-01-01",
+        "annual_premium": 353
+      }
+    ],
+    "canary": "CASE-CLI0006-JJ1CBX",
+    "docs": [
+      {
+        "doc_id": "CLI-0006-01-POL",
+        "filename": "CLI-0006-01-POL.pdf",
+        "title": "Policy schedule - CLI-0006",
+        "doc_type": "POL",
+        "line": "funeral",
+        "source": "dms",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0006/CLI-0006-01-POL.pdf",
+        "pages": 2,
+        "bytes": 131852
+      },
+      {
+        "doc_id": "CLI-0006-02-POL",
+        "filename": "CLI-0006-02-POL.pdf",
+        "title": "Policy schedule - CLI-0006",
+        "doc_type": "POL",
+        "line": "life",
+        "source": "dms",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0006/CLI-0006-02-POL.pdf",
+        "pages": 4,
+        "bytes": 143736
+      },
+      {
+        "doc_id": "CLI-0006-03-POL",
+        "filename": "CLI-0006-03-POL.pdf",
+        "title": "Policy schedule - CLI-0006",
+        "doc_type": "POL",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0006/CLI-0006-03-POL.pdf",
+        "pages": 4,
+        "bytes": 143390
+      },
+      {
+        "doc_id": "CLI-0006-04-REC",
+        "filename": "CLI-0006-04-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0006",
+        "doc_type": "REC",
+        "line": "funeral",
+        "source": "bank",
+        "date": "2026-02-15",
+        "image_facts": [],
+        "relpath": "customer/CLI-0006/CLI-0006-04-REC.pdf",
+        "pages": 1,
+        "bytes": 89278
+      },
+      {
+        "doc_id": "CLI-0006-05-SEPA",
+        "filename": "CLI-0006-05-SEPA.pdf",
+        "title": "SEPA mandate - CLI-0006",
+        "doc_type": "SEPA",
+        "line": "funeral",
+        "source": "bank",
+        "date": "2026-02-24",
+        "image_facts": [],
+        "relpath": "customer/CLI-0006/CLI-0006-05-SEPA.pdf",
+        "pages": 1,
+        "bytes": 90205
+      },
+      {
+        "doc_id": "CLI-0006-06-HQ",
+        "filename": "CLI-0006-06-HQ.pdf",
+        "title": "Health questionnaire - CLI-0006",
+        "doc_type": "HQ",
+        "line": "life",
+        "source": "dms",
+        "date": "2026-03-05",
+        "image_facts": [],
+        "relpath": "customer/CLI-0006/CLI-0006-06-HQ.pdf",
+        "pages": 3,
+        "bytes": 135223
+      },
+      {
+        "doc_id": "CLI-0006-07-PRE",
+        "filename": "CLI-0006-07-PRE.pdf",
+        "title": "Dental estimate - CLI-0006",
+        "doc_type": "PRE",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-03-14",
+        "image_facts": [
+          "tooth_26",
+          "tooth_34"
+        ],
+        "relpath": "customer/CLI-0006/CLI-0006-07-PRE.pdf",
+        "pages": 2,
+        "bytes": 196750
+      },
+      {
+        "doc_id": "CLI-0006-08-AUT",
+        "filename": "CLI-0006-08-AUT.pdf",
+        "title": "Authorization - CLI-0006",
+        "doc_type": "AUT",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-03-23",
+        "image_facts": [
+          "authorization_code",
+          "stamp_date"
+        ],
+        "relpath": "customer/CLI-0006/CLI-0006-08-AUT.pdf",
+        "pages": 2,
+        "bytes": 176725
+      },
+      {
+        "doc_id": "CLI-0006-09-CER",
+        "filename": "CLI-0006-09-CER.pdf",
+        "title": "Certificate or card - CLI-0006",
+        "doc_type": "CER",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-04-01",
+        "image_facts": [
+          "card_number",
+          "card_validity"
+        ],
+        "relpath": "customer/CLI-0006/CLI-0006-09-CER.pdf",
+        "pages": 2,
+        "bytes": 163400
+      },
+      {
+        "doc_id": "CLI-0006-10-BEN",
+        "filename": "CLI-0006-10-BEN.pdf",
+        "title": "Beneficiary designation - CLI-0006",
+        "doc_type": "BEN",
+        "line": "life",
+        "source": "dms",
+        "date": "2026-04-10",
+        "image_facts": [],
+        "relpath": "customer/CLI-0006/CLI-0006-10-BEN.pdf",
+        "pages": 1,
+        "bytes": 91129
+      },
+      {
+        "doc_id": "CLI-0006-11-STM",
+        "filename": "CLI-0006-11-STM.pdf",
+        "title": "Statement of charges - CLI-0006",
+        "doc_type": "STM",
+        "line": "funeral",
+        "source": "bank",
+        "date": "2026-04-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0006/CLI-0006-11-STM.pdf",
+        "pages": 1,
+        "bytes": 91423
+      }
+    ],
+    "lines": [
+      "dental",
+      "funeral",
+      "life"
+    ]
+  },
+  {
+    "customer_id": "CLI-0007",
+    "kind": "individual",
+    "first_name": "Paula",
+    "last_name": "Romero Navarro",
+    "full_name": "Paula Romero Navarro",
+    "national_id": "07586643-Q",
+    "birth_date": "1996-05-08",
+    "email": "paula.romero@example.com",
+    "phone": "600 000 007",
+    "address": "Calle Valencia, 90, Barcelona",
+    "products": [
+      {
+        "line": "auto",
+        "plan": "Auto Comprehensive with Deductible",
+        "policy": "AUT-2024-000701",
+        "effective_date": "2026-09-01",
+        "annual_premium": 644
+      }
+    ],
+    "canary": "CASE-CLI0007-9P5PKS",
+    "docs": [
+      {
+        "doc_id": "CLI-0007-01-POL",
+        "filename": "CLI-0007-01-POL.pdf",
+        "title": "Policy schedule - CLI-0007",
+        "doc_type": "POL",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0007/CLI-0007-01-POL.pdf",
+        "pages": 4,
+        "bytes": 147798
+      },
+      {
+        "doc_id": "CLI-0007-02-REC",
+        "filename": "CLI-0007-02-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0007",
+        "doc_type": "REC",
+        "line": "auto",
+        "source": "bank",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0007/CLI-0007-02-REC.pdf",
+        "pages": 1,
+        "bytes": 89935
+      },
+      {
+        "doc_id": "CLI-0007-03-SEPA",
+        "filename": "CLI-0007-03-SEPA.pdf",
+        "title": "SEPA mandate - CLI-0007",
+        "doc_type": "SEPA",
+        "line": "auto",
+        "source": "bank",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0007/CLI-0007-03-SEPA.pdf",
+        "pages": 1,
+        "bytes": 90808
+      },
+      {
+        "doc_id": "CLI-0007-04-CLM",
+        "filename": "CLI-0007-04-CLM.pdf",
+        "title": "Claim report - CLI-0007",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-02-15",
+        "image_facts": [
+          "photo_note",
+          "photo_time"
+        ],
+        "relpath": "customer/CLI-0007/CLI-0007-04-CLM.pdf",
+        "pages": 2,
+        "bytes": 182740
+      },
+      {
+        "doc_id": "CLI-0007-05-ADJ",
+        "filename": "CLI-0007-05-ADJ.pdf",
+        "title": "Loss adjuster report - CLI-0007",
+        "doc_type": "ADJ",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-02-24",
+        "image_facts": [
+          "adjuster_item_1",
+          "adjuster_total"
+        ],
+        "relpath": "customer/CLI-0007/CLI-0007-05-ADJ.pdf",
+        "pages": 3,
+        "bytes": 217427
+      },
+      {
+        "doc_id": "CLI-0007-06-STM",
+        "filename": "CLI-0007-06-STM.pdf",
+        "title": "Statement of charges - CLI-0007",
+        "doc_type": "STM",
+        "line": "auto",
+        "source": "bank",
+        "date": "2026-03-05",
+        "image_facts": [],
+        "relpath": "customer/CLI-0007/CLI-0007-06-STM.pdf",
+        "pages": 1,
+        "bytes": 92251
+      },
+      {
+        "doc_id": "CLI-0007-07-REN",
+        "filename": "CLI-0007-07-REN.pdf",
+        "title": "Renewal letter - CLI-0007",
+        "doc_type": "REN",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-03-14",
+        "image_facts": [],
+        "relpath": "customer/CLI-0007/CLI-0007-07-REN.pdf",
+        "pages": 1,
+        "bytes": 89977
+      },
+      {
+        "doc_id": "CLI-0007-08-COM",
+        "filename": "CLI-0007-08-COM.pdf",
+        "title": "Communication - CLI-0007",
+        "doc_type": "COM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-03-23",
+        "image_facts": [],
+        "relpath": "customer/CLI-0007/CLI-0007-08-COM.pdf",
+        "pages": 1,
+        "bytes": 87856
+      },
+      {
+        "doc_id": "CLI-0007-09-SUP",
+        "filename": "CLI-0007-09-SUP.pdf",
+        "title": "Policy supplement - CLI-0007",
+        "doc_type": "SUP",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-04-01",
+        "image_facts": [],
+        "relpath": "customer/CLI-0007/CLI-0007-09-SUP.pdf",
+        "pages": 1,
+        "bytes": 90235
+      },
+      {
+        "doc_id": "CLI-0007-10-REC",
+        "filename": "CLI-0007-10-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0007",
+        "doc_type": "REC",
+        "line": "auto",
+        "source": "bank",
+        "date": "2026-04-10",
+        "image_facts": [],
+        "relpath": "customer/CLI-0007/CLI-0007-10-REC.pdf",
+        "pages": 1,
+        "bytes": 89730
+      },
+      {
+        "doc_id": "CLI-0007-11-MED",
+        "filename": "CLI-0007-11-MED.pdf",
+        "title": "Medical report - CLI-0007",
+        "doc_type": "MED",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-04-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0007/CLI-0007-11-MED.pdf",
+        "pages": 2,
+        "bytes": 130351
+      },
+      {
+        "doc_id": "CLI-0007-12-COM",
+        "filename": "CLI-0007-12-COM.pdf",
+        "title": "Communication - CLI-0007",
+        "doc_type": "COM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-04-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0007/CLI-0007-12-COM.pdf",
+        "pages": 1,
+        "bytes": 87942
+      },
+      {
+        "doc_id": "CLI-0007-13-REC",
+        "filename": "CLI-0007-13-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0007",
+        "doc_type": "REC",
+        "line": "auto",
+        "source": "bank",
+        "date": "2026-05-07",
+        "image_facts": [],
+        "relpath": "customer/CLI-0007/CLI-0007-13-REC.pdf",
+        "pages": 1,
+        "bytes": 90137
+      }
+    ],
+    "lines": [
+      "auto"
+    ]
+  },
+  {
+    "customer_id": "CLI-0008",
+    "kind": "individual",
+    "first_name": "Miguel",
+    "last_name": "Moreno León",
+    "full_name": "Miguel Moreno León",
+    "national_id": "08281265-C",
+    "birth_date": "1965-05-07",
+    "email": "miguel.moreno@example.com",
+    "phone": "600 000 008",
+    "address": "Calle Goya, 107, Bilbao",
+    "products": [
+      {
+        "line": "home",
+        "plan": "Home Basic",
+        "policy": "HOM-2024-000801",
+        "effective_date": "2026-01-01",
+        "annual_premium": 509
+      }
+    ],
+    "canary": "CASE-CLI0008-UHPF8B",
+    "docs": [
+      {
+        "doc_id": "CLI-0008-01-POL",
+        "filename": "CLI-0008-01-POL.pdf",
+        "title": "Policy schedule - CLI-0008",
+        "doc_type": "POL",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0008/CLI-0008-01-POL.pdf",
+        "pages": 3,
+        "bytes": 140540
+      },
+      {
+        "doc_id": "CLI-0008-02-REC",
+        "filename": "CLI-0008-02-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0008",
+        "doc_type": "REC",
+        "line": "home",
+        "source": "bank",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0008/CLI-0008-02-REC.pdf",
+        "pages": 1,
+        "bytes": 89663
+      },
+      {
+        "doc_id": "CLI-0008-03-SEPA",
+        "filename": "CLI-0008-03-SEPA.pdf",
+        "title": "SEPA mandate - CLI-0008",
+        "doc_type": "SEPA",
+        "line": "home",
+        "source": "bank",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0008/CLI-0008-03-SEPA.pdf",
+        "pages": 1,
+        "bytes": 91312
+      },
+      {
+        "doc_id": "CLI-0008-04-CLM",
+        "filename": "CLI-0008-04-CLM.pdf",
+        "title": "Claim report - CLI-0008",
+        "doc_type": "CLM",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-02-15",
+        "image_facts": [
+          "photo_note",
+          "photo_time"
+        ],
+        "relpath": "customer/CLI-0008/CLI-0008-04-CLM.pdf",
+        "pages": 2,
+        "bytes": 183103
+      },
+      {
+        "doc_id": "CLI-0008-05-ADJ",
+        "filename": "CLI-0008-05-ADJ.pdf",
+        "title": "Loss adjuster report - CLI-0008",
+        "doc_type": "ADJ",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-02-24",
+        "image_facts": [
+          "adjuster_item_1",
+          "adjuster_total"
+        ],
+        "relpath": "customer/CLI-0008/CLI-0008-05-ADJ.pdf",
+        "pages": 3,
+        "bytes": 217602
+      },
+      {
+        "doc_id": "CLI-0008-06-STM",
+        "filename": "CLI-0008-06-STM.pdf",
+        "title": "Statement of charges - CLI-0008",
+        "doc_type": "STM",
+        "line": "home",
+        "source": "bank",
+        "date": "2026-03-05",
+        "image_facts": [],
+        "relpath": "customer/CLI-0008/CLI-0008-06-STM.pdf",
+        "pages": 1,
+        "bytes": 92202
+      },
+      {
+        "doc_id": "CLI-0008-07-REN",
+        "filename": "CLI-0008-07-REN.pdf",
+        "title": "Renewal letter - CLI-0008",
+        "doc_type": "REN",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-03-14",
+        "image_facts": [],
+        "relpath": "customer/CLI-0008/CLI-0008-07-REN.pdf",
+        "pages": 1,
+        "bytes": 90590
+      },
+      {
+        "doc_id": "CLI-0008-08-COM",
+        "filename": "CLI-0008-08-COM.pdf",
+        "title": "Communication - CLI-0008",
+        "doc_type": "COM",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-03-23",
+        "image_facts": [],
+        "relpath": "customer/CLI-0008/CLI-0008-08-COM.pdf",
+        "pages": 1,
+        "bytes": 88929
+      },
+      {
+        "doc_id": "CLI-0008-09-SUP",
+        "filename": "CLI-0008-09-SUP.pdf",
+        "title": "Policy supplement - CLI-0008",
+        "doc_type": "SUP",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-04-01",
+        "image_facts": [],
+        "relpath": "customer/CLI-0008/CLI-0008-09-SUP.pdf",
+        "pages": 2,
+        "bytes": 129969
+      }
+    ],
+    "lines": [
+      "home"
+    ]
+  },
+  {
+    "customer_id": "CLI-0009",
+    "kind": "individual",
+    "first_name": "Laura",
+    "last_name": "Díaz Cano",
+    "full_name": "Laura Díaz Cano",
+    "national_id": "09169442-P",
+    "birth_date": "1970-08-11",
+    "email": "laura.díaz@example.com",
+    "phone": "600 000 009",
+    "address": "Calle Atocha, 7, Zaragoza",
+    "products": [
+      {
+        "line": "funeral",
+        "plan": "Funeral Family",
+        "policy": "FUN-2024-000901",
+        "effective_date": "2026-02-01",
+        "annual_premium": 263
+      },
+      {
+        "line": "health",
+        "plan": "Health Essential",
+        "policy": "HLT-2024-000902",
+        "effective_date": "2026-03-01",
+        "annual_premium": 813
+      }
+    ],
+    "canary": "CASE-CLI0009-IQUTJ6",
+    "docs": [
+      {
+        "doc_id": "CLI-0009-01-POL",
+        "filename": "CLI-0009-01-POL.pdf",
+        "title": "Policy schedule - CLI-0009",
+        "doc_type": "POL",
+        "line": "funeral",
+        "source": "dms",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0009/CLI-0009-01-POL.pdf",
+        "pages": 2,
+        "bytes": 131341
+      },
+      {
+        "doc_id": "CLI-0009-02-POL",
+        "filename": "CLI-0009-02-POL.pdf",
+        "title": "Policy schedule - CLI-0009",
+        "doc_type": "POL",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0009/CLI-0009-02-POL.pdf",
+        "pages": 2,
+        "bytes": 131430
+      },
+      {
+        "doc_id": "CLI-0009-03-REC",
+        "filename": "CLI-0009-03-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0009",
+        "doc_type": "REC",
+        "line": "funeral",
+        "source": "bank",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0009/CLI-0009-03-REC.pdf",
+        "pages": 1,
+        "bytes": 89944
+      },
+      {
+        "doc_id": "CLI-0009-04-SEPA",
+        "filename": "CLI-0009-04-SEPA.pdf",
+        "title": "SEPA mandate - CLI-0009",
+        "doc_type": "SEPA",
+        "line": "funeral",
+        "source": "bank",
+        "date": "2026-02-15",
+        "image_facts": [],
+        "relpath": "customer/CLI-0009/CLI-0009-04-SEPA.pdf",
+        "pages": 1,
+        "bytes": 91303
+      },
+      {
+        "doc_id": "CLI-0009-05-HQ",
+        "filename": "CLI-0009-05-HQ.pdf",
+        "title": "Health questionnaire - CLI-0009",
+        "doc_type": "HQ",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-02-24",
+        "image_facts": [],
+        "relpath": "customer/CLI-0009/CLI-0009-05-HQ.pdf",
+        "pages": 2,
+        "bytes": 129784
+      },
+      {
+        "doc_id": "CLI-0009-06-CER",
+        "filename": "CLI-0009-06-CER.pdf",
+        "title": "Certificate or card - CLI-0009",
+        "doc_type": "CER",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-03-05",
+        "image_facts": [
+          "card_number",
+          "card_validity"
+        ],
+        "relpath": "customer/CLI-0009/CLI-0009-06-CER.pdf",
+        "pages": 2,
+        "bytes": 165942
+      },
+      {
+        "doc_id": "CLI-0009-07-STM",
+        "filename": "CLI-0009-07-STM.pdf",
+        "title": "Statement of charges - CLI-0009",
+        "doc_type": "STM",
+        "line": "funeral",
+        "source": "bank",
+        "date": "2026-03-14",
+        "image_facts": [],
+        "relpath": "customer/CLI-0009/CLI-0009-07-STM.pdf",
+        "pages": 2,
+        "bytes": 130108
+      },
+      {
+        "doc_id": "CLI-0009-08-REN",
+        "filename": "CLI-0009-08-REN.pdf",
+        "title": "Renewal letter - CLI-0009",
+        "doc_type": "REN",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-03-23",
+        "image_facts": [],
+        "relpath": "customer/CLI-0009/CLI-0009-08-REN.pdf",
+        "pages": 1,
+        "bytes": 90178
+      },
+      {
+        "doc_id": "CLI-0009-09-COM",
+        "filename": "CLI-0009-09-COM.pdf",
+        "title": "Communication - CLI-0009",
+        "doc_type": "COM",
+        "line": "funeral",
+        "source": "dms",
+        "date": "2026-04-01",
+        "image_facts": [],
+        "relpath": "customer/CLI-0009/CLI-0009-09-COM.pdf",
+        "pages": 1,
+        "bytes": 88003
+      },
+      {
+        "doc_id": "CLI-0009-10-SUP",
+        "filename": "CLI-0009-10-SUP.pdf",
+        "title": "Policy supplement - CLI-0009",
+        "doc_type": "SUP",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-04-10",
+        "image_facts": [],
+        "relpath": "customer/CLI-0009/CLI-0009-10-SUP.pdf",
+        "pages": 2,
+        "bytes": 128832
+      },
+      {
+        "doc_id": "CLI-0009-11-REC",
+        "filename": "CLI-0009-11-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0009",
+        "doc_type": "REC",
+        "line": "funeral",
+        "source": "bank",
+        "date": "2026-04-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0009/CLI-0009-11-REC.pdf",
+        "pages": 1,
+        "bytes": 90107
+      },
+      {
+        "doc_id": "CLI-0009-12-MED",
+        "filename": "CLI-0009-12-MED.pdf",
+        "title": "Medical report - CLI-0009",
+        "doc_type": "MED",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-04-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0009/CLI-0009-12-MED.pdf",
+        "pages": 1,
+        "bytes": 90238
+      },
+      {
+        "doc_id": "CLI-0009-13-COM",
+        "filename": "CLI-0009-13-COM.pdf",
+        "title": "Communication - CLI-0009",
+        "doc_type": "COM",
+        "line": "funeral",
+        "source": "dms",
+        "date": "2026-05-07",
+        "image_facts": [],
+        "relpath": "customer/CLI-0009/CLI-0009-13-COM.pdf",
+        "pages": 1,
+        "bytes": 88405
+      },
+      {
+        "doc_id": "CLI-0009-14-REC",
+        "filename": "CLI-0009-14-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0009",
+        "doc_type": "REC",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-05-16",
+        "image_facts": [],
+        "relpath": "customer/CLI-0009/CLI-0009-14-REC.pdf",
+        "pages": 1,
+        "bytes": 89951
+      }
+    ],
+    "lines": [
+      "funeral",
+      "health"
+    ]
+  },
+  {
+    "customer_id": "CLI-0010",
+    "kind": "individual",
+    "first_name": "Sergio",
+    "last_name": "Muñoz Ortega",
+    "full_name": "Sergio Muñoz Ortega",
+    "national_id": "10409254-N",
+    "birth_date": "1972-03-10",
+    "email": "sergio.muñoz@example.com",
+    "phone": "600 000 010",
+    "address": "Calle Goya, 139, Zaragoza",
+    "products": [
+      {
+        "line": "auto",
+        "plan": "Auto Comprehensive with Deductible",
+        "policy": "AUT-2024-001001",
+        "effective_date": "2026-03-01",
+        "annual_premium": 575
+      },
+      {
+        "line": "dental",
+        "plan": "Dental Plus",
+        "policy": "DEN-2024-001002",
+        "effective_date": "2026-04-01",
+        "annual_premium": 367
+      }
+    ],
+    "canary": "CASE-CLI0010-CWDEE1",
+    "docs": [
+      {
+        "doc_id": "CLI-0010-01-POL",
+        "filename": "CLI-0010-01-POL.pdf",
+        "title": "Policy schedule - CLI-0010",
+        "doc_type": "POL",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0010/CLI-0010-01-POL.pdf",
+        "pages": 2,
+        "bytes": 134003
+      },
+      {
+        "doc_id": "CLI-0010-02-POL",
+        "filename": "CLI-0010-02-POL.pdf",
+        "title": "Policy schedule - CLI-0010",
+        "doc_type": "POL",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0010/CLI-0010-02-POL.pdf",
+        "pages": 4,
+        "bytes": 145022
+      },
+      {
+        "doc_id": "CLI-0010-03-REC",
+        "filename": "CLI-0010-03-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0010",
+        "doc_type": "REC",
+        "line": "auto",
+        "source": "bank",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0010/CLI-0010-03-REC.pdf",
+        "pages": 1,
+        "bytes": 90676
+      },
+      {
+        "doc_id": "CLI-0010-04-SEPA",
+        "filename": "CLI-0010-04-SEPA.pdf",
+        "title": "SEPA mandate - CLI-0010",
+        "doc_type": "SEPA",
+        "line": "auto",
+        "source": "bank",
+        "date": "2026-02-15",
+        "image_facts": [],
+        "relpath": "customer/CLI-0010/CLI-0010-04-SEPA.pdf",
+        "pages": 1,
+        "bytes": 91252
+      },
+      {
+        "doc_id": "CLI-0010-05-PRE",
+        "filename": "CLI-0010-05-PRE.pdf",
+        "title": "Dental estimate - CLI-0010",
+        "doc_type": "PRE",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-02-24",
+        "image_facts": [
+          "tooth_36",
+          "tooth_24"
+        ],
+        "relpath": "customer/CLI-0010/CLI-0010-05-PRE.pdf",
+        "pages": 2,
+        "bytes": 198141
+      },
+      {
+        "doc_id": "CLI-0010-06-AUT",
+        "filename": "CLI-0010-06-AUT.pdf",
+        "title": "Authorization - CLI-0010",
+        "doc_type": "AUT",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-03-05",
+        "image_facts": [
+          "authorization_code",
+          "stamp_date"
+        ],
+        "relpath": "customer/CLI-0010/CLI-0010-06-AUT.pdf",
+        "pages": 2,
+        "bytes": 179341
+      },
+      {
+        "doc_id": "CLI-0010-07-CLM",
+        "filename": "CLI-0010-07-CLM.pdf",
+        "title": "Claim report - CLI-0010",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-03-14",
+        "image_facts": [
+          "photo_note",
+          "photo_time"
+        ],
+        "relpath": "customer/CLI-0010/CLI-0010-07-CLM.pdf",
+        "pages": 2,
+        "bytes": 186024
+      },
+      {
+        "doc_id": "CLI-0010-08-ADJ",
+        "filename": "CLI-0010-08-ADJ.pdf",
+        "title": "Loss adjuster report - CLI-0010",
+        "doc_type": "ADJ",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-03-23",
+        "image_facts": [
+          "adjuster_item_1",
+          "adjuster_total"
+        ],
+        "relpath": "customer/CLI-0010/CLI-0010-08-ADJ.pdf",
+        "pages": 3,
+        "bytes": 218852
+      }
+    ],
+    "lines": [
+      "auto",
+      "dental"
+    ]
+  },
+  {
+    "customer_id": "CLI-0011",
+    "kind": "individual",
+    "first_name": "Elena",
+    "last_name": "Alonso Rivas",
+    "full_name": "Elena Alonso Rivas",
+    "national_id": "11819737-N",
+    "birth_date": "1985-10-09",
+    "email": "elena.alonso@example.com",
+    "phone": "600 000 011",
+    "address": "Calle Diagonal, 47, A Coruña",
+    "products": [
+      {
+        "line": "health",
+        "plan": "Health Premium",
+        "policy": "HLT-2024-001101",
+        "effective_date": "2026-04-01",
+        "annual_premium": 806
+      }
+    ],
+    "canary": "CASE-CLI0011-0XKJN3",
+    "docs": [
+      {
+        "doc_id": "CLI-0011-01-POL",
+        "filename": "CLI-0011-01-POL.pdf",
+        "title": "Policy schedule - CLI-0011",
+        "doc_type": "POL",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0011/CLI-0011-01-POL.pdf",
+        "pages": 3,
+        "bytes": 138849
+      },
+      {
+        "doc_id": "CLI-0011-02-REC",
+        "filename": "CLI-0011-02-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0011",
+        "doc_type": "REC",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0011/CLI-0011-02-REC.pdf",
+        "pages": 1,
+        "bytes": 88323
+      },
+      {
+        "doc_id": "CLI-0011-03-SEPA",
+        "filename": "CLI-0011-03-SEPA.pdf",
+        "title": "SEPA mandate - CLI-0011",
+        "doc_type": "SEPA",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0011/CLI-0011-03-SEPA.pdf",
+        "pages": 1,
+        "bytes": 90520
+      },
+      {
+        "doc_id": "CLI-0011-04-HQ",
+        "filename": "CLI-0011-04-HQ.pdf",
+        "title": "Health questionnaire - CLI-0011",
+        "doc_type": "HQ",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-02-15",
+        "image_facts": [],
+        "relpath": "customer/CLI-0011/CLI-0011-04-HQ.pdf",
+        "pages": 2,
+        "bytes": 128819
+      },
+      {
+        "doc_id": "CLI-0011-05-CER",
+        "filename": "CLI-0011-05-CER.pdf",
+        "title": "Certificate or card - CLI-0011",
+        "doc_type": "CER",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-02-24",
+        "image_facts": [
+          "card_number",
+          "card_validity"
+        ],
+        "relpath": "customer/CLI-0011/CLI-0011-05-CER.pdf",
+        "pages": 2,
+        "bytes": 162853
+      },
+      {
+        "doc_id": "CLI-0011-06-STM",
+        "filename": "CLI-0011-06-STM.pdf",
+        "title": "Statement of charges - CLI-0011",
+        "doc_type": "STM",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-03-05",
+        "image_facts": [],
+        "relpath": "customer/CLI-0011/CLI-0011-06-STM.pdf",
+        "pages": 1,
+        "bytes": 91300
+      },
+      {
+        "doc_id": "CLI-0011-07-REN",
+        "filename": "CLI-0011-07-REN.pdf",
+        "title": "Renewal letter - CLI-0011",
+        "doc_type": "REN",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-03-14",
+        "image_facts": [],
+        "relpath": "customer/CLI-0011/CLI-0011-07-REN.pdf",
+        "pages": 1,
+        "bytes": 88936
+      },
+      {
+        "doc_id": "CLI-0011-08-COM",
+        "filename": "CLI-0011-08-COM.pdf",
+        "title": "Communication - CLI-0011",
+        "doc_type": "COM",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-03-23",
+        "image_facts": [],
+        "relpath": "customer/CLI-0011/CLI-0011-08-COM.pdf",
+        "pages": 1,
+        "bytes": 87019
+      },
+      {
+        "doc_id": "CLI-0011-09-SUP",
+        "filename": "CLI-0011-09-SUP.pdf",
+        "title": "Policy supplement - CLI-0011",
+        "doc_type": "SUP",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-04-01",
+        "image_facts": [],
+        "relpath": "customer/CLI-0011/CLI-0011-09-SUP.pdf",
+        "pages": 2,
+        "bytes": 126842
+      },
+      {
+        "doc_id": "CLI-0011-10-REC",
+        "filename": "CLI-0011-10-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0011",
+        "doc_type": "REC",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-04-10",
+        "image_facts": [],
+        "relpath": "customer/CLI-0011/CLI-0011-10-REC.pdf",
+        "pages": 1,
+        "bytes": 88327
+      },
+      {
+        "doc_id": "CLI-0011-11-MED",
+        "filename": "CLI-0011-11-MED.pdf",
+        "title": "Medical report - CLI-0011",
+        "doc_type": "MED",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-04-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0011/CLI-0011-11-MED.pdf",
+        "pages": 2,
+        "bytes": 127125
+      },
+      {
+        "doc_id": "CLI-0011-12-COM",
+        "filename": "CLI-0011-12-COM.pdf",
+        "title": "Communication - CLI-0011",
+        "doc_type": "COM",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-04-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0011/CLI-0011-12-COM.pdf",
+        "pages": 1,
+        "bytes": 86686
+      },
+      {
+        "doc_id": "CLI-0011-13-REC",
+        "filename": "CLI-0011-13-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0011",
+        "doc_type": "REC",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-05-07",
+        "image_facts": [],
+        "relpath": "customer/CLI-0011/CLI-0011-13-REC.pdf",
+        "pages": 1,
+        "bytes": 88886
+      },
+      {
+        "doc_id": "CLI-0011-14-STM",
+        "filename": "CLI-0011-14-STM.pdf",
+        "title": "Statement of charges - CLI-0011",
+        "doc_type": "STM",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-05-16",
+        "image_facts": [],
+        "relpath": "customer/CLI-0011/CLI-0011-14-STM.pdf",
+        "pages": 2,
+        "bytes": 128445
+      },
+      {
+        "doc_id": "CLI-0011-15-REN",
+        "filename": "CLI-0011-15-REN.pdf",
+        "title": "Renewal letter - CLI-0011",
+        "doc_type": "REN",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-05-25",
+        "image_facts": [],
+        "relpath": "customer/CLI-0011/CLI-0011-15-REN.pdf",
+        "pages": 1,
+        "bytes": 89206
+      }
+    ],
+    "lines": [
+      "health"
+    ]
+  },
+  {
+    "customer_id": "CLI-0012",
+    "kind": "individual",
+    "first_name": "Pablo",
+    "last_name": "Jiménez Soler",
+    "full_name": "Pablo Jiménez Soler",
+    "national_id": "12850471-P",
+    "birth_date": "1967-02-16",
+    "email": "pablo.jiménez@example.com",
+    "phone": "600 000 012",
+    "address": "Calle Alcalá, 173, Sevilla",
+    "products": [
+      {
+        "line": "home",
+        "plan": "Home Basic",
+        "policy": "HOM-2024-001201",
+        "effective_date": "2026-05-01",
+        "annual_premium": 533
+      },
+      {
+        "line": "life",
+        "plan": "Life Term",
+        "policy": "LIF-2024-001202",
+        "effective_date": "2026-06-01",
+        "annual_premium": 401
+      },
+      {
+        "line": "dental",
+        "plan": "Dental Basic",
+        "policy": "DEN-2024-001203",
+        "effective_date": "2026-07-01",
+        "annual_premium": 283
+      }
+    ],
+    "canary": "CASE-CLI0012-JP9MTW",
+    "docs": [
+      {
+        "doc_id": "CLI-0012-01-POL",
+        "filename": "CLI-0012-01-POL.pdf",
+        "title": "Policy schedule - CLI-0012",
+        "doc_type": "POL",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0012/CLI-0012-01-POL.pdf",
+        "pages": 2,
+        "bytes": 133437
+      },
+      {
+        "doc_id": "CLI-0012-02-POL",
+        "filename": "CLI-0012-02-POL.pdf",
+        "title": "Policy schedule - CLI-0012",
+        "doc_type": "POL",
+        "line": "life",
+        "source": "dms",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0012/CLI-0012-02-POL.pdf",
+        "pages": 3,
+        "bytes": 137535
+      },
+      {
+        "doc_id": "CLI-0012-03-POL",
+        "filename": "CLI-0012-03-POL.pdf",
+        "title": "Policy schedule - CLI-0012",
+        "doc_type": "POL",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0012/CLI-0012-03-POL.pdf",
+        "pages": 4,
+        "bytes": 144858
+      },
+      {
+        "doc_id": "CLI-0012-04-REC",
+        "filename": "CLI-0012-04-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0012",
+        "doc_type": "REC",
+        "line": "home",
+        "source": "bank",
+        "date": "2026-02-15",
+        "image_facts": [],
+        "relpath": "customer/CLI-0012/CLI-0012-04-REC.pdf",
+        "pages": 1,
+        "bytes": 90452
+      },
+      {
+        "doc_id": "CLI-0012-05-SEPA",
+        "filename": "CLI-0012-05-SEPA.pdf",
+        "title": "SEPA mandate - CLI-0012",
+        "doc_type": "SEPA",
+        "line": "home",
+        "source": "bank",
+        "date": "2026-02-24",
+        "image_facts": [],
+        "relpath": "customer/CLI-0012/CLI-0012-05-SEPA.pdf",
+        "pages": 1,
+        "bytes": 92324
+      },
+      {
+        "doc_id": "CLI-0012-06-HQ",
+        "filename": "CLI-0012-06-HQ.pdf",
+        "title": "Health questionnaire - CLI-0012",
+        "doc_type": "HQ",
+        "line": "life",
+        "source": "dms",
+        "date": "2026-03-05",
+        "image_facts": [],
+        "relpath": "customer/CLI-0012/CLI-0012-06-HQ.pdf",
+        "pages": 2,
+        "bytes": 129498
+      },
+      {
+        "doc_id": "CLI-0012-07-PRE",
+        "filename": "CLI-0012-07-PRE.pdf",
+        "title": "Dental estimate - CLI-0012",
+        "doc_type": "PRE",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-03-14",
+        "image_facts": [
+          "tooth_16",
+          "tooth_24"
+        ],
+        "relpath": "customer/CLI-0012/CLI-0012-07-PRE.pdf",
+        "pages": 2,
+        "bytes": 195464
+      }
+    ],
+    "lines": [
+      "dental",
+      "home",
+      "life"
+    ]
+  },
+  {
+    "customer_id": "CLI-0013",
+    "kind": "individual",
+    "first_name": "Irene",
+    "last_name": "Navarro Gil",
+    "full_name": "Irene Navarro Gil",
+    "national_id": "13900756-Q",
+    "birth_date": "1965-08-23",
+    "email": "irene.navarro@example.com",
+    "phone": "600 000 013",
+    "address": "Calle Atocha, 58, Barcelona",
+    "products": [
+      {
+        "line": "health",
+        "plan": "Health Essential",
+        "policy": "HLT-2024-001301",
+        "effective_date": "2026-06-01",
+        "annual_premium": 807
+      },
+      {
+        "line": "funeral",
+        "plan": "Funeral Plus",
+        "policy": "FUN-2024-001302",
+        "effective_date": "2026-07-01",
+        "annual_premium": 217
+      }
+    ],
+    "canary": "CASE-CLI0013-UKUG06",
+    "docs": [
+      {
+        "doc_id": "CLI-0013-01-POL",
+        "filename": "CLI-0013-01-POL.pdf",
+        "title": "Policy schedule - CLI-0013",
+        "doc_type": "POL",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0013/CLI-0013-01-POL.pdf",
+        "pages": 2,
+        "bytes": 131909
+      },
+      {
+        "doc_id": "CLI-0013-02-POL",
+        "filename": "CLI-0013-02-POL.pdf",
+        "title": "Policy schedule - CLI-0013",
+        "doc_type": "POL",
+        "line": "funeral",
+        "source": "dms",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0013/CLI-0013-02-POL.pdf",
+        "pages": 2,
+        "bytes": 131409
+      },
+      {
+        "doc_id": "CLI-0013-03-REC",
+        "filename": "CLI-0013-03-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0013",
+        "doc_type": "REC",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0013/CLI-0013-03-REC.pdf",
+        "pages": 1,
+        "bytes": 89624
+      },
+      {
+        "doc_id": "CLI-0013-04-SEPA",
+        "filename": "CLI-0013-04-SEPA.pdf",
+        "title": "SEPA mandate - CLI-0013",
+        "doc_type": "SEPA",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-02-15",
+        "image_facts": [],
+        "relpath": "customer/CLI-0013/CLI-0013-04-SEPA.pdf",
+        "pages": 1,
+        "bytes": 90962
+      },
+      {
+        "doc_id": "CLI-0013-05-HQ",
+        "filename": "CLI-0013-05-HQ.pdf",
+        "title": "Health questionnaire - CLI-0013",
+        "doc_type": "HQ",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-02-24",
+        "image_facts": [],
+        "relpath": "customer/CLI-0013/CLI-0013-05-HQ.pdf",
+        "pages": 2,
+        "bytes": 129661
+      },
+      {
+        "doc_id": "CLI-0013-06-CER",
+        "filename": "CLI-0013-06-CER.pdf",
+        "title": "Certificate or card - CLI-0013",
+        "doc_type": "CER",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-03-05",
+        "image_facts": [
+          "card_number",
+          "card_validity"
+        ],
+        "relpath": "customer/CLI-0013/CLI-0013-06-CER.pdf",
+        "pages": 2,
+        "bytes": 163301
+      },
+      {
+        "doc_id": "CLI-0013-07-STM",
+        "filename": "CLI-0013-07-STM.pdf",
+        "title": "Statement of charges - CLI-0013",
+        "doc_type": "STM",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-03-14",
+        "image_facts": [],
+        "relpath": "customer/CLI-0013/CLI-0013-07-STM.pdf",
+        "pages": 2,
+        "bytes": 129572
+      },
+      {
+        "doc_id": "CLI-0013-08-REN",
+        "filename": "CLI-0013-08-REN.pdf",
+        "title": "Renewal letter - CLI-0013",
+        "doc_type": "REN",
+        "line": "funeral",
+        "source": "dms",
+        "date": "2026-03-23",
+        "image_facts": [],
+        "relpath": "customer/CLI-0013/CLI-0013-08-REN.pdf",
+        "pages": 1,
+        "bytes": 89506
+      },
+      {
+        "doc_id": "CLI-0013-09-COM",
+        "filename": "CLI-0013-09-COM.pdf",
+        "title": "Communication - CLI-0013",
+        "doc_type": "COM",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-04-01",
+        "image_facts": [],
+        "relpath": "customer/CLI-0013/CLI-0013-09-COM.pdf",
+        "pages": 1,
+        "bytes": 88065
+      },
+      {
+        "doc_id": "CLI-0013-10-SUP",
+        "filename": "CLI-0013-10-SUP.pdf",
+        "title": "Policy supplement - CLI-0013",
+        "doc_type": "SUP",
+        "line": "funeral",
+        "source": "dms",
+        "date": "2026-04-10",
+        "image_facts": [],
+        "relpath": "customer/CLI-0013/CLI-0013-10-SUP.pdf",
+        "pages": 2,
+        "bytes": 128352
+      },
+      {
+        "doc_id": "CLI-0013-11-REC",
+        "filename": "CLI-0013-11-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0013",
+        "doc_type": "REC",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-04-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0013/CLI-0013-11-REC.pdf",
+        "pages": 1,
+        "bytes": 89711
+      }
+    ],
+    "lines": [
+      "funeral",
+      "health"
+    ]
+  },
+  {
+    "customer_id": "CLI-0014",
+    "kind": "individual",
+    "first_name": "Raúl",
+    "last_name": "Vidal Prieto",
+    "full_name": "Raúl Vidal Prieto",
+    "national_id": "14316461-D",
+    "birth_date": "1996-05-05",
+    "email": "raul.vidal@example.com",
+    "phone": "600 000 014",
+    "address": "Calle Serrano, 53, A Coruña",
+    "products": [
+      {
+        "line": "home",
+        "plan": "Home Basic",
+        "policy": "HOM-2024-001401",
+        "effective_date": "2026-07-01",
+        "annual_premium": 382
+      }
+    ],
+    "canary": "CASE-CLI0014-9RMSFW",
+    "docs": [
+      {
+        "doc_id": "CLI-0014-01-POL",
+        "filename": "CLI-0014-01-POL.pdf",
+        "title": "Policy schedule - CLI-0014",
+        "doc_type": "POL",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0014/CLI-0014-01-POL.pdf",
+        "pages": 3,
+        "bytes": 140968
+      },
+      {
+        "doc_id": "CLI-0014-02-REC",
+        "filename": "CLI-0014-02-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0014",
+        "doc_type": "REC",
+        "line": "home",
+        "source": "bank",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0014/CLI-0014-02-REC.pdf",
+        "pages": 1,
+        "bytes": 90096
+      },
+      {
+        "doc_id": "CLI-0014-03-SEPA",
+        "filename": "CLI-0014-03-SEPA.pdf",
+        "title": "SEPA mandate - CLI-0014",
+        "doc_type": "SEPA",
+        "line": "home",
+        "source": "bank",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0014/CLI-0014-03-SEPA.pdf",
+        "pages": 1,
+        "bytes": 91952
+      },
+      {
+        "doc_id": "CLI-0014-04-CLM",
+        "filename": "CLI-0014-04-CLM.pdf",
+        "title": "Claim report - CLI-0014",
+        "doc_type": "CLM",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-02-15",
+        "image_facts": [
+          "photo_note",
+          "photo_time"
+        ],
+        "relpath": "customer/CLI-0014/CLI-0014-04-CLM.pdf",
+        "pages": 2,
+        "bytes": 183742
+      },
+      {
+        "doc_id": "CLI-0014-05-ADJ",
+        "filename": "CLI-0014-05-ADJ.pdf",
+        "title": "Loss adjuster report - CLI-0014",
+        "doc_type": "ADJ",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-02-24",
+        "image_facts": [
+          "adjuster_item_1",
+          "adjuster_total"
+        ],
+        "relpath": "customer/CLI-0014/CLI-0014-05-ADJ.pdf",
+        "pages": 3,
+        "bytes": 217527
+      },
+      {
+        "doc_id": "CLI-0014-06-STM",
+        "filename": "CLI-0014-06-STM.pdf",
+        "title": "Statement of charges - CLI-0014",
+        "doc_type": "STM",
+        "line": "home",
+        "source": "bank",
+        "date": "2026-03-05",
+        "image_facts": [],
+        "relpath": "customer/CLI-0014/CLI-0014-06-STM.pdf",
+        "pages": 1,
+        "bytes": 92832
+      },
+      {
+        "doc_id": "CLI-0014-07-REN",
+        "filename": "CLI-0014-07-REN.pdf",
+        "title": "Renewal letter - CLI-0014",
+        "doc_type": "REN",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-03-14",
+        "image_facts": [],
+        "relpath": "customer/CLI-0014/CLI-0014-07-REN.pdf",
+        "pages": 1,
+        "bytes": 91244
+      },
+      {
+        "doc_id": "CLI-0014-08-COM",
+        "filename": "CLI-0014-08-COM.pdf",
+        "title": "Communication - CLI-0014",
+        "doc_type": "COM",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-03-23",
+        "image_facts": [],
+        "relpath": "customer/CLI-0014/CLI-0014-08-COM.pdf",
+        "pages": 1,
+        "bytes": 89029
+      },
+      {
+        "doc_id": "CLI-0014-09-SUP",
+        "filename": "CLI-0014-09-SUP.pdf",
+        "title": "Policy supplement - CLI-0014",
+        "doc_type": "SUP",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-04-01",
+        "image_facts": [],
+        "relpath": "customer/CLI-0014/CLI-0014-09-SUP.pdf",
+        "pages": 1,
+        "bytes": 91686
+      },
+      {
+        "doc_id": "CLI-0014-10-REC",
+        "filename": "CLI-0014-10-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0014",
+        "doc_type": "REC",
+        "line": "home",
+        "source": "bank",
+        "date": "2026-04-10",
+        "image_facts": [],
+        "relpath": "customer/CLI-0014/CLI-0014-10-REC.pdf",
+        "pages": 1,
+        "bytes": 90092
+      },
+      {
+        "doc_id": "CLI-0014-11-MED",
+        "filename": "CLI-0014-11-MED.pdf",
+        "title": "Medical report - CLI-0014",
+        "doc_type": "MED",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-04-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0014/CLI-0014-11-MED.pdf",
+        "pages": 1,
+        "bytes": 90980
+      },
+      {
+        "doc_id": "CLI-0014-12-COM",
+        "filename": "CLI-0014-12-COM.pdf",
+        "title": "Communication - CLI-0014",
+        "doc_type": "COM",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-04-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0014/CLI-0014-12-COM.pdf",
+        "pages": 1,
+        "bytes": 89032
+      }
+    ],
+    "lines": [
+      "home"
+    ]
+  },
+  {
+    "customer_id": "CLI-0015",
+    "kind": "individual",
+    "first_name": "Beatriz",
+    "last_name": "Castro Nieto",
+    "full_name": "Beatriz Castro Nieto",
+    "national_id": "15947601-F",
+    "birth_date": "1992-04-24",
+    "email": "beatriz.castro@example.com",
+    "phone": "600 000 015",
+    "address": "Calle Arenal, 18, Zaragoza",
+    "products": [
+      {
+        "line": "auto",
+        "plan": "Auto Comprehensive with Deductible",
+        "policy": "AUT-2024-001501",
+        "effective_date": "2026-08-01",
+        "annual_premium": 662
+      }
+    ],
+    "canary": "CASE-CLI0015-PW8MLE",
+    "docs": [
+      {
+        "doc_id": "CLI-0015-01-POL",
+        "filename": "CLI-0015-01-POL.pdf",
+        "title": "Policy schedule - CLI-0015",
+        "doc_type": "POL",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0015/CLI-0015-01-POL.pdf",
+        "pages": 4,
+        "bytes": 149110
+      },
+      {
+        "doc_id": "CLI-0015-02-REC",
+        "filename": "CLI-0015-02-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0015",
+        "doc_type": "REC",
+        "line": "auto",
+        "source": "bank",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0015/CLI-0015-02-REC.pdf",
+        "pages": 1,
+        "bytes": 90416
+      },
+      {
+        "doc_id": "CLI-0015-03-SEPA",
+        "filename": "CLI-0015-03-SEPA.pdf",
+        "title": "SEPA mandate - CLI-0015",
+        "doc_type": "SEPA",
+        "line": "auto",
+        "source": "bank",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0015/CLI-0015-03-SEPA.pdf",
+        "pages": 1,
+        "bytes": 92174
+      },
+      {
+        "doc_id": "CLI-0015-04-CLM",
+        "filename": "CLI-0015-04-CLM.pdf",
+        "title": "Claim report - CLI-0015",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-02-15",
+        "image_facts": [
+          "photo_note",
+          "photo_time"
+        ],
+        "relpath": "customer/CLI-0015/CLI-0015-04-CLM.pdf",
+        "pages": 2,
+        "bytes": 182897
+      },
+      {
+        "doc_id": "CLI-0015-05-ADJ",
+        "filename": "CLI-0015-05-ADJ.pdf",
+        "title": "Loss adjuster report - CLI-0015",
+        "doc_type": "ADJ",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-02-24",
+        "image_facts": [
+          "adjuster_item_1",
+          "adjuster_total"
+        ],
+        "relpath": "customer/CLI-0015/CLI-0015-05-ADJ.pdf",
+        "pages": 3,
+        "bytes": 214493
+      },
+      {
+        "doc_id": "CLI-0015-06-STM",
+        "filename": "CLI-0015-06-STM.pdf",
+        "title": "Statement of charges - CLI-0015",
+        "doc_type": "STM",
+        "line": "auto",
+        "source": "bank",
+        "date": "2026-03-05",
+        "image_facts": [],
+        "relpath": "customer/CLI-0015/CLI-0015-06-STM.pdf",
+        "pages": 1,
+        "bytes": 92505
+      },
+      {
+        "doc_id": "CLI-0015-07-REN",
+        "filename": "CLI-0015-07-REN.pdf",
+        "title": "Renewal letter - CLI-0015",
+        "doc_type": "REN",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-03-14",
+        "image_facts": [],
+        "relpath": "customer/CLI-0015/CLI-0015-07-REN.pdf",
+        "pages": 1,
+        "bytes": 90873
+      },
+      {
+        "doc_id": "CLI-0015-08-COM",
+        "filename": "CLI-0015-08-COM.pdf",
+        "title": "Communication - CLI-0015",
+        "doc_type": "COM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-03-23",
+        "image_facts": [],
+        "relpath": "customer/CLI-0015/CLI-0015-08-COM.pdf",
+        "pages": 1,
+        "bytes": 88853
+      },
+      {
+        "doc_id": "CLI-0015-09-SUP",
+        "filename": "CLI-0015-09-SUP.pdf",
+        "title": "Policy supplement - CLI-0015",
+        "doc_type": "SUP",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-04-01",
+        "image_facts": [],
+        "relpath": "customer/CLI-0015/CLI-0015-09-SUP.pdf",
+        "pages": 2,
+        "bytes": 131176
+      },
+      {
+        "doc_id": "CLI-0015-10-REC",
+        "filename": "CLI-0015-10-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0015",
+        "doc_type": "REC",
+        "line": "auto",
+        "source": "bank",
+        "date": "2026-04-10",
+        "image_facts": [],
+        "relpath": "customer/CLI-0015/CLI-0015-10-REC.pdf",
+        "pages": 1,
+        "bytes": 90701
+      }
+    ],
+    "lines": [
+      "auto"
+    ]
+  },
+  {
+    "customer_id": "CLI-0016",
+    "kind": "individual",
+    "first_name": "Hugo",
+    "last_name": "Iglesias Rey",
+    "full_name": "Hugo Iglesias Rey",
+    "national_id": "16865516-J",
+    "birth_date": "1994-06-23",
+    "email": "hugo.iglesias@example.com",
+    "phone": "600 000 016",
+    "address": "Calle Balmes, 50, Sevilla",
+    "products": [
+      {
+        "line": "life",
+        "plan": "Life Term",
+        "policy": "LIF-2024-001601",
+        "effective_date": "2026-09-01",
+        "annual_premium": 340
+      },
+      {
+        "line": "home",
+        "plan": "Home Basic",
+        "policy": "HOM-2024-001602",
+        "effective_date": "2026-01-01",
+        "annual_premium": 496
+      },
+      {
+        "line": "health",
+        "plan": "Health Complete",
+        "policy": "HLT-2024-001603",
+        "effective_date": "2026-02-01",
+        "annual_premium": 882
+      }
+    ],
+    "canary": "CASE-CLI0016-G019DB",
+    "docs": [
+      {
+        "doc_id": "CLI-0016-01-POL",
+        "filename": "CLI-0016-01-POL.pdf",
+        "title": "Policy schedule - CLI-0016",
+        "doc_type": "POL",
+        "line": "life",
+        "source": "dms",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0016/CLI-0016-01-POL.pdf",
+        "pages": 4,
+        "bytes": 145195
+      },
+      {
+        "doc_id": "CLI-0016-02-POL",
+        "filename": "CLI-0016-02-POL.pdf",
+        "title": "Policy schedule - CLI-0016",
+        "doc_type": "POL",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0016/CLI-0016-02-POL.pdf",
+        "pages": 4,
+        "bytes": 146443
+      },
+      {
+        "doc_id": "CLI-0016-03-POL",
+        "filename": "CLI-0016-03-POL.pdf",
+        "title": "Policy schedule - CLI-0016",
+        "doc_type": "POL",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0016/CLI-0016-03-POL.pdf",
+        "pages": 3,
+        "bytes": 137743
+      },
+      {
+        "doc_id": "CLI-0016-04-REC",
+        "filename": "CLI-0016-04-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0016",
+        "doc_type": "REC",
+        "line": "life",
+        "source": "bank",
+        "date": "2026-02-15",
+        "image_facts": [],
+        "relpath": "customer/CLI-0016/CLI-0016-04-REC.pdf",
+        "pages": 1,
+        "bytes": 89716
+      },
+      {
+        "doc_id": "CLI-0016-05-SEPA",
+        "filename": "CLI-0016-05-SEPA.pdf",
+        "title": "SEPA mandate - CLI-0016",
+        "doc_type": "SEPA",
+        "line": "life",
+        "source": "bank",
+        "date": "2026-02-24",
+        "image_facts": [],
+        "relpath": "customer/CLI-0016/CLI-0016-05-SEPA.pdf",
+        "pages": 1,
+        "bytes": 90427
+      },
+      {
+        "doc_id": "CLI-0016-06-HQ",
+        "filename": "CLI-0016-06-HQ.pdf",
+        "title": "Health questionnaire - CLI-0016",
+        "doc_type": "HQ",
+        "line": "life",
+        "source": "dms",
+        "date": "2026-03-05",
+        "image_facts": [],
+        "relpath": "customer/CLI-0016/CLI-0016-06-HQ.pdf",
+        "pages": 2,
+        "bytes": 129239
+      },
+      {
+        "doc_id": "CLI-0016-07-CLM",
+        "filename": "CLI-0016-07-CLM.pdf",
+        "title": "Claim report - CLI-0016",
+        "doc_type": "CLM",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-03-14",
+        "image_facts": [
+          "photo_note",
+          "photo_time"
+        ],
+        "relpath": "customer/CLI-0016/CLI-0016-07-CLM.pdf",
+        "pages": 2,
+        "bytes": 185314
+      },
+      {
+        "doc_id": "CLI-0016-08-ADJ",
+        "filename": "CLI-0016-08-ADJ.pdf",
+        "title": "Loss adjuster report - CLI-0016",
+        "doc_type": "ADJ",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-03-23",
+        "image_facts": [
+          "adjuster_item_1",
+          "adjuster_total"
+        ],
+        "relpath": "customer/CLI-0016/CLI-0016-08-ADJ.pdf",
+        "pages": 3,
+        "bytes": 213440
+      },
+      {
+        "doc_id": "CLI-0016-09-CER",
+        "filename": "CLI-0016-09-CER.pdf",
+        "title": "Certificate or card - CLI-0016",
+        "doc_type": "CER",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-04-01",
+        "image_facts": [
+          "card_number",
+          "card_validity"
+        ],
+        "relpath": "customer/CLI-0016/CLI-0016-09-CER.pdf",
+        "pages": 2,
+        "bytes": 163179
+      },
+      {
+        "doc_id": "CLI-0016-10-BEN",
+        "filename": "CLI-0016-10-BEN.pdf",
+        "title": "Beneficiary designation - CLI-0016",
+        "doc_type": "BEN",
+        "line": "life",
+        "source": "dms",
+        "date": "2026-04-10",
+        "image_facts": [],
+        "relpath": "customer/CLI-0016/CLI-0016-10-BEN.pdf",
+        "pages": 1,
+        "bytes": 92036
+      },
+      {
+        "doc_id": "CLI-0016-11-STM",
+        "filename": "CLI-0016-11-STM.pdf",
+        "title": "Statement of charges - CLI-0016",
+        "doc_type": "STM",
+        "line": "life",
+        "source": "bank",
+        "date": "2026-04-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0016/CLI-0016-11-STM.pdf",
+        "pages": 2,
+        "bytes": 129261
+      },
+      {
+        "doc_id": "CLI-0016-12-REN",
+        "filename": "CLI-0016-12-REN.pdf",
+        "title": "Renewal letter - CLI-0016",
+        "doc_type": "REN",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-04-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0016/CLI-0016-12-REN.pdf",
+        "pages": 1,
+        "bytes": 90798
+      },
+      {
+        "doc_id": "CLI-0016-13-COM",
+        "filename": "CLI-0016-13-COM.pdf",
+        "title": "Communication - CLI-0016",
+        "doc_type": "COM",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-05-07",
+        "image_facts": [],
+        "relpath": "customer/CLI-0016/CLI-0016-13-COM.pdf",
+        "pages": 1,
+        "bytes": 87937
+      }
+    ],
+    "lines": [
+      "health",
+      "home",
+      "life"
+    ]
+  },
+  {
+    "customer_id": "CLI-0017",
+    "kind": "individual",
+    "first_name": "Clara",
+    "last_name": "Medina Flores",
+    "full_name": "Clara Medina Flores",
+    "national_id": "17799447-M",
+    "birth_date": "1988-08-10",
+    "email": "clara.medina@example.com",
+    "phone": "600 000 017",
+    "address": "Calle Gran Vía, 40, Bilbao",
+    "products": [
+      {
+        "line": "funeral",
+        "plan": "Funeral Plus",
+        "policy": "FUN-2024-001701",
+        "effective_date": "2026-01-01",
+        "annual_premium": 280
+      },
+      {
+        "line": "dental",
+        "plan": "Dental Family",
+        "policy": "DEN-2024-001702",
+        "effective_date": "2026-02-01",
+        "annual_premium": 399
+      }
+    ],
+    "canary": "CASE-CLI0017-F20G7G",
+    "docs": [
+      {
+        "doc_id": "CLI-0017-01-POL",
+        "filename": "CLI-0017-01-POL.pdf",
+        "title": "Policy schedule - CLI-0017",
+        "doc_type": "POL",
+        "line": "funeral",
+        "source": "dms",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0017/CLI-0017-01-POL.pdf",
+        "pages": 4,
+        "bytes": 146020
+      },
+      {
+        "doc_id": "CLI-0017-02-POL",
+        "filename": "CLI-0017-02-POL.pdf",
+        "title": "Policy schedule - CLI-0017",
+        "doc_type": "POL",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0017/CLI-0017-02-POL.pdf",
+        "pages": 3,
+        "bytes": 137289
+      },
+      {
+        "doc_id": "CLI-0017-03-REC",
+        "filename": "CLI-0017-03-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0017",
+        "doc_type": "REC",
+        "line": "funeral",
+        "source": "bank",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0017/CLI-0017-03-REC.pdf",
+        "pages": 1,
+        "bytes": 89240
+      },
+      {
+        "doc_id": "CLI-0017-04-SEPA",
+        "filename": "CLI-0017-04-SEPA.pdf",
+        "title": "SEPA mandate - CLI-0017",
+        "doc_type": "SEPA",
+        "line": "funeral",
+        "source": "bank",
+        "date": "2026-02-15",
+        "image_facts": [],
+        "relpath": "customer/CLI-0017/CLI-0017-04-SEPA.pdf",
+        "pages": 1,
+        "bytes": 90663
+      },
+      {
+        "doc_id": "CLI-0017-05-PRE",
+        "filename": "CLI-0017-05-PRE.pdf",
+        "title": "Dental estimate - CLI-0017",
+        "doc_type": "PRE",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-02-24",
+        "image_facts": [
+          "tooth_26",
+          "tooth_44"
+        ],
+        "relpath": "customer/CLI-0017/CLI-0017-05-PRE.pdf",
+        "pages": 2,
+        "bytes": 195436
+      },
+      {
+        "doc_id": "CLI-0017-06-AUT",
+        "filename": "CLI-0017-06-AUT.pdf",
+        "title": "Authorization - CLI-0017",
+        "doc_type": "AUT",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-03-05",
+        "image_facts": [
+          "authorization_code",
+          "stamp_date"
+        ],
+        "relpath": "customer/CLI-0017/CLI-0017-06-AUT.pdf",
+        "pages": 2,
+        "bytes": 179477
+      },
+      {
+        "doc_id": "CLI-0017-07-CER",
+        "filename": "CLI-0017-07-CER.pdf",
+        "title": "Certificate or card - CLI-0017",
+        "doc_type": "CER",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-03-14",
+        "image_facts": [
+          "card_number",
+          "card_validity"
+        ],
+        "relpath": "customer/CLI-0017/CLI-0017-07-CER.pdf",
+        "pages": 2,
+        "bytes": 163731
+      },
+      {
+        "doc_id": "CLI-0017-08-STM",
+        "filename": "CLI-0017-08-STM.pdf",
+        "title": "Statement of charges - CLI-0017",
+        "doc_type": "STM",
+        "line": "funeral",
+        "source": "bank",
+        "date": "2026-03-23",
+        "image_facts": [],
+        "relpath": "customer/CLI-0017/CLI-0017-08-STM.pdf",
+        "pages": 1,
+        "bytes": 91862
+      },
+      {
+        "doc_id": "CLI-0017-09-REN",
+        "filename": "CLI-0017-09-REN.pdf",
+        "title": "Renewal letter - CLI-0017",
+        "doc_type": "REN",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-04-01",
+        "image_facts": [],
+        "relpath": "customer/CLI-0017/CLI-0017-09-REN.pdf",
+        "pages": 1,
+        "bytes": 89238
+      }
+    ],
+    "lines": [
+      "dental",
+      "funeral"
+    ]
+  },
+  {
+    "customer_id": "CLI-0018",
+    "kind": "individual",
+    "first_name": "Álvaro",
+    "last_name": "Herrero Peña",
+    "full_name": "Álvaro Herrero Peña",
+    "national_id": "18714855-L",
+    "birth_date": "1979-11-20",
+    "email": "alvaro.herrero@example.com",
+    "phone": "600 000 018",
+    "address": "Calle Goya, 27, A Coruña",
+    "products": [
+      {
+        "line": "health",
+        "plan": "Health Essential",
+        "policy": "HLT-2024-001801",
+        "effective_date": "2026-02-01",
+        "annual_premium": 798
+      },
+      {
+        "line": "auto",
+        "plan": "Auto Comprehensive with Deductible",
+        "policy": "AUT-2024-001802",
+        "effective_date": "2026-03-01",
+        "annual_premium": 705
+      }
+    ],
+    "canary": "CASE-CLI0018-6554EW",
+    "docs": [
+      {
+        "doc_id": "CLI-0018-01-POL",
+        "filename": "CLI-0018-01-POL.pdf",
+        "title": "Policy schedule - CLI-0018",
+        "doc_type": "POL",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0018/CLI-0018-01-POL.pdf",
+        "pages": 3,
+        "bytes": 139998
+      },
+      {
+        "doc_id": "CLI-0018-02-POL",
+        "filename": "CLI-0018-02-POL.pdf",
+        "title": "Policy schedule - CLI-0018",
+        "doc_type": "POL",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0018/CLI-0018-02-POL.pdf",
+        "pages": 3,
+        "bytes": 140930
+      },
+      {
+        "doc_id": "CLI-0018-03-REC",
+        "filename": "CLI-0018-03-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0018",
+        "doc_type": "REC",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0018/CLI-0018-03-REC.pdf",
+        "pages": 1,
+        "bytes": 90167
+      },
+      {
+        "doc_id": "CLI-0018-04-SEPA",
+        "filename": "CLI-0018-04-SEPA.pdf",
+        "title": "SEPA mandate - CLI-0018",
+        "doc_type": "SEPA",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-02-15",
+        "image_facts": [],
+        "relpath": "customer/CLI-0018/CLI-0018-04-SEPA.pdf",
+        "pages": 1,
+        "bytes": 91788
+      },
+      {
+        "doc_id": "CLI-0018-05-HQ",
+        "filename": "CLI-0018-05-HQ.pdf",
+        "title": "Health questionnaire - CLI-0018",
+        "doc_type": "HQ",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-02-24",
+        "image_facts": [],
+        "relpath": "customer/CLI-0018/CLI-0018-05-HQ.pdf",
+        "pages": 2,
+        "bytes": 130311
+      },
+      {
+        "doc_id": "CLI-0018-06-CLM",
+        "filename": "CLI-0018-06-CLM.pdf",
+        "title": "Claim report - CLI-0018",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-03-05",
+        "image_facts": [
+          "photo_note",
+          "photo_time"
+        ],
+        "relpath": "customer/CLI-0018/CLI-0018-06-CLM.pdf",
+        "pages": 2,
+        "bytes": 181078
+      },
+      {
+        "doc_id": "CLI-0018-07-ADJ",
+        "filename": "CLI-0018-07-ADJ.pdf",
+        "title": "Loss adjuster report - CLI-0018",
+        "doc_type": "ADJ",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-03-14",
+        "image_facts": [
+          "adjuster_item_1",
+          "adjuster_total"
+        ],
+        "relpath": "customer/CLI-0018/CLI-0018-07-ADJ.pdf",
+        "pages": 3,
+        "bytes": 216376
+      },
+      {
+        "doc_id": "CLI-0018-08-CER",
+        "filename": "CLI-0018-08-CER.pdf",
+        "title": "Certificate or card - CLI-0018",
+        "doc_type": "CER",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-03-23",
+        "image_facts": [
+          "card_number",
+          "card_validity"
+        ],
+        "relpath": "customer/CLI-0018/CLI-0018-08-CER.pdf",
+        "pages": 2,
+        "bytes": 167906
+      },
+      {
+        "doc_id": "CLI-0018-09-STM",
+        "filename": "CLI-0018-09-STM.pdf",
+        "title": "Statement of charges - CLI-0018",
+        "doc_type": "STM",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-04-01",
+        "image_facts": [],
+        "relpath": "customer/CLI-0018/CLI-0018-09-STM.pdf",
+        "pages": 1,
+        "bytes": 92202
+      },
+      {
+        "doc_id": "CLI-0018-10-REN",
+        "filename": "CLI-0018-10-REN.pdf",
+        "title": "Renewal letter - CLI-0018",
+        "doc_type": "REN",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-04-10",
+        "image_facts": [],
+        "relpath": "customer/CLI-0018/CLI-0018-10-REN.pdf",
+        "pages": 1,
+        "bytes": 91017
+      },
+      {
+        "doc_id": "CLI-0018-11-COM",
+        "filename": "CLI-0018-11-COM.pdf",
+        "title": "Communication - CLI-0018",
+        "doc_type": "COM",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-04-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0018/CLI-0018-11-COM.pdf",
+        "pages": 1,
+        "bytes": 88388
+      },
+      {
+        "doc_id": "CLI-0018-12-SUP",
+        "filename": "CLI-0018-12-SUP.pdf",
+        "title": "Policy supplement - CLI-0018",
+        "doc_type": "SUP",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-04-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0018/CLI-0018-12-SUP.pdf",
+        "pages": 1,
+        "bytes": 91937
+      },
+      {
+        "doc_id": "CLI-0018-13-REC",
+        "filename": "CLI-0018-13-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0018",
+        "doc_type": "REC",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-05-07",
+        "image_facts": [],
+        "relpath": "customer/CLI-0018/CLI-0018-13-REC.pdf",
+        "pages": 1,
+        "bytes": 90428
+      },
+      {
+        "doc_id": "CLI-0018-14-MED",
+        "filename": "CLI-0018-14-MED.pdf",
+        "title": "Medical report - CLI-0018",
+        "doc_type": "MED",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-05-16",
+        "image_facts": [],
+        "relpath": "customer/CLI-0018/CLI-0018-14-MED.pdf",
+        "pages": 2,
+        "bytes": 131883
+      }
+    ],
+    "lines": [
+      "auto",
+      "health"
+    ]
+  },
+  {
+    "customer_id": "CLI-0019",
+    "kind": "individual",
+    "first_name": "Noelia",
+    "last_name": "Cruz Bravo",
+    "full_name": "Noelia Cruz Bravo",
+    "national_id": "19535909-H",
+    "birth_date": "1967-02-10",
+    "email": "noelia.cruz@example.com",
+    "phone": "600 000 019",
+    "address": "Calle Valencia, 76, Madrid",
+    "products": [
+      {
+        "line": "funeral",
+        "plan": "Funeral Family",
+        "policy": "FUN-2024-001901",
+        "effective_date": "2026-03-01",
+        "annual_premium": 363
+      },
+      {
+        "line": "home",
+        "plan": "Home Basic",
+        "policy": "HOM-2024-001902",
+        "effective_date": "2026-04-01",
+        "annual_premium": 528
+      },
+      {
+        "line": "health",
+        "plan": "Health Premium",
+        "policy": "HLT-2024-001903",
+        "effective_date": "2026-05-01",
+        "annual_premium": 764
+      }
+    ],
+    "canary": "CASE-CLI0019-2EKQRU",
+    "docs": [
+      {
+        "doc_id": "CLI-0019-01-POL",
+        "filename": "CLI-0019-01-POL.pdf",
+        "title": "Policy schedule - CLI-0019",
+        "doc_type": "POL",
+        "line": "funeral",
+        "source": "dms",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0019/CLI-0019-01-POL.pdf",
+        "pages": 4,
+        "bytes": 146669
+      },
+      {
+        "doc_id": "CLI-0019-02-POL",
+        "filename": "CLI-0019-02-POL.pdf",
+        "title": "Policy schedule - CLI-0019",
+        "doc_type": "POL",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0019/CLI-0019-02-POL.pdf",
+        "pages": 4,
+        "bytes": 147203
+      },
+      {
+        "doc_id": "CLI-0019-03-POL",
+        "filename": "CLI-0019-03-POL.pdf",
+        "title": "Policy schedule - CLI-0019",
+        "doc_type": "POL",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0019/CLI-0019-03-POL.pdf",
+        "pages": 2,
+        "bytes": 131695
+      },
+      {
+        "doc_id": "CLI-0019-04-REC",
+        "filename": "CLI-0019-04-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0019",
+        "doc_type": "REC",
+        "line": "funeral",
+        "source": "bank",
+        "date": "2026-02-15",
+        "image_facts": [],
+        "relpath": "customer/CLI-0019/CLI-0019-04-REC.pdf",
+        "pages": 1,
+        "bytes": 90254
+      },
+      {
+        "doc_id": "CLI-0019-05-SEPA",
+        "filename": "CLI-0019-05-SEPA.pdf",
+        "title": "SEPA mandate - CLI-0019",
+        "doc_type": "SEPA",
+        "line": "funeral",
+        "source": "bank",
+        "date": "2026-02-24",
+        "image_facts": [],
+        "relpath": "customer/CLI-0019/CLI-0019-05-SEPA.pdf",
+        "pages": 1,
+        "bytes": 91716
+      },
+      {
+        "doc_id": "CLI-0019-06-HQ",
+        "filename": "CLI-0019-06-HQ.pdf",
+        "title": "Health questionnaire - CLI-0019",
+        "doc_type": "HQ",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-03-05",
+        "image_facts": [],
+        "relpath": "customer/CLI-0019/CLI-0019-06-HQ.pdf",
+        "pages": 2,
+        "bytes": 130948
+      },
+      {
+        "doc_id": "CLI-0019-07-CLM",
+        "filename": "CLI-0019-07-CLM.pdf",
+        "title": "Claim report - CLI-0019",
+        "doc_type": "CLM",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-03-14",
+        "image_facts": [
+          "photo_note",
+          "photo_time"
+        ],
+        "relpath": "customer/CLI-0019/CLI-0019-07-CLM.pdf",
+        "pages": 2,
+        "bytes": 187054
+      },
+      {
+        "doc_id": "CLI-0019-08-ADJ",
+        "filename": "CLI-0019-08-ADJ.pdf",
+        "title": "Loss adjuster report - CLI-0019",
+        "doc_type": "ADJ",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-03-23",
+        "image_facts": [
+          "adjuster_item_1",
+          "adjuster_total"
+        ],
+        "relpath": "customer/CLI-0019/CLI-0019-08-ADJ.pdf",
+        "pages": 3,
+        "bytes": 218058
+      }
+    ],
+    "lines": [
+      "funeral",
+      "health",
+      "home"
+    ]
+  },
+  {
+    "customer_id": "CLI-0020",
+    "kind": "individual",
+    "first_name": "Óscar",
+    "last_name": "Marín Santos",
+    "full_name": "Óscar Marín Santos",
+    "national_id": "20276669-Z",
+    "birth_date": "1984-02-04",
+    "email": "oscar.marín@example.com",
+    "phone": "600 000 020",
+    "address": "Calle Serrano, 100, A Coruña",
+    "products": [
+      {
+        "line": "auto",
+        "plan": "Auto Comprehensive with Deductible",
+        "policy": "AUT-2024-002001",
+        "effective_date": "2026-04-01",
+        "annual_premium": 615
+      },
+      {
+        "line": "home",
+        "plan": "Home Basic",
+        "policy": "HOM-2024-002002",
+        "effective_date": "2026-05-01",
+        "annual_premium": 489
+      }
+    ],
+    "canary": "CASE-CLI0020-CPMS55",
+    "docs": [
+      {
+        "doc_id": "CLI-0020-01-POL",
+        "filename": "CLI-0020-01-POL.pdf",
+        "title": "Policy schedule - CLI-0020",
+        "doc_type": "POL",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0020/CLI-0020-01-POL.pdf",
+        "pages": 4,
+        "bytes": 147499
+      },
+      {
+        "doc_id": "CLI-0020-02-POL",
+        "filename": "CLI-0020-02-POL.pdf",
+        "title": "Policy schedule - CLI-0020",
+        "doc_type": "POL",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0020/CLI-0020-02-POL.pdf",
+        "pages": 4,
+        "bytes": 146336
+      },
+      {
+        "doc_id": "CLI-0020-03-REC",
+        "filename": "CLI-0020-03-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0020",
+        "doc_type": "REC",
+        "line": "auto",
+        "source": "bank",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0020/CLI-0020-03-REC.pdf",
+        "pages": 1,
+        "bytes": 90177
+      },
+      {
+        "doc_id": "CLI-0020-04-SEPA",
+        "filename": "CLI-0020-04-SEPA.pdf",
+        "title": "SEPA mandate - CLI-0020",
+        "doc_type": "SEPA",
+        "line": "auto",
+        "source": "bank",
+        "date": "2026-02-15",
+        "image_facts": [],
+        "relpath": "customer/CLI-0020/CLI-0020-04-SEPA.pdf",
+        "pages": 1,
+        "bytes": 91683
+      },
+      {
+        "doc_id": "CLI-0020-05-CLM",
+        "filename": "CLI-0020-05-CLM.pdf",
+        "title": "Claim report - CLI-0020",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-02-24",
+        "image_facts": [
+          "photo_note",
+          "photo_time"
+        ],
+        "relpath": "customer/CLI-0020/CLI-0020-05-CLM.pdf",
+        "pages": 2,
+        "bytes": 183649
+      },
+      {
+        "doc_id": "CLI-0020-06-ADJ",
+        "filename": "CLI-0020-06-ADJ.pdf",
+        "title": "Loss adjuster report - CLI-0020",
+        "doc_type": "ADJ",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-03-05",
+        "image_facts": [
+          "adjuster_item_1",
+          "adjuster_total"
+        ],
+        "relpath": "customer/CLI-0020/CLI-0020-06-ADJ.pdf",
+        "pages": 3,
+        "bytes": 215172
+      },
+      {
+        "doc_id": "CLI-0020-07-STM",
+        "filename": "CLI-0020-07-STM.pdf",
+        "title": "Statement of charges - CLI-0020",
+        "doc_type": "STM",
+        "line": "auto",
+        "source": "bank",
+        "date": "2026-03-14",
+        "image_facts": [],
+        "relpath": "customer/CLI-0020/CLI-0020-07-STM.pdf",
+        "pages": 2,
+        "bytes": 133052
+      },
+      {
+        "doc_id": "CLI-0020-08-REN",
+        "filename": "CLI-0020-08-REN.pdf",
+        "title": "Renewal letter - CLI-0020",
+        "doc_type": "REN",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-03-23",
+        "image_facts": [],
+        "relpath": "customer/CLI-0020/CLI-0020-08-REN.pdf",
+        "pages": 1,
+        "bytes": 90832
+      },
+      {
+        "doc_id": "CLI-0020-09-COM",
+        "filename": "CLI-0020-09-COM.pdf",
+        "title": "Communication - CLI-0020",
+        "doc_type": "COM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-04-01",
+        "image_facts": [],
+        "relpath": "customer/CLI-0020/CLI-0020-09-COM.pdf",
+        "pages": 1,
+        "bytes": 88844
+      },
+      {
+        "doc_id": "CLI-0020-10-SUP",
+        "filename": "CLI-0020-10-SUP.pdf",
+        "title": "Policy supplement - CLI-0020",
+        "doc_type": "SUP",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-04-10",
+        "image_facts": [],
+        "relpath": "customer/CLI-0020/CLI-0020-10-SUP.pdf",
+        "pages": 1,
+        "bytes": 91262
+      },
+      {
+        "doc_id": "CLI-0020-11-REC",
+        "filename": "CLI-0020-11-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0020",
+        "doc_type": "REC",
+        "line": "auto",
+        "source": "bank",
+        "date": "2026-04-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0020/CLI-0020-11-REC.pdf",
+        "pages": 1,
+        "bytes": 90864
+      }
+    ],
+    "lines": [
+      "auto",
+      "home"
+    ]
+  },
+  {
+    "customer_id": "CLI-0021",
+    "kind": "individual",
+    "first_name": "Nuria",
+    "last_name": "Blanco Pascual",
+    "full_name": "Nuria Blanco Pascual",
+    "national_id": "21550407-H",
+    "birth_date": "1989-12-01",
+    "email": "nuria.blanco@example.com",
+    "phone": "600 000 021",
+    "address": "Calle Serrano, 4, Barcelona",
+    "products": [
+      {
+        "line": "health",
+        "plan": "Health Essential",
+        "policy": "HLT-2024-002101",
+        "effective_date": "2026-05-01",
+        "annual_premium": 923
+      },
+      {
+        "line": "home",
+        "plan": "Home Basic",
+        "policy": "HOM-2024-002102",
+        "effective_date": "2026-06-01",
+        "annual_premium": 444
+      }
+    ],
+    "canary": "CASE-CLI0021-5LB0X6",
+    "docs": [
+      {
+        "doc_id": "CLI-0021-01-POL",
+        "filename": "CLI-0021-01-POL.pdf",
+        "title": "Policy schedule - CLI-0021",
+        "doc_type": "POL",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0021/CLI-0021-01-POL.pdf",
+        "pages": 4,
+        "bytes": 145440
+      },
+      {
+        "doc_id": "CLI-0021-02-POL",
+        "filename": "CLI-0021-02-POL.pdf",
+        "title": "Policy schedule - CLI-0021",
+        "doc_type": "POL",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0021/CLI-0021-02-POL.pdf",
+        "pages": 3,
+        "bytes": 138727
+      },
+      {
+        "doc_id": "CLI-0021-03-REC",
+        "filename": "CLI-0021-03-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0021",
+        "doc_type": "REC",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0021/CLI-0021-03-REC.pdf",
+        "pages": 1,
+        "bytes": 89522
+      },
+      {
+        "doc_id": "CLI-0021-04-SEPA",
+        "filename": "CLI-0021-04-SEPA.pdf",
+        "title": "SEPA mandate - CLI-0021",
+        "doc_type": "SEPA",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-02-15",
+        "image_facts": [],
+        "relpath": "customer/CLI-0021/CLI-0021-04-SEPA.pdf",
+        "pages": 1,
+        "bytes": 91158
+      },
+      {
+        "doc_id": "CLI-0021-05-HQ",
+        "filename": "CLI-0021-05-HQ.pdf",
+        "title": "Health questionnaire - CLI-0021",
+        "doc_type": "HQ",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-02-24",
+        "image_facts": [],
+        "relpath": "customer/CLI-0021/CLI-0021-05-HQ.pdf",
+        "pages": 3,
+        "bytes": 136214
+      },
+      {
+        "doc_id": "CLI-0021-06-CLM",
+        "filename": "CLI-0021-06-CLM.pdf",
+        "title": "Claim report - CLI-0021",
+        "doc_type": "CLM",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-03-05",
+        "image_facts": [
+          "photo_note",
+          "photo_time"
+        ],
+        "relpath": "customer/CLI-0021/CLI-0021-06-CLM.pdf",
+        "pages": 2,
+        "bytes": 182591
+      },
+      {
+        "doc_id": "CLI-0021-07-ADJ",
+        "filename": "CLI-0021-07-ADJ.pdf",
+        "title": "Loss adjuster report - CLI-0021",
+        "doc_type": "ADJ",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-03-14",
+        "image_facts": [
+          "adjuster_item_1",
+          "adjuster_total"
+        ],
+        "relpath": "customer/CLI-0021/CLI-0021-07-ADJ.pdf",
+        "pages": 3,
+        "bytes": 214638
+      },
+      {
+        "doc_id": "CLI-0021-08-CER",
+        "filename": "CLI-0021-08-CER.pdf",
+        "title": "Certificate or card - CLI-0021",
+        "doc_type": "CER",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-03-23",
+        "image_facts": [
+          "card_number",
+          "card_validity"
+        ],
+        "relpath": "customer/CLI-0021/CLI-0021-08-CER.pdf",
+        "pages": 2,
+        "bytes": 167122
+      },
+      {
+        "doc_id": "CLI-0021-09-STM",
+        "filename": "CLI-0021-09-STM.pdf",
+        "title": "Statement of charges - CLI-0021",
+        "doc_type": "STM",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-04-01",
+        "image_facts": [],
+        "relpath": "customer/CLI-0021/CLI-0021-09-STM.pdf",
+        "pages": 2,
+        "bytes": 128831
+      },
+      {
+        "doc_id": "CLI-0021-10-REN",
+        "filename": "CLI-0021-10-REN.pdf",
+        "title": "Renewal letter - CLI-0021",
+        "doc_type": "REN",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-04-10",
+        "image_facts": [],
+        "relpath": "customer/CLI-0021/CLI-0021-10-REN.pdf",
+        "pages": 1,
+        "bytes": 90048
+      },
+      {
+        "doc_id": "CLI-0021-11-COM",
+        "filename": "CLI-0021-11-COM.pdf",
+        "title": "Communication - CLI-0021",
+        "doc_type": "COM",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-04-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0021/CLI-0021-11-COM.pdf",
+        "pages": 1,
+        "bytes": 87909
+      },
+      {
+        "doc_id": "CLI-0021-12-SUP",
+        "filename": "CLI-0021-12-SUP.pdf",
+        "title": "Policy supplement - CLI-0021",
+        "doc_type": "SUP",
+        "line": "home",
+        "source": "dms",
+        "date": "2026-04-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0021/CLI-0021-12-SUP.pdf",
+        "pages": 1,
+        "bytes": 90784
+      }
+    ],
+    "lines": [
+      "health",
+      "home"
+    ]
+  },
+  {
+    "customer_id": "CLI-0022",
+    "kind": "individual",
+    "first_name": "Víctor",
+    "last_name": "Fuentes Calvo",
+    "full_name": "Víctor Fuentes Calvo",
+    "national_id": "22951871-S",
+    "birth_date": "1988-03-09",
+    "email": "victor.fuentes@example.com",
+    "phone": "600 000 022",
+    "address": "Calle Atocha, 61, Bilbao",
+    "products": [
+      {
+        "line": "health",
+        "plan": "Health Essential",
+        "policy": "HLT-2024-002201",
+        "effective_date": "2026-06-01",
+        "annual_premium": 829
+      }
+    ],
+    "canary": "CASE-CLI0022-P60BUT",
+    "docs": [
+      {
+        "doc_id": "CLI-0022-01-POL",
+        "filename": "CLI-0022-01-POL.pdf",
+        "title": "Policy schedule - CLI-0022",
+        "doc_type": "POL",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0022/CLI-0022-01-POL.pdf",
+        "pages": 4,
+        "bytes": 145359
+      },
+      {
+        "doc_id": "CLI-0022-02-REC",
+        "filename": "CLI-0022-02-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0022",
+        "doc_type": "REC",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0022/CLI-0022-02-REC.pdf",
+        "pages": 1,
+        "bytes": 89389
+      },
+      {
+        "doc_id": "CLI-0022-03-SEPA",
+        "filename": "CLI-0022-03-SEPA.pdf",
+        "title": "SEPA mandate - CLI-0022",
+        "doc_type": "SEPA",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0022/CLI-0022-03-SEPA.pdf",
+        "pages": 1,
+        "bytes": 91331
+      },
+      {
+        "doc_id": "CLI-0022-04-HQ",
+        "filename": "CLI-0022-04-HQ.pdf",
+        "title": "Health questionnaire - CLI-0022",
+        "doc_type": "HQ",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-02-15",
+        "image_facts": [],
+        "relpath": "customer/CLI-0022/CLI-0022-04-HQ.pdf",
+        "pages": 3,
+        "bytes": 136806
+      },
+      {
+        "doc_id": "CLI-0022-05-CER",
+        "filename": "CLI-0022-05-CER.pdf",
+        "title": "Certificate or card - CLI-0022",
+        "doc_type": "CER",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-02-24",
+        "image_facts": [
+          "card_number",
+          "card_validity"
+        ],
+        "relpath": "customer/CLI-0022/CLI-0022-05-CER.pdf",
+        "pages": 2,
+        "bytes": 164398
+      },
+      {
+        "doc_id": "CLI-0022-06-STM",
+        "filename": "CLI-0022-06-STM.pdf",
+        "title": "Statement of charges - CLI-0022",
+        "doc_type": "STM",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-03-05",
+        "image_facts": [],
+        "relpath": "customer/CLI-0022/CLI-0022-06-STM.pdf",
+        "pages": 2,
+        "bytes": 129938
+      },
+      {
+        "doc_id": "CLI-0022-07-REN",
+        "filename": "CLI-0022-07-REN.pdf",
+        "title": "Renewal letter - CLI-0022",
+        "doc_type": "REN",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-03-14",
+        "image_facts": [],
+        "relpath": "customer/CLI-0022/CLI-0022-07-REN.pdf",
+        "pages": 1,
+        "bytes": 90059
+      },
+      {
+        "doc_id": "CLI-0022-08-COM",
+        "filename": "CLI-0022-08-COM.pdf",
+        "title": "Communication - CLI-0022",
+        "doc_type": "COM",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-03-23",
+        "image_facts": [],
+        "relpath": "customer/CLI-0022/CLI-0022-08-COM.pdf",
+        "pages": 1,
+        "bytes": 88422
+      },
+      {
+        "doc_id": "CLI-0022-09-SUP",
+        "filename": "CLI-0022-09-SUP.pdf",
+        "title": "Policy supplement - CLI-0022",
+        "doc_type": "SUP",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-04-01",
+        "image_facts": [],
+        "relpath": "customer/CLI-0022/CLI-0022-09-SUP.pdf",
+        "pages": 1,
+        "bytes": 90748
+      },
+      {
+        "doc_id": "CLI-0022-10-REC",
+        "filename": "CLI-0022-10-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0022",
+        "doc_type": "REC",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-04-10",
+        "image_facts": [],
+        "relpath": "customer/CLI-0022/CLI-0022-10-REC.pdf",
+        "pages": 1,
+        "bytes": 89806
+      }
+    ],
+    "lines": [
+      "health"
+    ]
+  },
+  {
+    "customer_id": "CLI-0023",
+    "kind": "individual",
+    "first_name": "Sara",
+    "last_name": "Reyes Lara",
+    "full_name": "Sara Reyes Lara",
+    "national_id": "23274625-B",
+    "birth_date": "1970-01-14",
+    "email": "sara.reyes@example.com",
+    "phone": "600 000 023",
+    "address": "Calle Valencia, 117, Madrid",
+    "products": [
+      {
+        "line": "life",
+        "plan": "Life Term",
+        "policy": "LIF-2024-002301",
+        "effective_date": "2026-07-01",
+        "annual_premium": 411
+      },
+      {
+        "line": "dental",
+        "plan": "Dental Basic",
+        "policy": "DEN-2024-002302",
+        "effective_date": "2026-08-01",
+        "annual_premium": 389
+      }
+    ],
+    "canary": "CASE-CLI0023-B63N9J",
+    "docs": [
+      {
+        "doc_id": "CLI-0023-01-POL",
+        "filename": "CLI-0023-01-POL.pdf",
+        "title": "Policy schedule - CLI-0023",
+        "doc_type": "POL",
+        "line": "life",
+        "source": "dms",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0023/CLI-0023-01-POL.pdf",
+        "pages": 2,
+        "bytes": 131213
+      },
+      {
+        "doc_id": "CLI-0023-02-POL",
+        "filename": "CLI-0023-02-POL.pdf",
+        "title": "Policy schedule - CLI-0023",
+        "doc_type": "POL",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0023/CLI-0023-02-POL.pdf",
+        "pages": 3,
+        "bytes": 138266
+      },
+      {
+        "doc_id": "CLI-0023-03-REC",
+        "filename": "CLI-0023-03-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0023",
+        "doc_type": "REC",
+        "line": "life",
+        "source": "bank",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0023/CLI-0023-03-REC.pdf",
+        "pages": 1,
+        "bytes": 89118
+      },
+      {
+        "doc_id": "CLI-0023-04-SEPA",
+        "filename": "CLI-0023-04-SEPA.pdf",
+        "title": "SEPA mandate - CLI-0023",
+        "doc_type": "SEPA",
+        "line": "life",
+        "source": "bank",
+        "date": "2026-02-15",
+        "image_facts": [],
+        "relpath": "customer/CLI-0023/CLI-0023-04-SEPA.pdf",
+        "pages": 1,
+        "bytes": 91031
+      },
+      {
+        "doc_id": "CLI-0023-05-HQ",
+        "filename": "CLI-0023-05-HQ.pdf",
+        "title": "Health questionnaire - CLI-0023",
+        "doc_type": "HQ",
+        "line": "life",
+        "source": "dms",
+        "date": "2026-02-24",
+        "image_facts": [],
+        "relpath": "customer/CLI-0023/CLI-0023-05-HQ.pdf",
+        "pages": 3,
+        "bytes": 135481
+      },
+      {
+        "doc_id": "CLI-0023-06-PRE",
+        "filename": "CLI-0023-06-PRE.pdf",
+        "title": "Dental estimate - CLI-0023",
+        "doc_type": "PRE",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-03-05",
+        "image_facts": [
+          "tooth_26",
+          "tooth_34"
+        ],
+        "relpath": "customer/CLI-0023/CLI-0023-06-PRE.pdf",
+        "pages": 2,
+        "bytes": 198527
+      },
+      {
+        "doc_id": "CLI-0023-07-AUT",
+        "filename": "CLI-0023-07-AUT.pdf",
+        "title": "Authorization - CLI-0023",
+        "doc_type": "AUT",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-03-14",
+        "image_facts": [
+          "authorization_code",
+          "stamp_date"
+        ],
+        "relpath": "customer/CLI-0023/CLI-0023-07-AUT.pdf",
+        "pages": 2,
+        "bytes": 179604
+      },
+      {
+        "doc_id": "CLI-0023-08-CER",
+        "filename": "CLI-0023-08-CER.pdf",
+        "title": "Certificate or card - CLI-0023",
+        "doc_type": "CER",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-03-23",
+        "image_facts": [
+          "card_number",
+          "card_validity"
+        ],
+        "relpath": "customer/CLI-0023/CLI-0023-08-CER.pdf",
+        "pages": 2,
+        "bytes": 166776
+      },
+      {
+        "doc_id": "CLI-0023-09-BEN",
+        "filename": "CLI-0023-09-BEN.pdf",
+        "title": "Beneficiary designation - CLI-0023",
+        "doc_type": "BEN",
+        "line": "life",
+        "source": "dms",
+        "date": "2026-04-01",
+        "image_facts": [],
+        "relpath": "customer/CLI-0023/CLI-0023-09-BEN.pdf",
+        "pages": 1,
+        "bytes": 92352
+      },
+      {
+        "doc_id": "CLI-0023-10-STM",
+        "filename": "CLI-0023-10-STM.pdf",
+        "title": "Statement of charges - CLI-0023",
+        "doc_type": "STM",
+        "line": "life",
+        "source": "bank",
+        "date": "2026-04-10",
+        "image_facts": [],
+        "relpath": "customer/CLI-0023/CLI-0023-10-STM.pdf",
+        "pages": 2,
+        "bytes": 128771
+      },
+      {
+        "doc_id": "CLI-0023-11-REN",
+        "filename": "CLI-0023-11-REN.pdf",
+        "title": "Renewal letter - CLI-0023",
+        "doc_type": "REN",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-04-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0023/CLI-0023-11-REN.pdf",
+        "pages": 1,
+        "bytes": 90483
+      },
+      {
+        "doc_id": "CLI-0023-12-COM",
+        "filename": "CLI-0023-12-COM.pdf",
+        "title": "Communication - CLI-0023",
+        "doc_type": "COM",
+        "line": "life",
+        "source": "dms",
+        "date": "2026-04-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0023/CLI-0023-12-COM.pdf",
+        "pages": 1,
+        "bytes": 87976
+      },
+      {
+        "doc_id": "CLI-0023-13-SUP",
+        "filename": "CLI-0023-13-SUP.pdf",
+        "title": "Policy supplement - CLI-0023",
+        "doc_type": "SUP",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-05-07",
+        "image_facts": [],
+        "relpath": "customer/CLI-0023/CLI-0023-13-SUP.pdf",
+        "pages": 1,
+        "bytes": 91705
+      }
+    ],
+    "lines": [
+      "dental",
+      "life"
+    ]
+  },
+  {
+    "customer_id": "CLI-0024",
+    "kind": "individual",
+    "first_name": "Diego",
+    "last_name": "Méndez Arias",
+    "full_name": "Diego Méndez Arias",
+    "national_id": "24881448-R",
+    "birth_date": "1991-04-28",
+    "email": "diego.méndez@example.com",
+    "phone": "600 000 024",
+    "address": "Calle Diagonal, 26, Málaga",
+    "products": [
+      {
+        "line": "auto",
+        "plan": "Auto Third Party Extended",
+        "policy": "AUT-2024-002401",
+        "effective_date": "2026-08-01",
+        "annual_premium": 699
+      }
+    ],
+    "canary": "CASE-CLI0024-YL907W",
+    "docs": [
+      {
+        "doc_id": "CLI-0024-01-POL",
+        "filename": "CLI-0024-01-POL.pdf",
+        "title": "Policy schedule - CLI-0024",
+        "doc_type": "POL",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0024/CLI-0024-01-POL.pdf",
+        "pages": 4,
+        "bytes": 147452
+      },
+      {
+        "doc_id": "CLI-0024-02-REC",
+        "filename": "CLI-0024-02-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0024",
+        "doc_type": "REC",
+        "line": "auto",
+        "source": "bank",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0024/CLI-0024-02-REC.pdf",
+        "pages": 1,
+        "bytes": 90733
+      },
+      {
+        "doc_id": "CLI-0024-03-SEPA",
+        "filename": "CLI-0024-03-SEPA.pdf",
+        "title": "SEPA mandate - CLI-0024",
+        "doc_type": "SEPA",
+        "line": "auto",
+        "source": "bank",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0024/CLI-0024-03-SEPA.pdf",
+        "pages": 1,
+        "bytes": 91945
+      },
+      {
+        "doc_id": "CLI-0024-04-CLM",
+        "filename": "CLI-0024-04-CLM.pdf",
+        "title": "Claim report - CLI-0024",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-02-15",
+        "image_facts": [
+          "photo_note",
+          "photo_time"
+        ],
+        "relpath": "customer/CLI-0024/CLI-0024-04-CLM.pdf",
+        "pages": 2,
+        "bytes": 185050
+      },
+      {
+        "doc_id": "CLI-0024-05-ADJ",
+        "filename": "CLI-0024-05-ADJ.pdf",
+        "title": "Loss adjuster report - CLI-0024",
+        "doc_type": "ADJ",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-02-24",
+        "image_facts": [
+          "adjuster_item_1",
+          "adjuster_total"
+        ],
+        "relpath": "customer/CLI-0024/CLI-0024-05-ADJ.pdf",
+        "pages": 3,
+        "bytes": 216304
+      },
+      {
+        "doc_id": "CLI-0024-06-STM",
+        "filename": "CLI-0024-06-STM.pdf",
+        "title": "Statement of charges - CLI-0024",
+        "doc_type": "STM",
+        "line": "auto",
+        "source": "bank",
+        "date": "2026-03-05",
+        "image_facts": [],
+        "relpath": "customer/CLI-0024/CLI-0024-06-STM.pdf",
+        "pages": 1,
+        "bytes": 93771
+      },
+      {
+        "doc_id": "CLI-0024-07-REN",
+        "filename": "CLI-0024-07-REN.pdf",
+        "title": "Renewal letter - CLI-0024",
+        "doc_type": "REN",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-03-14",
+        "image_facts": [],
+        "relpath": "customer/CLI-0024/CLI-0024-07-REN.pdf",
+        "pages": 1,
+        "bytes": 91256
+      },
+      {
+        "doc_id": "CLI-0024-08-COM",
+        "filename": "CLI-0024-08-COM.pdf",
+        "title": "Communication - CLI-0024",
+        "doc_type": "COM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-03-23",
+        "image_facts": [],
+        "relpath": "customer/CLI-0024/CLI-0024-08-COM.pdf",
+        "pages": 1,
+        "bytes": 89402
+      },
+      {
+        "doc_id": "CLI-0024-09-SUP",
+        "filename": "CLI-0024-09-SUP.pdf",
+        "title": "Policy supplement - CLI-0024",
+        "doc_type": "SUP",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-04-01",
+        "image_facts": [],
+        "relpath": "customer/CLI-0024/CLI-0024-09-SUP.pdf",
+        "pages": 1,
+        "bytes": 91760
+      }
+    ],
+    "lines": [
+      "auto"
+    ]
+  },
+  {
+    "customer_id": "CLI-0025",
+    "kind": "individual",
+    "first_name": "Carmen",
+    "last_name": "Aguilar Roca",
+    "full_name": "Carmen Aguilar Roca",
+    "national_id": "25379509-G",
+    "birth_date": "1985-02-19",
+    "email": "carmen.aguilar@example.com",
+    "phone": "600 000 025",
+    "address": "Calle Atocha, 61, Barcelona",
+    "products": [
+      {
+        "line": "dental",
+        "plan": "Dental Basic",
+        "policy": "DEN-2024-002501",
+        "effective_date": "2026-09-01",
+        "annual_premium": 276
+      },
+      {
+        "line": "health",
+        "plan": "Health Complete",
+        "policy": "HLT-2024-002502",
+        "effective_date": "2026-01-01",
+        "annual_premium": 845
+      },
+      {
+        "line": "funeral",
+        "plan": "Funeral Family",
+        "policy": "FUN-2024-002503",
+        "effective_date": "2026-02-01",
+        "annual_premium": 242
+      }
+    ],
+    "canary": "CASE-CLI0025-LKI65X",
+    "docs": [
+      {
+        "doc_id": "CLI-0025-01-POL",
+        "filename": "CLI-0025-01-POL.pdf",
+        "title": "Policy schedule - CLI-0025",
+        "doc_type": "POL",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0025/CLI-0025-01-POL.pdf",
+        "pages": 3,
+        "bytes": 139598
+      },
+      {
+        "doc_id": "CLI-0025-02-POL",
+        "filename": "CLI-0025-02-POL.pdf",
+        "title": "Policy schedule - CLI-0025",
+        "doc_type": "POL",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0025/CLI-0025-02-POL.pdf",
+        "pages": 3,
+        "bytes": 137937
+      },
+      {
+        "doc_id": "CLI-0025-03-POL",
+        "filename": "CLI-0025-03-POL.pdf",
+        "title": "Policy schedule - CLI-0025",
+        "doc_type": "POL",
+        "line": "funeral",
+        "source": "dms",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0025/CLI-0025-03-POL.pdf",
+        "pages": 3,
+        "bytes": 137945
+      },
+      {
+        "doc_id": "CLI-0025-04-REC",
+        "filename": "CLI-0025-04-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0025",
+        "doc_type": "REC",
+        "line": "dental",
+        "source": "bank",
+        "date": "2026-02-15",
+        "image_facts": [],
+        "relpath": "customer/CLI-0025/CLI-0025-04-REC.pdf",
+        "pages": 1,
+        "bytes": 90128
+      },
+      {
+        "doc_id": "CLI-0025-05-SEPA",
+        "filename": "CLI-0025-05-SEPA.pdf",
+        "title": "SEPA mandate - CLI-0025",
+        "doc_type": "SEPA",
+        "line": "dental",
+        "source": "bank",
+        "date": "2026-02-24",
+        "image_facts": [],
+        "relpath": "customer/CLI-0025/CLI-0025-05-SEPA.pdf",
+        "pages": 1,
+        "bytes": 91590
+      },
+      {
+        "doc_id": "CLI-0025-06-HQ",
+        "filename": "CLI-0025-06-HQ.pdf",
+        "title": "Health questionnaire - CLI-0025",
+        "doc_type": "HQ",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-03-05",
+        "image_facts": [],
+        "relpath": "customer/CLI-0025/CLI-0025-06-HQ.pdf",
+        "pages": 3,
+        "bytes": 136950
+      },
+      {
+        "doc_id": "CLI-0025-07-PRE",
+        "filename": "CLI-0025-07-PRE.pdf",
+        "title": "Dental estimate - CLI-0025",
+        "doc_type": "PRE",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-03-14",
+        "image_facts": [
+          "tooth_26",
+          "tooth_24"
+        ],
+        "relpath": "customer/CLI-0025/CLI-0025-07-PRE.pdf",
+        "pages": 2,
+        "bytes": 195962
+      },
+      {
+        "doc_id": "CLI-0025-08-AUT",
+        "filename": "CLI-0025-08-AUT.pdf",
+        "title": "Authorization - CLI-0025",
+        "doc_type": "AUT",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-03-23",
+        "image_facts": [
+          "authorization_code",
+          "stamp_date"
+        ],
+        "relpath": "customer/CLI-0025/CLI-0025-08-AUT.pdf",
+        "pages": 2,
+        "bytes": 178962
+      },
+      {
+        "doc_id": "CLI-0025-09-CER",
+        "filename": "CLI-0025-09-CER.pdf",
+        "title": "Certificate or card - CLI-0025",
+        "doc_type": "CER",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-04-01",
+        "image_facts": [
+          "card_number",
+          "card_validity"
+        ],
+        "relpath": "customer/CLI-0025/CLI-0025-09-CER.pdf",
+        "pages": 2,
+        "bytes": 167287
+      },
+      {
+        "doc_id": "CLI-0025-10-STM",
+        "filename": "CLI-0025-10-STM.pdf",
+        "title": "Statement of charges - CLI-0025",
+        "doc_type": "STM",
+        "line": "dental",
+        "source": "bank",
+        "date": "2026-04-10",
+        "image_facts": [],
+        "relpath": "customer/CLI-0025/CLI-0025-10-STM.pdf",
+        "pages": 1,
+        "bytes": 92290
+      },
+      {
+        "doc_id": "CLI-0025-11-REN",
+        "filename": "CLI-0025-11-REN.pdf",
+        "title": "Renewal letter - CLI-0025",
+        "doc_type": "REN",
+        "line": "health",
+        "source": "dms",
+        "date": "2026-04-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0025/CLI-0025-11-REN.pdf",
+        "pages": 1,
+        "bytes": 90147
+      },
+      {
+        "doc_id": "CLI-0025-12-COM",
+        "filename": "CLI-0025-12-COM.pdf",
+        "title": "Communication - CLI-0025",
+        "doc_type": "COM",
+        "line": "funeral",
+        "source": "dms",
+        "date": "2026-04-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0025/CLI-0025-12-COM.pdf",
+        "pages": 1,
+        "bytes": 88582
+      },
+      {
+        "doc_id": "CLI-0025-13-SUP",
+        "filename": "CLI-0025-13-SUP.pdf",
+        "title": "Policy supplement - CLI-0025",
+        "doc_type": "SUP",
+        "line": "dental",
+        "source": "dms",
+        "date": "2026-05-07",
+        "image_facts": [],
+        "relpath": "customer/CLI-0025/CLI-0025-13-SUP.pdf",
+        "pages": 1,
+        "bytes": 90794
+      },
+      {
+        "doc_id": "CLI-0025-14-REC",
+        "filename": "CLI-0025-14-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0025",
+        "doc_type": "REC",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-05-16",
+        "image_facts": [],
+        "relpath": "customer/CLI-0025/CLI-0025-14-REC.pdf",
+        "pages": 1,
+        "bytes": 89697
+      }
+    ],
+    "lines": [
+      "dental",
+      "funeral",
+      "health"
+    ]
+  },
+  {
+    "customer_id": "CLI-0099",
+    "kind": "business",
+    "first_name": "Talleres",
+    "last_name": "Hermanos Ruiz, S.L.",
+    "full_name": "Talleres Hermanos Ruiz, S.L.",
+    "national_id": "B00990099",
+    "birth_date": "1998-04-16",
+    "email": "administracion.talleresruiz@example.com",
+    "phone": "900 000 099",
+    "address": "Polígono Demo, Nave 12, Zaragoza",
+    "products": [
+      {
+        "line": "auto",
+        "plan": "Auto Comprehensive with Deductible",
+        "policy": "AUT-2024-099001",
+        "effective_date": "2026-01-01",
+        "annual_premium": 18450
+      },
+      {
+        "line": "health",
+        "plan": "Health Complete",
+        "policy": "HLT-2024-099002",
+        "effective_date": "2026-01-01",
+        "annual_premium": 27600
+      }
+    ],
+    "canary": "CASE-CLI0099-C8DBT0",
+    "docs": [
+      {
+        "doc_id": "CLI-0099-01-REC",
+        "filename": "CLI-0099-01-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0099",
+        "doc_type": "REC",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-01-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-01-REC.pdf",
+        "pages": 2,
+        "bytes": 128434
+      },
+      {
+        "doc_id": "CLI-0099-02-REC",
+        "filename": "CLI-0099-02-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0099",
+        "doc_type": "REC",
+        "line": "auto",
+        "source": "bank",
+        "date": "2026-01-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-02-REC.pdf",
+        "pages": 2,
+        "bytes": 131563
+      },
+      {
+        "doc_id": "CLI-0099-03-REC",
+        "filename": "CLI-0099-03-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0099",
+        "doc_type": "REC",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-02-06",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-03-REC.pdf",
+        "pages": 2,
+        "bytes": 127119
+      },
+      {
+        "doc_id": "CLI-0099-04-REC",
+        "filename": "CLI-0099-04-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0099",
+        "doc_type": "REC",
+        "line": "auto",
+        "source": "bank",
+        "date": "2026-02-15",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-04-REC.pdf",
+        "pages": 2,
+        "bytes": 131427
+      },
+      {
+        "doc_id": "CLI-0099-05-REC",
+        "filename": "CLI-0099-05-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0099",
+        "doc_type": "REC",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-02-24",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-05-REC.pdf",
+        "pages": 2,
+        "bytes": 127628
+      },
+      {
+        "doc_id": "CLI-0099-06-REC",
+        "filename": "CLI-0099-06-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0099",
+        "doc_type": "REC",
+        "line": "auto",
+        "source": "bank",
+        "date": "2026-03-05",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-06-REC.pdf",
+        "pages": 2,
+        "bytes": 131728
+      },
+      {
+        "doc_id": "CLI-0099-07-REC",
+        "filename": "CLI-0099-07-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0099",
+        "doc_type": "REC",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-03-14",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-07-REC.pdf",
+        "pages": 2,
+        "bytes": 127740
+      },
+      {
+        "doc_id": "CLI-0099-08-REC",
+        "filename": "CLI-0099-08-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0099",
+        "doc_type": "REC",
+        "line": "auto",
+        "source": "bank",
+        "date": "2026-03-23",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-08-REC.pdf",
+        "pages": 2,
+        "bytes": 131558
+      },
+      {
+        "doc_id": "CLI-0099-09-REC",
+        "filename": "CLI-0099-09-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0099",
+        "doc_type": "REC",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-04-01",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-09-REC.pdf",
+        "pages": 2,
+        "bytes": 127669
+      },
+      {
+        "doc_id": "CLI-0099-10-REC",
+        "filename": "CLI-0099-10-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0099",
+        "doc_type": "REC",
+        "line": "auto",
+        "source": "bank",
+        "date": "2026-04-10",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-10-REC.pdf",
+        "pages": 2,
+        "bytes": 131154
+      },
+      {
+        "doc_id": "CLI-0099-11-REC",
+        "filename": "CLI-0099-11-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0099",
+        "doc_type": "REC",
+        "line": "health",
+        "source": "bank",
+        "date": "2026-04-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-11-REC.pdf",
+        "pages": 2,
+        "bytes": 128078
+      },
+      {
+        "doc_id": "CLI-0099-12-REC",
+        "filename": "CLI-0099-12-REC.pdf",
+        "title": "Direct-debit receipt - CLI-0099",
+        "doc_type": "REC",
+        "line": "auto",
+        "source": "bank",
+        "date": "2026-04-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-12-REC.pdf",
+        "pages": 2,
+        "bytes": 131561
+      },
+      {
+        "doc_id": "CLI-0099-13-CLM",
+        "filename": "CLI-0099-13-CLM.pdf",
+        "title": "Claim report - CLI-0099",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-05-07",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-13-CLM.pdf",
+        "pages": 3,
+        "bytes": 137847
+      },
+      {
+        "doc_id": "CLI-0099-14-CLM",
+        "filename": "CLI-0099-14-CLM.pdf",
+        "title": "Claim report - CLI-0099",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-05-16",
+        "image_facts": [
+          "fleet_note",
+          "fleet_time"
+        ],
+        "relpath": "customer/CLI-0099/CLI-0099-14-CLM.pdf",
+        "pages": 3,
+        "bytes": 225146
+      },
+      {
+        "doc_id": "CLI-0099-15-CLM",
+        "filename": "CLI-0099-15-CLM.pdf",
+        "title": "Claim report - CLI-0099",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-05-25",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-15-CLM.pdf",
+        "pages": 3,
+        "bytes": 137514
+      },
+      {
+        "doc_id": "CLI-0099-16-CLM",
+        "filename": "CLI-0099-16-CLM.pdf",
+        "title": "Claim report - CLI-0099",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-06-03",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-16-CLM.pdf",
+        "pages": 3,
+        "bytes": 137865
+      },
+      {
+        "doc_id": "CLI-0099-17-CLM",
+        "filename": "CLI-0099-17-CLM.pdf",
+        "title": "Claim report - CLI-0099",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-06-12",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-17-CLM.pdf",
+        "pages": 3,
+        "bytes": 137245
+      },
+      {
+        "doc_id": "CLI-0099-18-CLM",
+        "filename": "CLI-0099-18-CLM.pdf",
+        "title": "Claim report - CLI-0099",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-06-21",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-18-CLM.pdf",
+        "pages": 3,
+        "bytes": 137243
+      },
+      {
+        "doc_id": "CLI-0099-19-CLM",
+        "filename": "CLI-0099-19-CLM.pdf",
+        "title": "Claim report - CLI-0099",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-06-30",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-19-CLM.pdf",
+        "pages": 3,
+        "bytes": 137873
+      },
+      {
+        "doc_id": "CLI-0099-20-CLM",
+        "filename": "CLI-0099-20-CLM.pdf",
+        "title": "Claim report - CLI-0099",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-07-09",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-20-CLM.pdf",
+        "pages": 3,
+        "bytes": 137536
+      },
+      {
+        "doc_id": "CLI-0099-21-CLM",
+        "filename": "CLI-0099-21-CLM.pdf",
+        "title": "Claim report - CLI-0099",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-07-18",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-21-CLM.pdf",
+        "pages": 3,
+        "bytes": 137957
+      },
+      {
+        "doc_id": "CLI-0099-22-CLM",
+        "filename": "CLI-0099-22-CLM.pdf",
+        "title": "Claim report - CLI-0099",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-07-27",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-22-CLM.pdf",
+        "pages": 3,
+        "bytes": 137544
+      },
+      {
+        "doc_id": "CLI-0099-23-CLM",
+        "filename": "CLI-0099-23-CLM.pdf",
+        "title": "Claim report - CLI-0099",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-08-05",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-23-CLM.pdf",
+        "pages": 3,
+        "bytes": 137935
+      },
+      {
+        "doc_id": "CLI-0099-24-CLM",
+        "filename": "CLI-0099-24-CLM.pdf",
+        "title": "Claim report - CLI-0099",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-08-14",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-24-CLM.pdf",
+        "pages": 3,
+        "bytes": 137656
+      },
+      {
+        "doc_id": "CLI-0099-25-CLM",
+        "filename": "CLI-0099-25-CLM.pdf",
+        "title": "Claim report - CLI-0099",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-08-23",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-25-CLM.pdf",
+        "pages": 3,
+        "bytes": 138303
+      },
+      {
+        "doc_id": "CLI-0099-26-CLM",
+        "filename": "CLI-0099-26-CLM.pdf",
+        "title": "Claim report - CLI-0099",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-09-01",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-26-CLM.pdf",
+        "pages": 3,
+        "bytes": 137239
+      },
+      {
+        "doc_id": "CLI-0099-27-CLM",
+        "filename": "CLI-0099-27-CLM.pdf",
+        "title": "Claim report - CLI-0099",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-09-10",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-27-CLM.pdf",
+        "pages": 3,
+        "bytes": 137246
+      },
+      {
+        "doc_id": "CLI-0099-28-CLM",
+        "filename": "CLI-0099-28-CLM.pdf",
+        "title": "Claim report - CLI-0099",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-09-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-28-CLM.pdf",
+        "pages": 3,
+        "bytes": 137243
+      },
+      {
+        "doc_id": "CLI-0099-29-CLM",
+        "filename": "CLI-0099-29-CLM.pdf",
+        "title": "Claim report - CLI-0099",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-09-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-29-CLM.pdf",
+        "pages": 3,
+        "bytes": 137650
+      },
+      {
+        "doc_id": "CLI-0099-30-CLM",
+        "filename": "CLI-0099-30-CLM.pdf",
+        "title": "Claim report - CLI-0099",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-10-07",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-30-CLM.pdf",
+        "pages": 3,
+        "bytes": 137547
+      },
+      {
+        "doc_id": "CLI-0099-31-CLM",
+        "filename": "CLI-0099-31-CLM.pdf",
+        "title": "Claim report - CLI-0099",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-10-16",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-31-CLM.pdf",
+        "pages": 3,
+        "bytes": 137248
+      },
+      {
+        "doc_id": "CLI-0099-32-CLM",
+        "filename": "CLI-0099-32-CLM.pdf",
+        "title": "Claim report - CLI-0099",
+        "doc_type": "CLM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-10-25",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-32-CLM.pdf",
+        "pages": 3,
+        "bytes": 137518
+      },
+      {
+        "doc_id": "CLI-0099-33-ADJ",
+        "filename": "CLI-0099-33-ADJ.pdf",
+        "title": "Loss adjuster report - CLI-0099",
+        "doc_type": "ADJ",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-11-03",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-33-ADJ.pdf",
+        "pages": 6,
+        "bytes": 159415
+      },
+      {
+        "doc_id": "CLI-0099-34-ADJ",
+        "filename": "CLI-0099-34-ADJ.pdf",
+        "title": "Loss adjuster report - CLI-0099",
+        "doc_type": "ADJ",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-11-12",
+        "image_facts": [
+          "fleet_total"
+        ],
+        "relpath": "customer/CLI-0099/CLI-0099-34-ADJ.pdf",
+        "pages": 6,
+        "bytes": 232813
+      },
+      {
+        "doc_id": "CLI-0099-35-ADJ",
+        "filename": "CLI-0099-35-ADJ.pdf",
+        "title": "Loss adjuster report - CLI-0099",
+        "doc_type": "ADJ",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-11-21",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-35-ADJ.pdf",
+        "pages": 6,
+        "bytes": 158798
+      },
+      {
+        "doc_id": "CLI-0099-36-ADJ",
+        "filename": "CLI-0099-36-ADJ.pdf",
+        "title": "Loss adjuster report - CLI-0099",
+        "doc_type": "ADJ",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-11-30",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-36-ADJ.pdf",
+        "pages": 6,
+        "bytes": 159424
+      },
+      {
+        "doc_id": "CLI-0099-37-ADJ",
+        "filename": "CLI-0099-37-ADJ.pdf",
+        "title": "Loss adjuster report - CLI-0099",
+        "doc_type": "ADJ",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-12-09",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-37-ADJ.pdf",
+        "pages": 6,
+        "bytes": 158758
+      },
+      {
+        "doc_id": "CLI-0099-38-ADJ",
+        "filename": "CLI-0099-38-ADJ.pdf",
+        "title": "Loss adjuster report - CLI-0099",
+        "doc_type": "ADJ",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-12-18",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-38-ADJ.pdf",
+        "pages": 6,
+        "bytes": 159166
+      },
+      {
+        "doc_id": "CLI-0099-39-ADJ",
+        "filename": "CLI-0099-39-ADJ.pdf",
+        "title": "Loss adjuster report - CLI-0099",
+        "doc_type": "ADJ",
+        "line": "auto",
+        "source": "dms",
+        "date": "2026-12-27",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-39-ADJ.pdf",
+        "pages": 6,
+        "bytes": 159057
+      },
+      {
+        "doc_id": "CLI-0099-40-ADJ",
+        "filename": "CLI-0099-40-ADJ.pdf",
+        "title": "Loss adjuster report - CLI-0099",
+        "doc_type": "ADJ",
+        "line": "auto",
+        "source": "dms",
+        "date": "2027-01-05",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-40-ADJ.pdf",
+        "pages": 6,
+        "bytes": 158708
+      },
+      {
+        "doc_id": "CLI-0099-41-ADJ",
+        "filename": "CLI-0099-41-ADJ.pdf",
+        "title": "Loss adjuster report - CLI-0099",
+        "doc_type": "ADJ",
+        "line": "auto",
+        "source": "dms",
+        "date": "2027-01-14",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-41-ADJ.pdf",
+        "pages": 6,
+        "bytes": 158414
+      },
+      {
+        "doc_id": "CLI-0099-42-ADJ",
+        "filename": "CLI-0099-42-ADJ.pdf",
+        "title": "Loss adjuster report - CLI-0099",
+        "doc_type": "ADJ",
+        "line": "auto",
+        "source": "dms",
+        "date": "2027-01-23",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-42-ADJ.pdf",
+        "pages": 6,
+        "bytes": 158969
+      },
+      {
+        "doc_id": "CLI-0099-43-SUP",
+        "filename": "CLI-0099-43-SUP.pdf",
+        "title": "Policy supplement - CLI-0099",
+        "doc_type": "SUP",
+        "line": "health",
+        "source": "dms",
+        "date": "2027-02-01",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-43-SUP.pdf",
+        "pages": 3,
+        "bytes": 135185
+      },
+      {
+        "doc_id": "CLI-0099-44-SUP",
+        "filename": "CLI-0099-44-SUP.pdf",
+        "title": "Policy supplement - CLI-0099",
+        "doc_type": "SUP",
+        "line": "auto",
+        "source": "dms",
+        "date": "2027-02-10",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-44-SUP.pdf",
+        "pages": 3,
+        "bytes": 138807
+      },
+      {
+        "doc_id": "CLI-0099-45-SUP",
+        "filename": "CLI-0099-45-SUP.pdf",
+        "title": "Policy supplement - CLI-0099",
+        "doc_type": "SUP",
+        "line": "health",
+        "source": "dms",
+        "date": "2027-02-19",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-45-SUP.pdf",
+        "pages": 3,
+        "bytes": 135190
+      },
+      {
+        "doc_id": "CLI-0099-46-SUP",
+        "filename": "CLI-0099-46-SUP.pdf",
+        "title": "Policy supplement - CLI-0099",
+        "doc_type": "SUP",
+        "line": "auto",
+        "source": "dms",
+        "date": "2027-02-28",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-46-SUP.pdf",
+        "pages": 3,
+        "bytes": 139185
+      },
+      {
+        "doc_id": "CLI-0099-47-SUP",
+        "filename": "CLI-0099-47-SUP.pdf",
+        "title": "Policy supplement - CLI-0099",
+        "doc_type": "SUP",
+        "line": "health",
+        "source": "dms",
+        "date": "2027-03-09",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-47-SUP.pdf",
+        "pages": 3,
+        "bytes": 135535
+      },
+      {
+        "doc_id": "CLI-0099-48-SUP",
+        "filename": "CLI-0099-48-SUP.pdf",
+        "title": "Policy supplement - CLI-0099",
+        "doc_type": "SUP",
+        "line": "auto",
+        "source": "dms",
+        "date": "2027-03-18",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-48-SUP.pdf",
+        "pages": 3,
+        "bytes": 139753
+      },
+      {
+        "doc_id": "CLI-0099-49-SUP",
+        "filename": "CLI-0099-49-SUP.pdf",
+        "title": "Policy supplement - CLI-0099",
+        "doc_type": "SUP",
+        "line": "health",
+        "source": "dms",
+        "date": "2027-03-27",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-49-SUP.pdf",
+        "pages": 3,
+        "bytes": 135540
+      },
+      {
+        "doc_id": "CLI-0099-50-SUP",
+        "filename": "CLI-0099-50-SUP.pdf",
+        "title": "Policy supplement - CLI-0099",
+        "doc_type": "SUP",
+        "line": "auto",
+        "source": "dms",
+        "date": "2027-04-05",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-50-SUP.pdf",
+        "pages": 3,
+        "bytes": 139094
+      },
+      {
+        "doc_id": "CLI-0099-51-CER",
+        "filename": "CLI-0099-51-CER.pdf",
+        "title": "Certificate or card - CLI-0099",
+        "doc_type": "CER",
+        "line": "health",
+        "source": "dms",
+        "date": "2027-04-14",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-51-CER.pdf",
+        "pages": 2,
+        "bytes": 125289
+      },
+      {
+        "doc_id": "CLI-0099-52-CER",
+        "filename": "CLI-0099-52-CER.pdf",
+        "title": "Certificate or card - CLI-0099",
+        "doc_type": "CER",
+        "line": "health",
+        "source": "dms",
+        "date": "2027-04-23",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-52-CER.pdf",
+        "pages": 2,
+        "bytes": 125640
+      },
+      {
+        "doc_id": "CLI-0099-53-CER",
+        "filename": "CLI-0099-53-CER.pdf",
+        "title": "Certificate or card - CLI-0099",
+        "doc_type": "CER",
+        "line": "health",
+        "source": "dms",
+        "date": "2027-05-02",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-53-CER.pdf",
+        "pages": 2,
+        "bytes": 125568
+      },
+      {
+        "doc_id": "CLI-0099-54-CER",
+        "filename": "CLI-0099-54-CER.pdf",
+        "title": "Certificate or card - CLI-0099",
+        "doc_type": "CER",
+        "line": "health",
+        "source": "dms",
+        "date": "2027-05-11",
+        "image_facts": [
+          "group_card"
+        ],
+        "relpath": "customer/CLI-0099/CLI-0099-54-CER.pdf",
+        "pages": 2,
+        "bytes": 162112
+      },
+      {
+        "doc_id": "CLI-0099-55-CER",
+        "filename": "CLI-0099-55-CER.pdf",
+        "title": "Certificate or card - CLI-0099",
+        "doc_type": "CER",
+        "line": "health",
+        "source": "dms",
+        "date": "2027-05-20",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-55-CER.pdf",
+        "pages": 2,
+        "bytes": 125572
+      },
+      {
+        "doc_id": "CLI-0099-56-CER",
+        "filename": "CLI-0099-56-CER.pdf",
+        "title": "Certificate or card - CLI-0099",
+        "doc_type": "CER",
+        "line": "health",
+        "source": "dms",
+        "date": "2027-05-29",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-56-CER.pdf",
+        "pages": 2,
+        "bytes": 125572
+      },
+      {
+        "doc_id": "CLI-0099-57-COM",
+        "filename": "CLI-0099-57-COM.pdf",
+        "title": "Communication - CLI-0099",
+        "doc_type": "COM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2027-06-07",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-57-COM.pdf",
+        "pages": 2,
+        "bytes": 89927
+      },
+      {
+        "doc_id": "CLI-0099-58-COM",
+        "filename": "CLI-0099-58-COM.pdf",
+        "title": "Communication - CLI-0099",
+        "doc_type": "COM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2027-06-16",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-58-COM.pdf",
+        "pages": 2,
+        "bytes": 90092
+      },
+      {
+        "doc_id": "CLI-0099-59-COM",
+        "filename": "CLI-0099-59-COM.pdf",
+        "title": "Communication - CLI-0099",
+        "doc_type": "COM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2027-06-25",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-59-COM.pdf",
+        "pages": 2,
+        "bytes": 90214
+      },
+      {
+        "doc_id": "CLI-0099-60-COM",
+        "filename": "CLI-0099-60-COM.pdf",
+        "title": "Communication - CLI-0099",
+        "doc_type": "COM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2027-07-04",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-60-COM.pdf",
+        "pages": 2,
+        "bytes": 89832
+      },
+      {
+        "doc_id": "CLI-0099-61-COM",
+        "filename": "CLI-0099-61-COM.pdf",
+        "title": "Communication - CLI-0099",
+        "doc_type": "COM",
+        "line": "auto",
+        "source": "dms",
+        "date": "2027-07-13",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-61-COM.pdf",
+        "pages": 2,
+        "bytes": 90098
+      },
+      {
+        "doc_id": "CLI-0099-62-POL",
+        "filename": "CLI-0099-62-POL.pdf",
+        "title": "Policy schedule - CLI-0099",
+        "doc_type": "POL",
+        "line": "health",
+        "source": "dms",
+        "date": "2027-07-22",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-62-POL.pdf",
+        "pages": 8,
+        "bytes": 172527
+      },
+      {
+        "doc_id": "CLI-0099-63-POL",
+        "filename": "CLI-0099-63-POL.pdf",
+        "title": "Policy schedule - CLI-0099",
+        "doc_type": "POL",
+        "line": "auto",
+        "source": "dms",
+        "date": "2027-07-31",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-63-POL.pdf",
+        "pages": 8,
+        "bytes": 176319
+      },
+      {
+        "doc_id": "CLI-0099-64-POL",
+        "filename": "CLI-0099-64-POL.pdf",
+        "title": "Policy schedule - CLI-0099",
+        "doc_type": "POL",
+        "line": "health",
+        "source": "dms",
+        "date": "2027-08-09",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-64-POL.pdf",
+        "pages": 8,
+        "bytes": 173375
+      },
+      {
+        "doc_id": "CLI-0099-65-POL",
+        "filename": "CLI-0099-65-POL.pdf",
+        "title": "Policy schedule - CLI-0099",
+        "doc_type": "POL",
+        "line": "auto",
+        "source": "dms",
+        "date": "2027-08-18",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-65-POL.pdf",
+        "pages": 8,
+        "bytes": 176428
+      },
+      {
+        "doc_id": "CLI-0099-66-STM",
+        "filename": "CLI-0099-66-STM.pdf",
+        "title": "Statement of charges - CLI-0099",
+        "doc_type": "STM",
+        "line": "auto",
+        "source": "bank",
+        "date": "2027-08-27",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-66-STM.pdf",
+        "pages": 4,
+        "bytes": 103555
+      },
+      {
+        "doc_id": "CLI-0099-67-STM",
+        "filename": "CLI-0099-67-STM.pdf",
+        "title": "Statement of charges - CLI-0099",
+        "doc_type": "STM",
+        "line": "auto",
+        "source": "bank",
+        "date": "2027-09-05",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-67-STM.pdf",
+        "pages": 4,
+        "bytes": 103386
+      },
+      {
+        "doc_id": "CLI-0099-68-STM",
+        "filename": "CLI-0099-68-STM.pdf",
+        "title": "Statement of charges - CLI-0099",
+        "doc_type": "STM",
+        "line": "auto",
+        "source": "bank",
+        "date": "2027-09-14",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-68-STM.pdf",
+        "pages": 4,
+        "bytes": 103836
+      },
+      {
+        "doc_id": "CLI-0099-69-STM",
+        "filename": "CLI-0099-69-STM.pdf",
+        "title": "Statement of charges - CLI-0099",
+        "doc_type": "STM",
+        "line": "auto",
+        "source": "bank",
+        "date": "2027-09-23",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-69-STM.pdf",
+        "pages": 4,
+        "bytes": 103624
+      },
+      {
+        "doc_id": "CLI-0099-70-STM",
+        "filename": "CLI-0099-70-STM.pdf",
+        "title": "Statement of charges - CLI-0099",
+        "doc_type": "STM",
+        "line": "auto",
+        "source": "bank",
+        "date": "2027-10-02",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-70-STM.pdf",
+        "pages": 4,
+        "bytes": 103426
+      },
+      {
+        "doc_id": "CLI-0099-71-AUT",
+        "filename": "CLI-0099-71-AUT.pdf",
+        "title": "Authorization - CLI-0099",
+        "doc_type": "AUT",
+        "line": "health",
+        "source": "dms",
+        "date": "2027-10-11",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-71-AUT.pdf",
+        "pages": 2,
+        "bytes": 126733
+      },
+      {
+        "doc_id": "CLI-0099-72-AUT",
+        "filename": "CLI-0099-72-AUT.pdf",
+        "title": "Authorization - CLI-0099",
+        "doc_type": "AUT",
+        "line": "health",
+        "source": "dms",
+        "date": "2027-10-20",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-72-AUT.pdf",
+        "pages": 2,
+        "bytes": 126726
+      },
+      {
+        "doc_id": "CLI-0099-73-AUT",
+        "filename": "CLI-0099-73-AUT.pdf",
+        "title": "Authorization - CLI-0099",
+        "doc_type": "AUT",
+        "line": "health",
+        "source": "dms",
+        "date": "2027-10-29",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-73-AUT.pdf",
+        "pages": 2,
+        "bytes": 126726
+      },
+      {
+        "doc_id": "CLI-0099-74-AUT",
+        "filename": "CLI-0099-74-AUT.pdf",
+        "title": "Authorization - CLI-0099",
+        "doc_type": "AUT",
+        "line": "health",
+        "source": "dms",
+        "date": "2027-11-07",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-74-AUT.pdf",
+        "pages": 2,
+        "bytes": 126732
+      },
+      {
+        "doc_id": "CLI-0099-75-AUT",
+        "filename": "CLI-0099-75-AUT.pdf",
+        "title": "Authorization - CLI-0099",
+        "doc_type": "AUT",
+        "line": "health",
+        "source": "dms",
+        "date": "2027-11-16",
+        "image_facts": [],
+        "relpath": "customer/CLI-0099/CLI-0099-75-AUT.pdf",
+        "pages": 2,
+        "bytes": 127064
+      }
+    ],
+    "lines": [
+      "auto",
+      "health"
+    ]
+  }
+]

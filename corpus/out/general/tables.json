@@ -1,0 +1,163 @@
+{
+  "health": {
+    "copays": {
+      "Health Essential": {
+        "primary care visit": 8,
+        "specialist": 14,
+        "emergency care": 22,
+        "MRI": 95,
+        "physiotherapy": 7
+      },
+      "Health Complete": {
+        "primary care visit": 4,
+        "specialist": 9,
+        "emergency care": 16,
+        "MRI": 65,
+        "physiotherapy": 4
+      },
+      "Health Premium": {
+        "primary care visit": 0,
+        "specialist": 0,
+        "emergency care": 8,
+        "MRI": 25,
+        "physiotherapy": 0
+      }
+    },
+    "waiting_periods_months": {
+      "hospitalization": 3,
+      "childbirth": 8,
+      "high-technology tests": 6
+    },
+    "phones": {
+      "authorizations": "900 000 101",
+      "emergency care": "900 000 102"
+    }
+  },
+  "dental": {
+    "copays": {
+      "Dental Basic": {
+        "cleaning": 0,
+        "filling": 29,
+        "single-root root canal": 95,
+        "molar root canal": 145,
+        "zirconia crown": 310,
+        "implant": 690,
+        "orthodontic study": 80
+      },
+      "Dental Plus": {
+        "cleaning": 0,
+        "filling": 19,
+        "single-root root canal": 70,
+        "molar root canal": 110,
+        "zirconia crown": 260,
+        "implant": 590,
+        "orthodontic study": 55
+      },
+      "Dental Family": {
+        "cleaning": 0,
+        "filling": 15,
+        "single-root root canal": 60,
+        "molar root canal": 95,
+        "zirconia crown": 230,
+        "implant": 540,
+        "orthodontic study": 40
+      }
+    },
+    "waiting_periods_months": {
+      "orthodontics": 6,
+      "implants": 3,
+      "prosthesis": 3
+    },
+    "phones": {
+      "appointments": "900 000 120"
+    }
+  },
+  "home": {
+    "deductibles": {
+      "Home Basic": {
+        "water damage": 180,
+        "glass breakage": 90,
+        "liability": 0
+      },
+      "Home Comfort": {
+        "water damage": 150,
+        "glass breakage": 60,
+        "liability": 0
+      },
+      "Home Total": {
+        "water damage": 0,
+        "glass breakage": 0,
+        "liability": 0
+      }
+    },
+    "limits": {
+      "building": 120000,
+      "contents": 35000,
+      "jewelry in safe": 3000,
+      "urgent assistance": 600
+    },
+    "phones": {
+      "claims": "900 000 200"
+    }
+  },
+  "auto": {
+    "deductibles": {
+      "Auto Third Party": {
+        "glass": 0,
+        "theft": 0,
+        "own damage": "not covered"
+      },
+      "Auto Third Party Extended": {
+        "glass": 0,
+        "theft": 180,
+        "own damage": "not covered"
+      },
+      "Auto Comprehensive with Deductible": {
+        "glass": 0,
+        "theft": 150,
+        "own damage": 300
+      }
+    },
+    "limits": {
+      "travel assistance": "km 0",
+      "legal defense": 1500,
+      "driver accidents": 30000
+    },
+    "phones": {
+      "assistance": "900 000 300"
+    }
+  },
+  "life": {
+    "limits": {
+      "minimum capital": 30000,
+      "maximum capital": 300000,
+      "serious illness advance": 50
+    },
+    "waiting_periods_months": {
+      "suicide": 12,
+      "disability due to illness": 3
+    },
+    "phones": {
+      "support": "900 000 400"
+    }
+  },
+  "funeral": {
+    "limits": {
+      "funeral service": 4500,
+      "domestic transfer": 1000,
+      "administrative handling": 450
+    },
+    "waiting_periods_months": {
+      "death due to illness": 3,
+      "international transfer": 6
+    },
+    "phones": {
+      "assistance": "900 000 500"
+    }
+  },
+  "deadlines": {
+    "claim_notice_days": 7,
+    "reimbursement_days": 30,
+    "authorization_response_hours": 48
+  }
+}

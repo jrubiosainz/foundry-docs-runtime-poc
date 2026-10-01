@@ -1,0 +1,20 @@
+{
+  "doc_id": "GEN-LIFE-COP",
+  "line": "life",
+  "title": "Copays, deductibles and waiting periods",
+  "doc_type": "COP",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Demo Insurance Copays, deductibles and waiting periods\nEconomic guide for Life\nApplicable copays, deductibles and waiting periods by plan.\nItem Value\nsuicide 12\ndisability due to illness 3\nSynthetic document for a prototype · fictitious data · p. 1 of 3"
+    },
+    {
+      "page": 2,
+      "text": "Demo Insurance Copays, deductibles and waiting periods\nWaiting periods\nCoverage Months\nsuicide 12\ndisability due to illness 3\nWaiting periods do not apply to covered accidents unless expressly agreed.\nSynthetic document for a prototype · fictitious data · p. 2 of 3"
+    },
+    {
+      "page": 3,
+      "text": "Demo Insurance Copays, deductibles and waiting periods\nApplication notes\nAmounts are interpreted together with each policy schedule. If there is a conflict, the more specific condition\nprevails.\nSynthetic document for a prototype · fictitious data · p. 3 of 3"
+    }
+  ]
+}
